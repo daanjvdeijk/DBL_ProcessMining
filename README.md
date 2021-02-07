@@ -1,1 +1,2 @@
 # DBL_ProcessMining
+Github repository for this course. Different folders are pretty self-explanatory: keep the main working code in the **main** folder, only commit changes when sure they are good and do not cause new bugs. Put files in which we try out certain algorithms or function in the **testPrograms** folder. When commiting changes try to keep the description as short as possible whilst mentioning the most important parts of the changes. 
