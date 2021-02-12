@@ -39,7 +39,7 @@ class SimpleTimePredict:
         all_time = []
 
         for index, row in data.iterrows():
-            if (row['event_concept:name'] == self.current_event):
+            if (row['event_concept:name'] == self.current_event) and index < len(self.data) - 1:
                 event_time = selected_data.at[index, 'event_time:timestamp']
                 prev_time = selected_data.at[index-1, 'event_time:timestamp']
                 time = datetime.strptime(event_time, format).timestamp()*1000 - datetime.strptime(prev_time, format).timestamp()*1000
