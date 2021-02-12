@@ -48,25 +48,30 @@ class SimplePredict:
         max_event = mode(all_events)
 
         #Printing statements for testing
-        #print(all_events)
+        print(all_events)
         print("Event " + str(self.current_event) + " is most often followed by " + str(max_event))
 
         #Returns the value to be used later
         return max_event
 
     #Second algorithm that calculates the average time between a certain event and the next one
-    def calculate_avgtime(self):
+    def calculate_avgtime(self, next_event):
         selected_data = self.data[['event_concept:name', 'event_time:timestamp']]
         avg_time = 0
         all_time = []
 
         #Gets the time between the current specified event and all other following events
         for index, row in self.data.iterrows():
+            if index < len(self.data) - 1:
+                upcoming_event = selected_data.at[index + 1, 'event_concept:name']
+            else:
+                upcoming_event = "A_ACCEPTED"
+
             #Second condition is added to prevent indexOutOfBounds errors
-            if (row['event_concept:name'] == self.current_event) and index > 1:
+            if (row['event_concept:name'] == self.current_event) and (upcoming_event == next_event) and index < len(self.data) - 1:
                 event_time = selected_data.at[index, 'event_time:timestamp']
-                prev_time = selected_data.at[index-1, 'event_time:timestamp']
-                time = datetime.strptime(event_time, format).timestamp()*1000 - datetime.strptime(prev_time, format).timestamp()*1000
+                next_time = selected_data.at[index+1, 'event_time:timestamp']
+                time = datetime.strptime(next_time, format).timestamp()*1000 - datetime.strptime(event_time, format).timestamp()*1000
                 all_time.append(time)
 
         #Calculates the average time in the set of all durations between the current specified and next event
@@ -74,14 +79,14 @@ class SimplePredict:
 
         #Printing statements for testing
         #print(all_time)
-        print("Event " + str(self.current_event) + " takes on average " + str(avg_time) + " milliseconds")
+        print("The time it takes between " + str(self.current_event) + " and " + next_event + " is on average " + str(avg_time) + " milliseconds")
 
         #Returns the value to be used later
         return avg_time
 
 def init():
     #Input for the right results:
-    #BPI_Challenge_2012-training.csv BPI_Challenge_2012-test.csv BPI_Challenge_2012-results.csv
+    #../databases/BPI_Challenge_2012-training.csv ../databases/BPI_Challenge_2012-test.csv ../databases/BPI_Challenge_2012-results.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
@@ -108,7 +113,7 @@ def init():
         for x in data['event_concept:name'].unique():
             object = SimplePredict(data, x)
             eventdict.update({x:object.calculate_nextevent()})
-            timedict.update({x:object.calculate_avgtime()})
+            timedict.update({x:object.calculate_avgtime(eventdict[x])})
 
         #For every row in the test file two rows are added with the new values
         #The new database with the new rows is written into the result file
