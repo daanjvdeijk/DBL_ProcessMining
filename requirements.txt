@@ -1,0 +1,9 @@
+2IOI0 Process Mining - requirements
+
+Standard library modules:
+  - csv.py (https://docs.python.org/3/library/csv.html)
+  - datetime.py (https://docs.python.org/3/library/datetime.html)
+  - statistics.py (https://docs.python.org/3/library/statistics.html)
+
+External modules:
+  - Pandas (https://pandas.pydata.org/)
