@@ -48,7 +48,7 @@ class SimplePredict:
         max_event = mode(all_events)
 
         #Printing statements for testing
-        print(all_events)
+        #print(all_events)
         print("Event " + str(self.current_event) + " is most often followed by " + str(max_event))
 
         #Returns the value to be used later
@@ -86,7 +86,8 @@ class SimplePredict:
 
 def init():
     #Input for the right results:
-    #../databases/BPI_Challenge_2012-training.csv ../databases/BPI_Challenge_2012-test.csv ../databases/BPI_Challenge_2012-results.csv
+    #../databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv ../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
+    #../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv ../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
@@ -118,8 +119,8 @@ def init():
         #For every row in the test file two rows are added with the new values
         #The new database with the new rows is written into the result file
         for row in csv_reader:
-            row.append(eventdict[row[4]])
-            row.append(timedict[row[4]])
+            row.append(eventdict[row['event_concept:name']])
+            row.append(timedict[row['event_concept:name']])
             csv_writer.writerow(row)
 
 #Runs the program
