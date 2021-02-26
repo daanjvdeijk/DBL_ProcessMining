@@ -23,7 +23,7 @@ import statistics
 from statistics import mode
 
 #Format used for reading the dates
-format = '%d-%m-%Y %H:%M:%S.%f'
+format = '%Y-%m-%d'
 
 #Main class
 class SimplePredict:
@@ -35,6 +35,7 @@ class SimplePredict:
     #First algorithm that calculates the most occuring event after the current event
     def calculate_nextevent(self):
         selected_data = self.data[['event_concept:name']]
+        global all_events
         all_events = []
 
         #Gets all events in the database which follow on the specified event
@@ -53,6 +54,16 @@ class SimplePredict:
 
         #Returns the value to be used later
         return max_event
+
+    #Calculates the percentage chance of an occurance of the mode event
+    def calculate_nexteventchance(self):
+        modeEvent = mode(all_events)
+        percentageOccurring = all_events.count(modeEvent)/len(all_events) * 100
+        percentageOccurringRound = round(percentageOccurring, 2)
+
+        print("The chance of a " + str(mode(all_events)) + " to occur is: " + str(percentageOccurringRound) + "%")
+
+        return percentageOccurringRound
 
     #Second algorithm that calculates the average time between a certain event and the next one
     def calculate_avgtime(self, next_event):
@@ -76,13 +87,15 @@ class SimplePredict:
 
         #Calculates the average time in the set of all durations between the current specified and next event
         avg_time = sum(all_time) / len(all_time)
+        avg_time_days = avg_time/86400000
+        avg_time_days_round = round(avg_time_days, 0)
 
         #Printing statements for testing
         #print(all_time)
-        print("The time it takes between " + str(self.current_event) + " and " + next_event + " is on average " + str(avg_time) + " milliseconds")
+        print("The time it takes between " + str(self.current_event) + " and " + next_event + " is on average " + str(avg_time_days_round) + " days")
 
         #Returns the value to be used later
-        return avg_time
+        return avg_time_days_round
 
 def init():
     #Input for the right results:
@@ -92,7 +105,6 @@ def init():
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
     chunks = temp.split(' ')
-    print(chunks)
 
     #Opens the training database with pandas to be used in the algorithms
     with open(chunks[0], 'r') as file:
@@ -109,18 +121,21 @@ def init():
         #Contains values for the top row, since these are not going to be calculated
         timedict = {'event concept:name':'avg time in milliseconds'}
         eventdict = {'event concept:name':'most occuring next event'}
+        eventchancedict = {'event concept:name':'chance of most occuring next event to take place'}
 
         #For every unique possible event the two algorithms are ran
         for x in data['event_concept:name'].unique():
             object = SimplePredict(data, x)
             eventdict.update({x:object.calculate_nextevent()})
+            eventchancedict.update({x:object.calculate_nexteventchance()})
             timedict.update({x:object.calculate_avgtime(eventdict[x])})
 
         #For every row in the test file two rows are added with the new values
         #The new database with the new rows is written into the result file
         for row in csv_reader:
-            row.append(eventdict[row[4]])
-            row.append(timedict[row[4]])
+            row.append(eventdict[row[2]])
+            row.append(eventchancedict[row[2]])
+            row.append(timedict[row[2]])
             csv_writer.writerow(row)
 
 #Runs the program
