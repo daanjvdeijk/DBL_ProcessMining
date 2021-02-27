@@ -1,16 +1,16 @@
 '''
-Combination of two algorithms in other two files in this folder
+Combination of three algorithms, two in sprintone and the other in this folder
 
-The class SimplePredict combines the two different classes into one with relative
-ease, the __init()__ function is the same and the other two functions can both
+The class SimplePredict combines the three different functions into one with relative
+ease, the __init()__ function is the same and the other three functions can both
 be in the class with no troubles.
 
-The function init() runs the two algorithm functions on a certain inputted training
+The function init() runs the three algorithm functions on a certain inputted training
 and test database, and puts the output in a third specified database. It creates
-two dictionaries with the values from both the algorithms for each event and then
+three dictionaries with the values from all threes the algorithms for each event and then
 adds these values to the database.
 
-Average runtime: 876.418s/14.6min
+Average runtime on Road_Traffic_Fines: 944.043s/15.8min
 '''
 
 #Imports all necessary modules
@@ -61,7 +61,7 @@ class SimplePredict:
         percentageOccurring = all_events.count(modeEvent)/len(all_events) * 100
         percentageOccurringRound = round(percentageOccurring, 2)
 
-        print("The chance of a " + str(mode(all_events)) + " to occur is: " + str(percentageOccurringRound) + "%")
+        print("The chance of event " + str(mode(all_events)) + " to occur next is: " + str(percentageOccurringRound) + "%")
 
         return percentageOccurringRound
 
@@ -99,7 +99,6 @@ class SimplePredict:
 
 def init():
     #Input for the right results:
-    #../databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv ../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
     #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated

@@ -10,7 +10,7 @@ and test database, and puts the output in a third specified database. It creates
 two dictionaries with the values from both the algorithms for each event and then
 adds these values to the database.
 
-Average runtime: 876.418s/14.6min
+Average runtime on BPI_Challenge_2012: 876.418s/14.6min
 '''
 
 #Imports all necessary modules
@@ -86,8 +86,7 @@ class SimplePredict:
 
 def init():
     #Input for the right results:
-    #../databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv ../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
-    #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
+    #../../databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
