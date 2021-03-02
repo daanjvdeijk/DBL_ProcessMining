@@ -28,7 +28,7 @@ format = '%Y-%m-%d'
 #Main class
 class SimplePredict:
     #Initialization data
-    def __init__(self, data, current_event):
+    def __init__(self, data, current_event = "None"):
         self.data = data
         self.current_event = current_event
 
@@ -97,6 +97,19 @@ class SimplePredict:
         #Returns the value to be used later
         return avg_time_days_round
 
+    def addEndOfTrace(self, filepath):
+        if self.data['event_concept:name'].isnull().values.any() == False:
+            for x in self.data['case_concept:name'].unique():
+                print(x)
+                traceTemp = self.data[self.data['case_concept:name'] == x].index.to_numpy()
+                indexTemp = traceTemp[len(traceTemp) - 1] + 1
+
+                line = pd.DataFrame({"event_concept:name": "ENDOFTRACE"}, index=[indexTemp])
+                data = pd.concat([self.data.iloc[:indexTemp], line,self.data.iloc[indexTemp:]]).reset_index(drop=True)
+
+            data.to_csv(filepath)
+            print("Success!")
+
 def init():
     #Input for the right results:
     #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
@@ -109,6 +122,11 @@ def init():
     with open(chunks[0], 'r') as file:
         data = pd.read_csv(file)
         data.columns = ((data.columns.str).replace(" ","_"))
+
+    object = SimplePredict(data)
+    print(chunks[0])
+    object.addEndOfTrace(chunks[0])
+
 
     #Opens the test database file(chunks[1]) and creates or opens a result database file(chunks[2])
     with open(chunks[1], 'r', newline='') as read_obj, open(chunks[2], 'w', newline='') as write_obj:

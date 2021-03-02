@@ -1,7 +1,7 @@
 import csv
 import pandas as pd
 
-filepath = "../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv"
+filepath = "../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv"
 data = pd.read_csv(filepath)
 
 if data.isnull().values.any() == False:
