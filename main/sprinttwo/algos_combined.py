@@ -18,12 +18,13 @@ import csv
 from csv import reader
 from csv import writer
 import pandas as pd
+import numpy as np
 from datetime import datetime
 import statistics
 from statistics import mode
 
 #Format used for reading the dates
-format = '%Y-%m-%d'
+format = '%m/%d/%Y'
 
 #Main class
 class SimplePredict:
@@ -98,17 +99,55 @@ class SimplePredict:
         return avg_time_days_round
 
     def addEndOfTrace(self, filepath):
-        if self.data['event_concept:name'].isnull().values.any() == False:
-            for x in self.data['case_concept:name'].unique():
+        if self.data[['event_concept:name','event_concept:name']].isnull().values.any() == False:
+            y = 0
+            a = 0
+
+            allCases = self.data['case_concept:name'].unique()
+
+            caseList = self.data['case_concept:name'].values.tolist()
+            eventList = self.data['event_concept:name'].values.tolist()
+            allList = self.data.values.tolist()
+
+            for x in allCases:
+                #temp = next(i for i in reversed(range(len(caseEventList))) if caseEventList[i] == x)
                 print(x)
-                traceTemp = self.data[self.data['case_concept:name'] == x].index.to_numpy()
-                indexTemp = traceTemp[len(traceTemp) - 1] + 1
+                temp = self.lastOcurring(caseList, x, y, a)
+                eventList.insert(temp + 1, "ENDOFTRACE")
+                caseList.insert(temp + 1,"ENDOFTRACE")
+                allList.insert(temp + 1,["ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE"])
+                y = temp + 1
+                a += 10
 
-                line = pd.DataFrame({"event_concept:name": "ENDOFTRACE"}, index=[indexTemp])
-                data = pd.concat([self.data.iloc[:indexTemp], line,self.data.iloc[indexTemp:]]).reset_index(drop=True)
+                #traceTemp = self.data[self.data['case_concept:name'] == x].index.to_numpy()
+                #indexTemp = traceTemp[len(traceTemp) - 1] + 1
 
-            data.to_csv(filepath)
+                #line = pd.DataFrame({"event_concept:name": "ENDOFTRACE"}, index=[indexTemp])
+                #data = pd.concat([self.data.iloc[:indexTemp], line,self.data.iloc[indexTemp:]]).reset_index(drop=True)
+
+            #dataTemp = pd.DataFrame(eventList, columns=['event_concept:name'])
+            #dataTemp2 = pd.DataFrame(columns=['eventID_','case_concept:name','event_lifecycle:transition','event_time:timestamp'])
+            #dataTemp3 = dataTemp.merge(self.data, how='left', left_on='event_concept:name', right_on='eventID_')
+            #print(allList)
+            self.data = pd.DataFrame(allList)
+            self.data.to_csv(filepath, index=False)
             print("Success!")
+
+    def lastOcurring(self, li, x, y, a):
+        #z = int(int(len(li)) - 0.90*int(len(li)) + a)
+        #if z > len(li):
+        #    z = int(len(li))
+        #    print("maxZ")
+
+        try:
+            for i in reversed(range(y, y + 15)):
+                if li[i] == x:
+                    return i
+        except IndexError:
+            for i in reversed(range(y, len(li))):
+                if li[i] == x:
+                    return i
+        raise ValueError("{} is not in list".format(x))
 
 def init():
     #Input for the right results:
