@@ -33,6 +33,52 @@ class SimplePredict:
         self.data = data
         self.current_event = current_event
 
+    def addEventSeq(self, filepath):
+        list = []
+        listAllSeq = []
+
+        for x in self.data['event_concept:name']:
+            if x != "ENDOFTRACE":
+                list.append(x)
+            else:
+                list = []
+
+            listAllSeq.append(list[:])
+
+        self.data['eventSeq'] = listAllSeq
+        self.data.to_csv(filepath, index=False)
+
+        return listAllSeq
+
+    '''
+    def calculate_nextevent(self, list):
+        selected_data = self.data[['event_concept:name']]
+        all_events = []
+
+        for index, row in self.data.iterrows():
+            #print(row['eventSeq'])
+            if (row['eventSeq'] == list) and index < len(self.data) - 1:
+                next_event = selected_data.at[index+1, 'event_concept:name']
+                all_events.append(next_event)
+
+        max_event = mode(all_events)
+
+        #print(all_events)
+        print(str(max_event) + " is the event that most often takes place after ")
+        print(list)
+
+        return max_event, all_events
+
+    def calculate_nexteventchance(self, max_event, all_events):
+        percentageOccurring = all_events.count(max_event)/len(all_events) * 100
+        percentageOccurringRound = round(percentageOccurring, 2)
+
+        print("The chance of event " + str(mode(all_events)) + " to occur next is: " + str(percentageOccurringRound) + "%")
+        print(' ')
+
+        return percentageOccurring
+    '''
+
     #First algorithm that calculates the most occuring event after the current event
     def calculate_nextevent(self):
         selected_data = self.data[['event_concept:name']]
@@ -99,7 +145,7 @@ class SimplePredict:
         return avg_time_days_round
 
     def addEndOfTrace(self, filepath):
-        if self.data[['event_concept:name','event_concept:name']].isnull().values.any() == False:
+        if "ENDOFCASE" in self.data == False:
             y = 0
             a = 0
 
@@ -130,7 +176,7 @@ class SimplePredict:
             #dataTemp3 = dataTemp.merge(self.data, how='left', left_on='event_concept:name', right_on='eventID_')
             #print(allList)
             self.data = pd.DataFrame(allList)
-            self.data.to_csv(filepath, index=False)
+            self.data.to_csv(filepath, columns=["","eventID_","case concept:name","event concept:name","event lifecycle:transition","event time:timestamp"], index=False)
             print("Success!")
 
     def lastOcurring(self, li, x, y, a):
@@ -163,9 +209,10 @@ def init():
         data.columns = ((data.columns.str).replace(" ","_"))
 
     object = SimplePredict(data)
-    print(chunks[0])
     object.addEndOfTrace(chunks[0])
 
+    eventSeqTemp = object.addEventSeq(chunks[0])
+    unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTemp)]
 
     #Opens the test database file(chunks[1]) and creates or opens a result database file(chunks[2])
     with open(chunks[1], 'r', newline='') as read_obj, open(chunks[2], 'w', newline='') as write_obj:
@@ -182,16 +229,21 @@ def init():
         #For every unique possible event the two algorithms are ran
         for x in data['event_concept:name'].unique():
             object = SimplePredict(data, x)
-            eventdict.update({x:object.calculate_nextevent()})
-            eventchancedict.update({x:object.calculate_nexteventchance()})
-            timedict.update({x:object.calculate_avgtime(eventdict[x])})
+            #timedict.update({x:object.calculate_avgtime(eventdict[x])})
+
+        for x in unique_data:
+            max_event, all_events = object.calculate_nextevent(x)
+            y = object.calculate_nexteventchance(max_event, all_events)
+
+            eventdict.update({tuple(x):max_event})
+            eventchancedict.update({tuple(x):y})
 
         #For every row in the test file two rows are added with the new values
         #The new database with the new rows is written into the result file
         for row in csv_reader:
             row.append(eventdict[row[2]])
             row.append(eventchancedict[row[2]])
-            row.append(timedict[row[2]])
+            #row.append(timedict[row[2]])
             csv_writer.writerow(row)
 
 #Runs the program
