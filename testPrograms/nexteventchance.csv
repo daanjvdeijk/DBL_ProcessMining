@@ -1,0 +1,12 @@
+caseID,eventID,eventSeq
+1,start,['start']
+1,stop,"['start', 'stop']"
+ENDOFCASE,ENDOFCASE,[]
+2,start,['start']
+2,continue,"['start', 'continue']"
+2,stop,"['start', 'continue', 'stop']"
+ENDOFCASE,ENDOFCASE,[]
+3,start,['start']
+3,continue,"['start', 'continue']"
+3,stop,"['start', 'continue', 'stop']"
+ENDOFCASE,ENDOFCASE,[]
