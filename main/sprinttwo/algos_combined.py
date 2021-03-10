@@ -94,7 +94,7 @@ class SimplePredict:
             if (row['eventSeq'] == list) and (upcoming_event == next_event) and index < len(self.data) - 1:
                 event_time = selected_data.at[index, 'event_time:timestamp']
                 next_time = selected_data.at[index+1, 'event_time:timestamp']
-                if not event_time or not next_time or isinstance(event_time, float) or isinstance(next_time, float):
+                if event_time == "ENDOFTRACE" or next_time == "ENDOFTRACE" or isinstance(event_time, float) or isinstance(next_time, float):
                     time = 0
                 else:
                     time = datetime.strptime(next_time, format).timestamp()*1000 - datetime.strptime(event_time, format).timestamp()*1000
@@ -113,7 +113,6 @@ class SimplePredict:
         return avg_time_days_round
 
     def addEndOfTrace(self, filepath):
-        if "ENDOFTRACE" in self.data.any() == False:
             y = 0
             a = 0
 
@@ -166,7 +165,7 @@ class SimplePredict:
 def init():
     #Input for the right results:
     #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
-    #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
+    #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results2.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
@@ -178,7 +177,7 @@ def init():
         data.columns = ((data.columns.str).replace(" ","_"))
 
     object = SimplePredict(data)
-    object.addEndOfTrace(chunks[1])
+    #object.addEndOfTrace(chunks[1])
     eventSeqTemp2 = object.addEventSeq(chunks[1])
 
     with open(chunks[0], 'r') as file:
@@ -186,7 +185,7 @@ def init():
         data.columns = ((data.columns.str).replace(" ","_"))
 
     object = SimplePredict(data)
-    object.addEndOfTrace(chunks[0])
+    #object.addEndOfTrace(chunks[0])
 
     eventSeqTemp = object.addEventSeq(chunks[0])
     unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTemp)]
@@ -232,6 +231,7 @@ def init():
             if i < len(eventSeqTemp2) - 1:
                 i += 1
 
+            del row[5]
             csv_writer.writerow(row)
 
 #Runs the program

@@ -86,12 +86,11 @@ class SimplePredict:
 
 def init():
     #Input for the right results:
-    #../../databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
+    #../../databases/BPI_Challenge_2012/BPI_Challenge_2012-small.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
     chunks = temp.split(' ')
-    print(chunks)
 
     #Opens the training database with pandas to be used in the algorithms
     with open(chunks[0], 'r') as file:
@@ -118,8 +117,12 @@ def init():
         #For every row in the test file two rows are added with the new values
         #The new database with the new rows is written into the result file
         for row in csv_reader:
-            row.append(eventdict[row[4]])
-            row.append(timedict[row[4]])
+            try:
+                row.append(eventdict[row[4]])
+                row.append(timedict[row[4]])
+            except KeyError:
+                row.append("No information available")
+                row.append("No information available")
             csv_writer.writerow(row)
 
 #Runs the program
