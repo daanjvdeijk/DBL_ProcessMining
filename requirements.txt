@@ -7,3 +7,4 @@ Standard library modules:
 
 External modules:
   - Pandas (https://pandas.pydata.org/)
+  - NumPy (https://numpy.org/)
