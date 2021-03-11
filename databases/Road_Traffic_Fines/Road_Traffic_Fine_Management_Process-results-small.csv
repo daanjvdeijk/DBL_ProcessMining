@@ -1,0 +1,834 @@
+eventID,case_concept:name,event_concept:name,event_lifecycle:transition,event_time:timestamp,eventSeq,chance of most occuring next event taking place,average time in days
+516667385839616,S51143,Create Fine,complete,2000-07-02,['Create Fine'],74.74747474747475,129.0
+516667385839617,S51143,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516667385839618,S51143,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516667385839619,S51143,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516667385839620,S51143,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516671680806912,S51145,Create Fine,complete,2000-07-02,['Create Fine'],74.74747474747475,129.0
+516671680806913,S51145,Send Fine,complete,2000-11-10,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516671680806915,S51145,Payment,complete,"['Create Fine', 'Send Fine', 'Payment']",No Information Available
+516671680806914,S51145,Insert Fine Notification,complete,"['Create Fine', 'Send Fine', 'Payment', 'Insert Fine Notification']",No Information Available
+516671680806916,S51145,Add penalty,complete,"['Create Fine', 'Send Fine', 'Payment', 'Insert Fine Notification', 'Add penalty']",No Information Available
+516671680806917,S51145,Payment,complete,"['Create Fine', 'Send Fine', 'Payment', 'Insert Fine Notification', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516675975774208,S51146,Create Fine,complete,2000-07-02,['Create Fine'],74.74747474747475,129.0
+516675975774209,S51146,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516675975774210,S51146,Insert Fine Notification,complete,2000-09-16,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516675975774211,S51146,Payment,complete,2000-10-23,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+516675975774212,S51146,Add penalty,complete,2000-11-15,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+516675975774213,S51146,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516680270741504,S51147,Create Fine,complete,2000-07-02,['Create Fine'],74.74747474747475,129.0
+516680270741505,S51147,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516680270741506,S51147,Insert Fine Notification,complete,2000-09-18,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516680270741507,S51147,Add penalty,complete,2000-11-17,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516680270741508,S51147,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516684565708800,S51148,Create Fine,complete,2000-07-03,['Create Fine'],74.74747474747475,129.0
+516684565708801,S51148,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516684565708802,S51148,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516684565708803,S51148,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516684565708804,S51148,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516688860676096,S51149,Create Fine,complete,2000-07-03,['Create Fine'],74.74747474747475,129.0
+516688860676097,S51149,Payment,complete,2000-07-12,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516693155643392,S51153,Create Fine,complete,2000-05-30,['Create Fine'],74.74747474747475,129.0
+516693155643393,S51153,Send Fine,complete,2000-07-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516693155643394,S51153,Insert Fine Notification,complete,2000-08-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516693155643395,S51153,Add penalty,complete,2000-10-02,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516693155643396,S51153,Payment,complete,2000-11-07,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+516693155643397,S51153,Payment,complete,2000-12-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516697450610688,S51154,Create Fine,complete,2000-05-30,['Create Fine'],74.74747474747475,129.0
+516697450610689,S51154,Send Fine,complete,2000-07-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516697450610690,S51154,Insert Fine Notification,complete,2000-08-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516697450610691,S51154,Add penalty,complete,2000-10-02,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516697450610692,S51154,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516701745577984,S51155,Create Fine,complete,2000-05-30,['Create Fine'],74.74747474747475,129.0
+516701745577985,S51155,Payment,complete,2000-06-01,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516706040545280,S51156,Create Fine,complete,2000-06-01,['Create Fine'],74.74747474747475,129.0
+516706040545281,S51156,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516706040545282,S51156,Insert Fine Notification,complete,2000-10-30,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516706040545283,S51156,Add penalty,complete,2000-12-29,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516706040545284,S51156,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516710335512576,S51160,Create Fine,complete,2000-06-04,['Create Fine'],74.74747474747475,129.0
+516710335512577,S51160,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516710335512578,S51160,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516710335512579,S51160,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516710335512580,S51160,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516714630479872,S51161,Create Fine,complete,2000-06-04,['Create Fine'],74.74747474747475,129.0
+516714630479873,S51161,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516714630479874,S51161,Insert Fine Notification,complete,2000-09-26,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516714630479875,S51161,Add penalty,complete,2000-11-25,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516714630479876,S51161,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516718925447168,S51162,Create Fine,complete,2000-06-04,['Create Fine'],74.74747474747475,129.0
+516718925447169,S51162,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516718925447170,S51162,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516718925447171,S51162,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516718925447172,S51162,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516723220414464,S51163,Create Fine,complete,2000-06-04,['Create Fine'],74.74747474747475,129.0
+516723220414465,S51163,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516723220414466,S51163,Insert Fine Notification,complete,2000-09-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516723220414467,S51163,Add penalty,complete,2000-11-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516723220414468,S51163,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516727515381760,S51167,Create Fine,complete,2000-06-04,['Create Fine'],74.74747474747475,129.0
+516727515381761,S51167,Payment,complete,2000-06-09,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516731810349056,S51169,Create Fine,complete,2000-06-04,['Create Fine'],74.74747474747475,129.0
+516731810349057,S51169,Payment,complete,2000-06-12,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516736105316352,S51170,Create Fine,complete,2000-06-04,['Create Fine'],74.74747474747475,129.0
+516736105316353,S51170,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516736105316354,S51170,Insert Fine Notification,complete,2000-09-18,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516736105316355,S51170,Add penalty,complete,2000-11-17,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516736105316356,S51170,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516740400283648,S51173,Create Fine,complete,2000-06-08,['Create Fine'],74.74747474747475,129.0
+516740400283649,S51173,Payment,complete,2000-06-09,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516744695250944,S51175,Create Fine,complete,2000-06-08,['Create Fine'],74.74747474747475,129.0
+516744695250945,S51175,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516744695250946,S51175,Insert Fine Notification,complete,2000-09-23,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516744695250947,S51175,Add penalty,complete,2000-11-22,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516744695250948,S51175,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516748990218240,S51177,Create Fine,complete,2000-06-08,['Create Fine'],74.74747474747475,129.0
+516748990218241,S51177,Payment,complete,2000-07-27,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516753285185536,S51178,Create Fine,complete,2000-06-09,['Create Fine'],74.74747474747475,129.0
+516753285185537,S51178,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516753285185538,S51178,Insert Fine Notification,complete,2000-09-28,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516753285185539,S51178,Add penalty,complete,2000-11-27,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516753285185540,S51178,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516757580152832,S51180,Create Fine,complete,2000-06-09,['Create Fine'],74.74747474747475,129.0
+516757580152833,S51180,Payment,complete,2000-06-12,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516761875120128,S51182,Create Fine,complete,2000-06-09,['Create Fine'],74.74747474747475,129.0
+516761875120129,S51182,Payment,complete,2000-06-13,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516766170087424,S51189,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516766170087425,S51189,Payment,complete,2000-06-13,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516770465054720,S51191,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516770465054721,S51191,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516770465054722,S51191,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516770465054723,S51191,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516770465054724,S51191,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516774760022016,S51193,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516774760022017,S51193,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516774760022018,S51193,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516774760022019,S51193,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516774760022020,S51193,Payment,complete,2001-01-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+516774760022021,S51193,Send for Credit Collection,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Send for Credit Collection']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516779054989312,S51195,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516779054989313,S51195,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516779054989314,S51195,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516779054989315,S51195,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516779054989316,S51195,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516783349956608,S51196,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516783349956609,S51196,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516783349956610,S51196,Insert Fine Notification,complete,2000-10-04,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516783349956611,S51196,Add penalty,complete,2000-12-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516783349956612,S51196,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516787644923904,S51197,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516787644923905,S51197,Payment,complete,2000-06-14,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516791939891200,S51199,Create Fine,complete,2000-06-11,['Create Fine'],74.74747474747475,129.0
+516791939891201,S51199,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516791939891202,S51199,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516791939891203,S51199,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516791939891204,S51199,Payment,complete,2001-02-20,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516796234858496,S51200,Create Fine,complete,2000-06-11,['Create Fine'],74.74747474747475,129.0
+516796234858497,S51200,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516796234858498,S51200,Insert Fine Notification,complete,2000-10-30,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516796234858499,S51200,Add penalty,complete,2000-12-29,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516796234858500,S51200,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516800529825792,S51206,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+516800529825793,S51206,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516800529825794,S51206,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516800529825795,S51206,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516800529825796,S51206,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516804824793088,S51207,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+516804824793089,S51207,Payment,complete,2000-06-22,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516809119760384,S51210,Create Fine,complete,2000-06-19,['Create Fine'],74.74747474747475,129.0
+516809119760385,S51210,Payment,complete,2000-08-18,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516813414727680,S51215,Create Fine,complete,2000-06-19,['Create Fine'],74.74747474747475,129.0
+516813414727681,S51215,Payment,complete,2000-07-25,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516817709694976,S51218,Create Fine,complete,2000-06-20,['Create Fine'],74.74747474747475,129.0
+516817709694977,S51218,Payment,complete,2000-06-23,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516822004662272,S51219,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516822004662273,S51219,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516822004662274,S51219,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516822004662275,S51219,Insert Date Appeal to Prefecture,complete,2000-10-31,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']",33.33333333333333,52.0
+516822004662276,S51219,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty']",100.0,1.0
+516822004662277,S51219,Send Appeal to Prefecture,complete,2000-11-21,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty', 'Send Appeal to Prefecture']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516826299629568,S51220,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516826299629569,S51220,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516826299629570,S51220,Insert Fine Notification,complete,2000-10-20,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516826299629571,S51220,Add penalty,complete,2000-12-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516826299629572,S51220,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516830594596864,S51221,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516830594596865,S51221,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516830594596866,S51221,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516830594596867,S51221,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516830594596868,S51221,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516834889564160,S51222,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516834889564161,S51222,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516834889564162,S51222,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516834889564163,S51222,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516834889564164,S51222,Payment,complete,2000-11-30,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516839184531456,S51223,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516839184531457,S51223,Payment,complete,2000-06-27,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516843479498752,S51224,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516843479498753,S51224,Payment,complete,2000-06-22,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516847774466048,S51225,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516847774466049,S51225,Payment,complete,2000-06-27,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516852069433344,S51226,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516852069433345,S51226,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516852069433346,S51226,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516852069433347,S51226,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516852069433348,S51226,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516856364400640,S51227,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+516856364400641,S51227,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516856364400642,S51227,Insert Fine Notification,complete,2000-09-15,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516856364400643,S51227,Payment,complete,2000-10-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+516856364400644,S51227,Add penalty,complete,2000-11-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+516856364400645,S51227,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516860659367936,S51229,Create Fine,complete,2000-06-23,['Create Fine'],74.74747474747475,129.0
+516860659367937,S51229,Payment,complete,2000-08-21,"['Create Fine', 'Payment']",100.0,0.0
+516860659367938,S51229,Send Fine,complete,"['Create Fine', 'Payment', 'Send Fine']",No Information Available
+516860659367939,S51229,Insert Fine Notification,complete,"['Create Fine', 'Payment', 'Send Fine', 'Insert Fine Notification']",No Information Available
+516860659367940,S51229,Add penalty,complete,"['Create Fine', 'Payment', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",No Information Available
+516860659367941,S51229,Payment,complete,"['Create Fine', 'Payment', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516864954335232,S51230,Create Fine,complete,2000-06-23,['Create Fine'],74.74747474747475,129.0
+516864954335233,S51230,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516864954335234,S51230,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516864954335235,S51230,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516864954335236,S51230,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516869249302528,S51232,Create Fine,complete,2000-06-23,['Create Fine'],74.74747474747475,129.0
+516869249302529,S51232,Payment,complete,2000-06-30,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516873544269824,S51233,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516873544269825,S51233,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516873544269826,S51233,Insert Fine Notification,complete,2000-09-16,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516873544269827,S51233,Payment,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+516873544269828,S51233,Add penalty,complete,2000-11-15,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+516873544269829,S51233,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516877839237120,S51234,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516877839237121,S51234,Payment,complete,2000-07-11,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516882134204416,S51238,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516882134204417,S51238,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516882134204418,S51238,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516882134204419,S51238,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516882134204420,S51238,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516886429171712,S51241,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516886429171713,S51241,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516890724139008,S51242,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516890724139009,S51242,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516890724139010,S51242,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516890724139011,S51242,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516890724139012,S51242,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516895019106304,S51243,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516895019106305,S51243,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516895019106306,S51243,Insert Fine Notification,complete,2000-09-24,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516895019106307,S51243,Add penalty,complete,2000-11-23,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516895019106308,S51243,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516899314073600,S51244,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516899314073601,S51244,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516899314073602,S51244,Insert Fine Notification,complete,2000-09-23,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516899314073603,S51244,Add penalty,complete,2000-11-22,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516899314073604,S51244,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516903609040896,S51246,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516903609040897,S51246,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516903609040898,S51246,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516903609040899,S51246,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516903609040900,S51246,Payment,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516907904008192,S51247,Create Fine,complete,2000-06-21,['Create Fine'],74.74747474747475,129.0
+516907904008193,S51247,Payment,complete,2000-06-26,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516912198975488,S51248,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516912198975489,S51248,Payment,complete,2000-07-03,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516916493942784,S51249,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516916493942785,S51249,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516916493942786,S51249,Insert Fine Notification,complete,2000-09-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516916493942787,S51249,Payment,complete,2000-10-20,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+516916493942788,S51249,Add penalty,complete,2000-11-18,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+516916493942789,S51249,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516920788910080,S51250,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+516920788910081,S51250,Payment,complete,2000-06-26,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516925083877376,S51253,Create Fine,complete,2000-05-30,['Create Fine'],74.74747474747475,129.0
+516925083877377,S51253,Send Fine,complete,2000-06-13,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516925083877378,S51253,Insert Fine Notification,complete,2000-06-22,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516925083877379,S51253,Add penalty,complete,2000-08-21,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516925083877380,S51253,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516929378844672,S51254,Create Fine,complete,2000-05-31,['Create Fine'],74.74747474747475,129.0
+516929378844673,S51254,Send Fine,complete,2000-07-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516929378844674,S51254,Insert Fine Notification,complete,2000-08-05,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516929378844675,S51254,Add penalty,complete,2000-10-04,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516929378844676,S51254,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516933673811968,S51255,Create Fine,complete,2000-05-31,['Create Fine'],74.74747474747475,129.0
+516933673811969,S51255,Send Fine,complete,2000-06-13,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516933673811970,S51255,Insert Fine Notification,complete,2000-06-21,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516933673811971,S51255,Payment,complete,2000-08-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+516933673811972,S51255,Add penalty,complete,2000-08-20,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+516933673811973,S51255,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516937968779264,S51257,Create Fine,complete,2000-06-02,['Create Fine'],74.74747474747475,129.0
+516937968779265,S51257,Payment,complete,2000-06-06,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516942263746560,S51258,Create Fine,complete,2000-06-02,['Create Fine'],74.74747474747475,129.0
+516942263746561,S51258,Payment,complete,2000-06-07,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516946558713856,S51260,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516946558713857,S51260,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516946558713858,S51260,Insert Fine Notification,complete,2000-09-15,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516946558713859,S51260,Add penalty,complete,2000-11-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516946558713860,S51260,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516950853681152,S51261,Create Fine,complete,2000-06-10,['Create Fine'],74.74747474747475,129.0
+516950853681153,S51261,Send Fine,complete,2000-06-13,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516950853681154,S51261,Insert Fine Notification,complete,2000-06-30,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516950853681155,S51261,Add penalty,complete,2000-08-29,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516950853681156,S51261,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516955148648448,S51264,Create Fine,complete,2000-06-11,['Create Fine'],74.74747474747475,129.0
+516955148648449,S51264,Send Fine,complete,2000-11-30,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516955148648450,S51264,Insert Fine Notification,complete,2000-12-27,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516955148648451,S51264,Add penalty,complete,2001-02-25,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516955148648452,S51264,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516959443615744,S51265,Create Fine,complete,2000-06-11,['Create Fine'],74.74747474747475,129.0
+516959443615745,S51265,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516959443615746,S51265,Insert Fine Notification,complete,2000-09-24,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516959443615747,S51265,Add penalty,complete,2000-11-23,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516959443615748,S51265,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516963738583040,S51267,Create Fine,complete,2000-06-12,['Create Fine'],74.74747474747475,129.0
+516963738583041,S51267,Send Fine,complete,2000-07-09,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516963738583042,S51267,Insert Fine Notification,complete,2000-07-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516963738583043,S51267,Add penalty,complete,2000-09-17,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516963738583044,S51267,Payment,complete,2000-10-02,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+516963738583045,S51267,Payment,complete,2000-11-16,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516968033550337,S51269,Payment,complete,2000-06-15,['Payment'],100.0,0.0
+516968033550336,S51269,Create Fine,complete,2000-06-15,"['Payment', 'Create Fine']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516972328517632,S51270,Create Fine,complete,2000-06-15,['Create Fine'],74.74747474747475,129.0
+516972328517633,S51270,Payment,complete,2000-06-27,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516976623484928,S51275,Create Fine,complete,2000-06-16,['Create Fine'],74.74747474747475,129.0
+516976623484929,S51275,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+516976623484930,S51275,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+516976623484931,S51275,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+516976623484932,S51275,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516980918452224,S51278,Create Fine,complete,2000-06-16,['Create Fine'],74.74747474747475,129.0
+516980918452225,S51278,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516985213419520,S51281,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+516985213419521,S51281,Payment,complete,2000-06-19,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516989508386816,S51282,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+516989508386817,S51282,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516993803354112,S51283,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+516993803354113,S51283,Payment,complete,2000-06-23,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+516998098321408,S51285,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+516998098321409,S51285,Payment,complete,2000-06-21,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517002393288704,S51287,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+517002393288705,S51287,Payment,complete,2000-06-26,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517006688256000,S51288,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517006688256001,S51288,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517006688256002,S51288,Insert Fine Notification,complete,2000-10-30,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517006688256003,S51288,Add penalty,complete,2000-12-29,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517006688256004,S51288,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517010983223296,S51289,Create Fine,complete,2000-06-23,['Create Fine'],74.74747474747475,129.0
+517010983223297,S51289,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517010983223298,S51289,Insert Fine Notification,complete,2000-09-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517010983223299,S51289,Add penalty,complete,2000-11-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517010983223300,S51289,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517015278190592,S51292,Create Fine,complete,2000-06-24,['Create Fine'],74.74747474747475,129.0
+517015278190593,S51292,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517015278190594,S51292,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517015278190595,S51292,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517015278190596,S51292,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517019573157888,S51293,Create Fine,complete,2000-06-25,['Create Fine'],74.74747474747475,129.0
+517019573157889,S51293,Payment,complete,2000-07-19,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517023868125184,S51294,Create Fine,complete,2000-06-25,['Create Fine'],74.74747474747475,129.0
+517023868125185,S51294,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517028163092480,S51295,Create Fine,complete,2000-06-25,['Create Fine'],74.74747474747475,129.0
+517028163092481,S51295,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517028163092482,S51295,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517028163092483,S51295,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517028163092484,S51295,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517032458059776,S51297,Create Fine,complete,2000-06-26,['Create Fine'],74.74747474747475,129.0
+517032458059777,S51297,Payment,complete,2000-07-03,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517036753027072,S51300,Create Fine,complete,2000-06-28,['Create Fine'],74.74747474747475,129.0
+517036753027073,S51300,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517036753027074,S51300,Payment,complete,"['Create Fine', 'Send Fine', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517041047994368,S51302,Create Fine,complete,2000-06-30,['Create Fine'],74.74747474747475,129.0
+517041047994369,S51302,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517041047994370,S51302,Insert Fine Notification,complete,2000-10-26,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517041047994371,S51302,Add penalty,complete,2000-12-25,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517041047994372,S51302,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517045342961664,S51307,Create Fine,complete,2000-07-03,['Create Fine'],74.74747474747475,129.0
+517045342961665,S51307,Payment,complete,2000-07-05,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517049637928960,S51311,Create Fine,complete,2000-07-04,['Create Fine'],74.74747474747475,129.0
+517049637928961,S51311,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517049637928962,S51311,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517049637928963,S51311,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517049637928964,S51311,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517053932896256,S51313,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517053932896257,S51313,Payment,complete,2000-07-11,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517058227863552,S51314,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517058227863553,S51314,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517058227863554,S51314,Insert Fine Notification,complete,2000-09-18,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517058227863555,S51314,Payment,complete,2000-09-29,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517058227863556,S51314,Add penalty,complete,2000-11-17,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517058227863557,S51314,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517062522830848,S51315,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517062522830849,S51315,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517062522830850,S51315,Insert Fine Notification,complete,2000-10-07,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517062522830851,S51315,Add penalty,complete,2000-12-06,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517062522830852,S51315,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517066817798144,S51316,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517066817798145,S51316,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517066817798146,S51316,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517066817798147,S51316,Payment,complete,2000-09-25,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517066817798148,S51316,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517066817798149,S51316,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517071112765440,S51318,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517071112765441,S51318,Payment,complete,2000-07-12,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517075407732736,S51319,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517075407732737,S51319,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517075407732738,S51319,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517075407732739,S51319,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517075407732740,S51319,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517079702700032,S51320,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517079702700033,S51320,Payment,complete,2000-07-07,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517083997667328,S51322,Create Fine,complete,2000-07-06,['Create Fine'],74.74747474747475,129.0
+517083997667329,S51322,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517083997667330,S51322,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517083997667331,S51322,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517083997667332,S51322,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517088292634624,S51323,Create Fine,complete,2000-07-07,['Create Fine'],74.74747474747475,129.0
+517088292634625,S51323,Send Fine,complete,2000-08-26,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517088292634626,S51323,Payment,complete,"['Create Fine', 'Send Fine', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517092587601920,S51325,Create Fine,complete,2000-07-07,['Create Fine'],74.74747474747475,129.0
+517092587601921,S51325,Payment,complete,2000-07-12,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517096882569216,S51326,Create Fine,complete,2000-07-10,['Create Fine'],74.74747474747475,129.0
+517096882569217,S51326,Payment,complete,2000-07-17,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517101177536512,S51327,Create Fine,complete,2000-07-12,['Create Fine'],74.74747474747475,129.0
+517101177536513,S51327,Send Fine,complete,2000-08-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517101177536514,S51327,Insert Fine Notification,complete,2000-09-28,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517101177536515,S51327,Payment,complete,2000-10-31,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517101177536516,S51327,Add penalty,complete,2000-11-27,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517101177536517,S51327,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517105472503809,S51329,Payment,complete,2000-07-13,['Payment'],100.0,0.0
+517105472503808,S51329,Create Fine,complete,2000-07-13,"['Payment', 'Create Fine']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517109767471104,S51330,Create Fine,complete,2000-07-13,['Create Fine'],74.74747474747475,129.0
+517109767471105,S51330,Send Fine,complete,2000-08-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517109767471106,S51330,Insert Fine Notification,complete,2000-09-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517109767471107,S51330,Add penalty,complete,2000-11-18,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517109767471108,S51330,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517114062438400,S51332,Create Fine,complete,2000-07-14,['Create Fine'],74.74747474747475,129.0
+517114062438401,S51332,Payment,complete,2000-07-21,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517118357405696,S51333,Create Fine,complete,2000-07-14,['Create Fine'],74.74747474747475,129.0
+517118357405697,S51333,Payment,complete,2000-07-20,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517122652372992,S51334,Create Fine,complete,2000-07-14,['Create Fine'],74.74747474747475,129.0
+517122652372993,S51334,Send Fine,complete,2000-08-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517122652372994,S51334,Insert Fine Notification,complete,2000-09-18,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517122652372995,S51334,Payment,complete,2000-10-30,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517122652372996,S51334,Add penalty,complete,2000-11-17,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517122652372997,S51334,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517126947340288,S51335,Create Fine,complete,2000-07-14,['Create Fine'],74.74747474747475,129.0
+517126947340289,S51335,Send Fine,complete,2000-08-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517126947340290,S51335,Insert Fine Notification,complete,2000-10-02,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517126947340291,S51335,Add penalty,complete,2000-12-01,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517126947340292,S51335,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517131242307584,S51338,Create Fine,complete,2000-07-15,['Create Fine'],74.74747474747475,129.0
+517131242307585,S51338,Send Fine,complete,2000-08-29,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517135537274880,S51341,Create Fine,complete,2000-07-17,['Create Fine'],74.74747474747475,129.0
+517135537274881,S51341,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517139832242176,S51342,Create Fine,complete,2000-07-17,['Create Fine'],74.74747474747475,129.0
+517139832242177,S51342,Payment,complete,2000-08-14,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517144127209472,S51343,Create Fine,complete,2000-07-17,['Create Fine'],74.74747474747475,129.0
+517144127209473,S51343,Payment,complete,2000-07-20,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517148422176768,S51345,Create Fine,complete,2000-07-17,['Create Fine'],74.74747474747475,129.0
+517148422176769,S51345,Send Fine,complete,2000-08-29,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517148422176770,S51345,Insert Fine Notification,complete,2000-09-28,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517148422176771,S51345,Add penalty,complete,2000-11-27,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517148422176772,S51345,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517152717144064,S51347,Create Fine,complete,2000-07-19,['Create Fine'],74.74747474747475,129.0
+517152717144065,S51347,Send Fine,complete,2000-08-29,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517152717144066,S51347,Insert Fine Notification,complete,2000-09-28,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517152717144067,S51347,Add penalty,complete,2000-11-27,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517152717144068,S51347,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517157012111360,S51348,Create Fine,complete,2000-07-19,['Create Fine'],74.74747474747475,129.0
+517157012111361,S51348,Payment,complete,2000-07-20,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517161307078656,S51349,Create Fine,complete,2000-07-19,['Create Fine'],74.74747474747475,129.0
+517161307078657,S51349,Send Fine,complete,2000-08-29,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517161307078658,S51349,Insert Fine Notification,complete,2000-09-28,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517161307078659,S51349,Add penalty,complete,2000-11-27,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517161307078660,S51349,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517165602045952,S51350,Create Fine,complete,2000-07-19,['Create Fine'],74.74747474747475,129.0
+517165602045953,S51350,Payment,complete,2000-08-03,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517169897013248,S51352,Create Fine,complete,2000-05-29,['Create Fine'],74.74747474747475,129.0
+517169897013249,S51352,Send Fine,complete,2000-07-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517169897013250,S51352,Insert Fine Notification,complete,2000-08-07,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517169897013251,S51352,Payment,complete,2000-08-09,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517169897013252,S51352,Add penalty,complete,2000-10-06,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517169897013253,S51352,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517174191980544,S51354,Create Fine,complete,2000-05-30,['Create Fine'],74.74747474747475,129.0
+517174191980545,S51354,Payment,complete,2000-06-08,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517178486947840,S51355,Create Fine,complete,2000-05-30,['Create Fine'],74.74747474747475,129.0
+517178486947841,S51355,Payment,complete,2000-06-01,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517182781915136,S51357,Create Fine,complete,2000-05-31,['Create Fine'],74.74747474747475,129.0
+517182781915137,S51357,Send Fine,complete,2000-07-28,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517182781915138,S51357,Insert Fine Notification,complete,2000-08-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517182781915139,S51357,Add penalty,complete,2000-10-02,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517182781915140,S51357,Payment,complete,2000-10-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517187076882432,S51358,Create Fine,complete,2000-05-31,['Create Fine'],74.74747474747475,129.0
+517187076882433,S51358,Payment,complete,2000-07-11,"['Create Fine', 'Payment']",100.0,0.0
+517187076882434,S51358,Send Fine,complete,"['Create Fine', 'Payment', 'Send Fine']",No Information Available
+517187076882435,S51358,Payment,complete,"['Create Fine', 'Payment', 'Send Fine', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517191371849728,S51359,Create Fine,complete,2000-06-02,['Create Fine'],74.74747474747475,129.0
+517191371849729,S51359,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517191371849730,S51359,Insert Fine Notification,complete,2000-10-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517191371849731,S51359,Add penalty,complete,2000-12-18,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517191371849732,S51359,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517195666817024,S51360,Create Fine,complete,2000-06-03,['Create Fine'],74.74747474747475,129.0
+517195666817025,S51360,Payment,complete,2000-06-20,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517199961784320,S51362,Create Fine,complete,2000-06-03,['Create Fine'],74.74747474747475,129.0
+517199961784321,S51362,Send Fine,complete,2000-06-13,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517199961784322,S51362,Insert Fine Notification,complete,2000-06-23,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517199961784323,S51362,Payment,complete,2000-08-02,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517199961784324,S51362,Add penalty,complete,2000-08-22,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517199961784325,S51362,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517204256751616,S51363,Create Fine,complete,2000-06-07,['Create Fine'],74.74747474747475,129.0
+517204256751617,S51363,Send Fine,complete,2000-07-09,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517208551718912,S51365,Create Fine,complete,2000-06-11,['Create Fine'],74.74747474747475,129.0
+517208551718913,S51365,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517208551718914,S51365,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517208551718915,S51365,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517208551718916,S51365,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517212846686208,S51366,Create Fine,complete,2000-06-11,['Create Fine'],74.74747474747475,129.0
+517212846686209,S51366,Send Fine,complete,2000-11-10,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517212846686210,S51366,Insert Fine Notification,complete,2000-11-30,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517212846686211,S51366,Insert Date Appeal to Prefecture,complete,2001-01-26,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']",33.33333333333333,52.0
+517212846686212,S51366,Add penalty,complete,2001-01-29,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty']",100.0,1.0
+517212846686213,S51366,Send Appeal to Prefecture,complete,2001-03-20,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty', 'Send Appeal to Prefecture']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517217141653504,S51367,Create Fine,complete,2000-06-11,['Create Fine'],74.74747474747475,129.0
+517217141653505,S51367,Send Fine,complete,2000-10-27,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517217141653506,S51367,Insert Fine Notification,complete,2000-11-23,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517217141653507,S51367,Add penalty,complete,2001-01-22,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517217141653508,S51367,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517221436620800,S51371,Create Fine,complete,2000-06-15,['Create Fine'],74.74747474747475,129.0
+517221436620801,S51371,Payment,complete,2000-06-20,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517225731588096,S51373,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+517225731588097,S51373,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517225731588098,S51373,Insert Fine Notification,complete,2000-09-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517225731588099,S51373,Payment,complete,2000-09-26,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517225731588100,S51373,Add penalty,complete,2000-11-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517225731588101,S51373,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517230026555392,S51374,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+517230026555393,S51374,Payment,complete,2000-06-20,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517234321522688,S51376,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+517234321522689,S51376,Payment,complete,2000-06-19,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517238616489984,S51378,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+517238616489985,S51378,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517238616489986,S51378,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517238616489987,S51378,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517238616489988,S51378,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517242911457280,S51379,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+517242911457281,S51379,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517242911457282,S51379,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517242911457283,S51379,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517242911457284,S51379,Payment,complete,2000-11-29,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+517242911457285,S51379,Payment,complete,2001-02-01,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517247206424576,S51380,Create Fine,complete,2000-06-17,['Create Fine'],74.74747474747475,129.0
+517247206424577,S51380,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517247206424578,S51380,Insert Fine Notification,complete,2000-09-22,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517247206424579,S51380,Add penalty,complete,2000-11-21,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517247206424580,S51380,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517251501391872,S51381,Create Fine,complete,2000-06-14,['Create Fine'],74.74747474747475,129.0
+517251501391873,S51381,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517251501391874,S51381,Insert Fine Notification,complete,2000-09-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517251501391875,S51381,Add penalty,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517251501391876,S51381,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517255796359168,S51385,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+517255796359169,S51385,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517255796359170,S51385,Insert Fine Notification,complete,2000-09-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517255796359171,S51385,Payment,complete,2000-10-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517255796359172,S51385,Add penalty,complete,2000-11-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517255796359173,S51385,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517260091326464,S51386,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+517260091326465,S51386,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517260091326466,S51386,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517260091326467,S51386,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517260091326468,S51386,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517264386293760,S51387,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+517264386293761,S51387,Send Fine,complete,2000-10-27,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517264386293762,S51387,Insert Fine Notification,complete,2000-11-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517264386293763,S51387,Add penalty,complete,2001-01-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517264386293764,S51387,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517268681261056,S51388,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+517268681261057,S51388,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517268681261058,S51388,Insert Fine Notification,complete,2000-09-16,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517268681261059,S51388,Add penalty,complete,2000-11-15,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517268681261060,S51388,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517272976228352,S51390,Create Fine,complete,2000-06-18,['Create Fine'],74.74747474747475,129.0
+517272976228353,S51390,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517272976228354,S51390,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517272976228355,S51390,Payment,complete,2000-10-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']",100.0,0.0
+517272976228356,S51390,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']",100.0,0.0
+517272976228357,S51390,Payment,complete,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517277271195648,S51395,Create Fine,complete,2000-06-19,['Create Fine'],74.74747474747475,129.0
+517277271195649,S51395,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517277271195650,S51395,Insert Fine Notification,complete,2000-09-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517277271195651,S51395,Add penalty,complete,2000-11-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517277271195652,S51395,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517281566162944,S51396,Create Fine,complete,2000-06-19,['Create Fine'],74.74747474747475,129.0
+517281566162945,S51396,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517281566162946,S51396,Insert Fine Notification,complete,2000-09-22,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517281566162947,S51396,Add penalty,complete,2000-11-21,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517281566162948,S51396,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517285861130240,S51398,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517285861130241,S51398,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517285861130242,S51398,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517285861130243,S51398,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517285861130244,S51398,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517290156097536,S51399,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517290156097537,S51399,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517290156097538,S51399,Insert Fine Notification,complete,2000-10-20,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517290156097539,S51399,Add penalty,complete,2000-12-19,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517290156097540,S51399,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517294451064833,S51400,Payment,complete,2000-06-22,['Payment'],100.0,0.0
+517294451064832,S51400,Create Fine,complete,2000-06-22,"['Payment', 'Create Fine']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517298746032128,S51401,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517298746032129,S51401,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517298746032130,S51401,Insert Fine Notification,complete,2000-09-13,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517298746032131,S51401,Add penalty,complete,2000-11-12,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517298746032132,S51401,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517303040999424,S51402,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517303040999425,S51402,Payment,complete,2000-06-29,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517307335966720,S51403,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517307335966721,S51403,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517307335966722,S51403,Insert Fine Notification,complete,2000-10-27,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517307335966723,S51403,Add penalty,complete,2000-12-26,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517307335966724,S51403,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517311630934016,S51404,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517311630934017,S51404,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517311630934018,S51404,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517311630934019,S51404,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517311630934020,S51404,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517315925901312,S51405,Create Fine,complete,2000-06-22,['Create Fine'],74.74747474747475,129.0
+517315925901313,S51405,Payment,complete,2000-06-27,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517320220868608,S51408,Create Fine,complete,2000-07-31,['Create Fine'],74.74747474747475,129.0
+517320220868609,S51408,Payment,complete,2000-08-07,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517324515835904,S51409,Create Fine,complete,2000-07-31,['Create Fine'],74.74747474747475,129.0
+517324515835905,S51409,Payment,complete,2000-08-07,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517328810803200,S51411,Create Fine,complete,2000-07-31,['Create Fine'],74.74747474747475,129.0
+517328810803201,S51411,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517328810803202,S51411,Payment,complete,"['Create Fine', 'Send Fine', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517333105770496,S51412,Create Fine,complete,2000-07-31,['Create Fine'],74.74747474747475,129.0
+517333105770497,S51412,Payment,complete,2000-08-18,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517337400737792,S51414,Create Fine,complete,2000-08-01,['Create Fine'],74.74747474747475,129.0
+517337400737793,S51414,Payment,complete,2000-08-08,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517341695705088,S51415,Create Fine,complete,2000-08-01,['Create Fine'],74.74747474747475,129.0
+517341695705089,S51415,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517341695705090,S51415,Insert Fine Notification,complete,2000-10-04,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517341695705091,S51415,Add penalty,complete,2000-12-03,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517341695705092,S51415,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517345990672384,S51416,Create Fine,complete,2000-08-01,['Create Fine'],74.74747474747475,129.0
+517345990672385,S51416,Send Fine,complete,2000-08-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517345990672386,S51416,Insert Fine Notification,complete,2000-09-11,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517345990672387,S51416,Add penalty,complete,2000-11-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517345990672388,S51416,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517350285639680,S51417,Create Fine,complete,2000-08-04,['Create Fine'],74.74747474747475,129.0
+517350285639681,S51417,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517350285639682,S51417,Insert Fine Notification,complete,2000-10-06,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517350285639683,S51417,Add penalty,complete,2000-12-05,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517350285639684,S51417,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517354580606976,S51418,Create Fine,complete,2000-08-04,['Create Fine'],74.74747474747475,129.0
+517354580606977,S51418,Payment,complete,2000-08-05,"['Create Fine', 'Payment']",100.0,0.0
+517354580606978,S51418,Send Fine,complete,"['Create Fine', 'Payment', 'Send Fine']",No Information Available
+517354580606979,S51418,Insert Fine Notification,complete,"['Create Fine', 'Payment', 'Send Fine', 'Insert Fine Notification']",No Information Available
+517354580606980,S51418,Add penalty,complete,"['Create Fine', 'Payment', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",No Information Available
+517354580606981,S51418,Payment,complete,"['Create Fine', 'Payment', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",No Information Available
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517358875574272,S51422,Create Fine,complete,2000-08-06,['Create Fine'],74.74747474747475,129.0
+517358875574273,S51422,Payment,complete,2000-08-14,"['Create Fine', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517363170541568,S51423,Create Fine,complete,2000-08-06,['Create Fine'],74.74747474747475,129.0
+517363170541569,S51423,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517363170541570,S51423,Insert Fine Notification,complete,2000-10-09,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517363170541571,S51423,Add penalty,complete,2000-12-08,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517363170541572,S51423,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517367465508864,S51426,Create Fine,complete,2000-08-06,['Create Fine'],74.74747474747475,129.0
+517367465508865,S51426,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517367465508866,S51426,Insert Fine Notification,complete,2000-10-06,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517367465508867,S51426,Add penalty,complete,2000-12-05,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517367465508868,S51426,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517371760476160,S51428,Create Fine,complete,2000-08-06,['Create Fine'],74.74747474747475,129.0
+517371760476161,S51428,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517371760476162,S51428,Insert Fine Notification,complete,2000-10-06,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517371760476163,S51428,Add penalty,complete,2000-12-05,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517371760476164,S51428,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517376055443456,S51429,Create Fine,complete,2000-08-06,['Create Fine'],74.74747474747475,129.0
+517376055443457,S51429,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517376055443458,S51429,Insert Fine Notification,complete,2000-10-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517376055443459,S51429,Add penalty,complete,2000-12-09,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517376055443460,S51429,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517380350410752,S51431,Create Fine,complete,2000-08-08,['Create Fine'],74.74747474747475,129.0
+517380350410753,S51431,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517380350410754,S51431,Insert Fine Notification,complete,2000-10-06,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517380350410755,S51431,Add penalty,complete,2000-12-05,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517380350410756,S51431,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517384645378048,S51432,Create Fine,complete,2000-08-08,['Create Fine'],74.74747474747475,129.0
+517384645378049,S51432,Send Fine,complete,2000-09-24,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517384645378050,S51432,Insert Fine Notification,complete,2000-10-07,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517384645378051,S51432,Add penalty,complete,2000-12-06,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517384645378052,S51432,Payment,complete,2001-01-05,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']",75.0,0.0
+517384645378053,S51432,Payment,complete,2001-05-14,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0
+517388940345344,S51433,Create Fine,complete,2000-08-08,['Create Fine'],74.74747474747475,129.0
+517388940345345,S51433,Send Fine,complete,2000-11-30,"['Create Fine', 'Send Fine']",81.08108108108108,12.0
+517388940345346,S51433,Insert Fine Notification,complete,2001-01-09,"['Create Fine', 'Send Fine', 'Insert Fine Notification']",93.33333333333333,60.0
+517388940345347,S51433,Add penalty,complete,2001-03-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']",76.78571428571429,575.0
+517388940345348,S51433,Send for Credit Collection,complete,2002-04-10,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']",100.0,0.0
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[],96.07843137254902,0.0

@@ -89,7 +89,6 @@ class SimplePredict:
 
         #Prints the result of the calculation
         print("The chance of event " + str(mode(all_events)) + " to occur next is: " + str(percentageOccurringRound) + "%")
-        print(' ')
 
         #Returns the percentage for later use
         return percentageOccurring
@@ -112,10 +111,13 @@ class SimplePredict:
             if (row['eventSeq'] == list) and (upcoming_event == next_event) and index < len(self.data) - 1:
                 event_time = selected_data.at[index, 'event_time:timestamp']
                 next_time = selected_data.at[index+1, 'event_time:timestamp']
-                if event_time == "ENDOFTRACE" or next_time == "ENDOFTRACE" or isinstance(event_time, float) or isinstance(next_time, float):
+
+                #Hardcoded exception for when one of the two values that is being compared is ENDOFTRACE
+                if event_time == "ENDOFTRACE" or next_time == "ENDOFTRACE":
                     time = 0
                 else:
                     time = datetime.strptime(next_time, format).timestamp()*1000 - datetime.strptime(event_time, format).timestamp()*1000
+
                 all_time.append(time)
 
         #Calculates the average time in the set of all durations between the current specified and next event
@@ -125,7 +127,8 @@ class SimplePredict:
         avg_time_days_round = round(avg_time_days, 0)
 
         #Prints the value
-        print("The time it takes between " + str(self.current_event) + " and " + next_event + " is on average " + str(avg_time_days_round) + " days")
+        print("The time it takes between the event trace and " + next_event + " is on average " + str(avg_time_days_round) + " days")
+        print(' ')
 
         #Returns the value to be used later
         return avg_time_days_round
@@ -133,54 +136,56 @@ class SimplePredict:
     #Functions that adds a row after the end of every trace to prevent the last and first event of two
     #different traces being compared
     def addEndOfTrace(self, filepath):
-        #Iterable variable being used in the for loop
-        y = 0
+        if "ENDOFTRACE" not in self.data.values:
+            #Iterable variable being used in the for loop
+            y = 0
 
-        #Four lists that are used in the calculations
-        allCases = self.data['case_concept:name'].unique()
-        caseList = self.data['case_concept:name'].values.tolist()
-        eventList = self.data['event_concept:name'].values.tolist()
-        allList = self.data.values.tolist()
+            #Four lists that are used in the calculations
+            allCases = self.data['case_concept:name'].unique()
+            caseList = self.data['case_concept:name'].values.tolist()
+            eventList = self.data['event_concept:name'].values.tolist()
+            allList = self.data.values.tolist()
 
-        #For loop that goes over every case
-        for x in allCases:
-            #Prints progress
-            print(x)
+            #For loop that goes over every case
+            for x in allCases:
+                #Prints progress
+                print(x)
 
-            #Location of the last occuring event is searched
-            temp = self.lastOcurring(caseList, x, y)
+                #Location of the last occuring event is searched
+                temp = self.lastOcurring(caseList, x, y)
 
-            #ENDOFTRACE is added after the location of the last event
-            eventList.insert(temp + 1, "ENDOFTRACE")
-            caseList.insert(temp + 1,"ENDOFTRACE")
-            allList.insert(temp + 1,["ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE"])
+                #ENDOFTRACE is added after the location of the last event
+                allList.insert(temp + 1,["ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE"])
 
-            #Updates the iterable to the value after the last-added ENDOFTRACE
-            y = temp + 1
+                #Updates the iterable to the value after the last-added ENDOFTRACE
+                y = temp + 1
 
-        #Updates self.data and writes the new dataframe to the specified filepath
-        self.data = pd.DataFrame(allList, columns=["eventID","case concept:name","event concept:name","event lifecycle:transition","event time:timestamp"])
-        self.data.to_csv(filepath, index=False)
+            #Gets column names in the dataframe
+            cols = self.data.columns.tolist()
 
-    #Supplementary function for addEndOfTrace()
-    #Finds the index of the last event in the trace
-    def lastOcurring(self, li, x, y):
-        try:
-            #Since no trace is longer than 15 events, only the next 15 events are
-            #checked. This massively reduces the runtime
-            for i in reversed(range(y, y + 15)):
-                if li[i] == x:
-                    return i
-        #Catches IndexErrors if the last event is not in the range, this happens for the last trace
-        except IndexError:
-            for i in reversed(range(y, len(li))):
-                if li[i] == x:
-                    return i
+            #Updates self.data and writes the new dataframe to the specified filepath
+            self.data = pd.DataFrame(allList, columns=cols)
+            self.data.to_csv(filepath, index=False)
+
+        #Supplementary function for addEndOfTrace()
+        #Finds the index of the last event in the trace
+        def lastOcurring(self, li, x, y):
+            try:
+                #Since no trace is longer than 15 events, only the next 15 events are
+                #checked. This massively reduces the runtime
+                for i in reversed(range(y, y + 15)):
+                    if li[i] == x:
+                        return i
+            #Catches IndexErrors if the last event is not in the range, this happens for the last trace
+            except IndexError:
+                for i in reversed(range(y, len(li))):
+                    if li[i] == x:
+                        return i
 
 def init():
     #Input for the right results:
     #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
-    #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results2.csv
+    #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results-small.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
@@ -194,7 +199,7 @@ def init():
     #Adds ENDOFTRACE and the eventseq to the test set
     object = SimplePredict(data)
     object.addEndOfTrace(chunks[1])
-    eventSeqTemp2 = object.addEventSeq(chunks[1])
+    eventSeqTempTest = object.addEventSeq(chunks[1])
 
     #Opens the training set with pandas to be used in later algorithms
     with open(chunks[0], 'r') as file:
@@ -204,10 +209,10 @@ def init():
     #Adds ENDOFTRACE and the eventseq to the training set
     object = SimplePredict(data)
     object.addEndOfTrace(chunks[0])
-    eventSeqTemp = object.addEventSeq(chunks[0])
+    eventSeqTempTraining = object.addEventSeq(chunks[0])
 
     #Finds all unique event sequences in the training set
-    unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTemp)]
+    unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTempTraining)]
 
     #Opens the test database file(chunks[1]) and creates or opens a result database file(chunks[2])
     with open(chunks[1], 'r', newline='') as read_obj, open(chunks[2], 'w', newline='') as write_obj:
@@ -240,9 +245,9 @@ def init():
             #Skips the first row since it contains column names and not values
             if i > -1:
                 try:
-                    row.append(eventdict[tuple(eventSeqTemp2[i])])
-                    row.append(eventchancedict[tuple(eventSeqTemp2[i])])
-                    row.append(timedict[tuple(eventSeqTemp2[i])])
+                    row.append(eventdict[tuple(eventSeqTempTest[i])])
+                    row.append(eventchancedict[tuple(eventSeqTempTest[i])])
+                    row.append(timedict[tuple(eventSeqTempTest[i])])
                 #If there is no existing trace in the dictionary there is no information available
                 except KeyError:
                     row.append("No Information Available")
@@ -253,11 +258,12 @@ def init():
                 row.append('average time in days')
 
             #Updates the iterable variable
-            if i < len(eventSeqTemp2) - 1:
+            if i < len(eventSeqTempTest) - 1:
                 i += 1
 
             #Deletes the event sequence row since it isn't supposed to be in the end result
-            del row[5]
+            #Since 3 rows are appended after we can always locate it's position regardless of the dataset
+            del row[len(row) - 3]
 
             #Writes the new rows to the file
             csv_writer.writerow(row)
