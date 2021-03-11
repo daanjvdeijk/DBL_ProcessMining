@@ -33,7 +33,6 @@ class SimplePredict:
         self.data = data
         self.current_event = current_event
 
-
     #Function that adds a temporary column to a specified file which stores all events
     #in a trace up until a certain point. This column is removed at the end
     def addEventSeq(self, filepath):
@@ -133,6 +132,22 @@ class SimplePredict:
         #Returns the value to be used later
         return avg_time_days_round
 
+    #Supplementary function for addEndOfTrace()
+    #Finds the index of the last event in the trace
+    def lastOcurring(self, li, x, y):
+        try:
+            #Since no trace is longer than 15 events, only the next 15 events are
+            #checked. This massively reduces the runtime
+            for i in reversed(range(y, y + 15)):
+                if li[i] == x:
+                    return i
+        #Catches IndexErrors if the last event is not in the range, this happens for the last trace
+        except IndexError:
+            print("hi")
+            for i in reversed(range(y, len(li))):
+                if li[i] == x:
+                    return i
+
     #Functions that adds a row after the end of every trace to prevent the last and first event of two
     #different traces being compared
     def addEndOfTrace(self, filepath):
@@ -143,7 +158,6 @@ class SimplePredict:
             #Four lists that are used in the calculations
             allCases = self.data['case_concept:name'].unique()
             caseList = self.data['case_concept:name'].values.tolist()
-            eventList = self.data['event_concept:name'].values.tolist()
             allList = self.data.values.tolist()
 
             #For loop that goes over every case
@@ -155,6 +169,7 @@ class SimplePredict:
                 temp = self.lastOcurring(caseList, x, y)
 
                 #ENDOFTRACE is added after the location of the last event
+                caseList.insert(temp + 1,"ENDOFTRACE")
                 allList.insert(temp + 1,["ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE","ENDOFTRACE"])
 
                 #Updates the iterable to the value after the last-added ENDOFTRACE
@@ -166,21 +181,6 @@ class SimplePredict:
             #Updates self.data and writes the new dataframe to the specified filepath
             self.data = pd.DataFrame(allList, columns=cols)
             self.data.to_csv(filepath, index=False)
-
-        #Supplementary function for addEndOfTrace()
-        #Finds the index of the last event in the trace
-        def lastOcurring(self, li, x, y):
-            try:
-                #Since no trace is longer than 15 events, only the next 15 events are
-                #checked. This massively reduces the runtime
-                for i in reversed(range(y, y + 15)):
-                    if li[i] == x:
-                        return i
-            #Catches IndexErrors if the last event is not in the range, this happens for the last trace
-            except IndexError:
-                for i in reversed(range(y, len(li))):
-                    if li[i] == x:
-                        return i
 
 def init():
     #Input for the right results:
@@ -263,7 +263,7 @@ def init():
 
             #Deletes the event sequence row since it isn't supposed to be in the end result
             #Since 3 rows are appended after we can always locate it's position regardless of the dataset
-            del row[len(row) - 3]
+            del row[len(row) - 4]
 
             #Writes the new rows to the file
             csv_writer.writerow(row)

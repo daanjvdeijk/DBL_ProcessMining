@@ -1,318 +1,403 @@
 eventID,case_concept:name,event_concept:name,event_lifecycle:transition,event_time:timestamp,eventSeq
 0.0,A1,Create Fine,complete,7/24/2006,['Create Fine']
 1.0,A1,Send Fine,complete,12/5/2006,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 4294967296.0,A100,Create Fine,complete,8/2/2006,['Create Fine']
 4294967297.0,A100,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
 4294967298.0,A100,Insert Fine Notification,complete,1/15/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 4294967299.0,A100,Add penalty,complete,3/16/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 4294967300.0,A100,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 8589934592.0,A10000,Create Fine,complete,3/9/2007,['Create Fine']
 8589934593.0,A10000,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 8589934594.0,A10000,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 8589934595.0,A10000,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 8589934596.0,A10000,Payment,complete,9/9/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 12884901888.0,A10001,Create Fine,complete,3/19/2007,['Create Fine']
 12884901889.0,A10001,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 12884901890.0,A10001,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 12884901891.0,A10001,Insert Date Appeal to Prefecture,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']"
 12884901892.0,A10001,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty']"
 12884901893.0,A10001,Send Appeal to Prefecture,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty', 'Send Appeal to Prefecture']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 17179869184.0,A10004,Create Fine,complete,3/20/2007,['Create Fine']
 17179869185.0,A10004,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 17179869186.0,A10004,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 17179869187.0,A10004,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 17179869188.0,A10004,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 21474836480.0,A10005,Create Fine,complete,3/20/2007,['Create Fine']
 21474836481.0,A10005,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 25769803776.0,A10007,Create Fine,complete,3/20/2007,['Create Fine']
 25769803777.0,A10007,Payment,complete,3/23/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 30064771072.0,A10008,Create Fine,complete,3/20/2007,['Create Fine']
 30064771073.0,A10008,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 30064771074.0,A10008,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 30064771075.0,A10008,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 30064771076.0,A10008,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 34359738368.0,A10009,Create Fine,complete,3/20/2007,['Create Fine']
 34359738369.0,A10009,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 34359738370.0,A10009,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 34359738371.0,A10009,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 34359738372.0,A10009,Payment,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
 34359738373.0,A10009,Payment,complete,10/31/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 38654705664.0,A1001,Create Fine,complete,8/2/2006,['Create Fine']
 38654705665.0,A1001,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
 38654705666.0,A1001,Insert Fine Notification,complete,12/31/2006,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 38654705667.0,A1001,Add penalty,complete,3/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 38654705668.0,A1001,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 42949672960.0,A10010,Create Fine,complete,3/20/2007,['Create Fine']
 42949672961.0,A10010,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 42949672962.0,A10010,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 42949672963.0,A10010,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 42949672964.0,A10010,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 47244640256.0,A10011,Create Fine,complete,3/21/2007,['Create Fine']
 47244640257.0,A10011,Send Fine,complete,9/29/2007,"['Create Fine', 'Send Fine']"
 47244640258.0,A10011,Insert Fine Notification,complete,10/12/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 47244640259.0,A10011,Add penalty,complete,12/11/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 47244640260.0,A10011,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 51539607552.0,A10012,Create Fine,complete,3/21/2007,['Create Fine']
 51539607553.0,A10012,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 55834574848.0,A10015,Create Fine,complete,3/21/2007,['Create Fine']
 55834574849.0,A10015,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 55834574850.0,A10015,Insert Fine Notification,complete,8/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 55834574851.0,A10015,Add penalty,complete,10/18/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 55834574852.0,A10015,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 60129542144.0,A10018,Create Fine,complete,3/22/2007,['Create Fine']
 60129542145.0,A10018,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 60129542146.0,A10018,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 60129542148.0,A10018,Payment,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']"
 60129542147.0,A10018,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 64424509440.0,A10019,Create Fine,complete,3/22/2007,['Create Fine']
 64424509441.0,A10019,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 64424509442.0,A10019,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 64424509443.0,A10019,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 64424509444.0,A10019,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 68719476736.0,A1002,Create Fine,complete,8/5/2006,['Create Fine']
 68719476737.0,A1002,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
 68719476738.0,A1002,Insert Fine Notification,complete,1/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 68719476739.0,A1002,Add penalty,complete,3/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 68719476740.0,A1002,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 73014444032.0,A10021,Create Fine,complete,3/22/2007,['Create Fine']
 73014444033.0,A10021,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 73014444034.0,A10021,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 73014444035.0,A10021,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 73014444036.0,A10021,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 77309411328.0,A10022,Create Fine,complete,3/22/2007,['Create Fine']
 77309411329.0,A10022,Payment,complete,3/28/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 81604378624.0,A10023,Create Fine,complete,3/22/2007,['Create Fine']
 81604378625.0,A10023,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 81604378626.0,A10023,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 81604378627.0,A10023,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 81604378628.0,A10023,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 85899345920.0,A10024,Create Fine,complete,3/22/2007,['Create Fine']
 85899345921.0,A10024,Payment,complete,3/26/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 90194313216.0,A10025,Create Fine,complete,3/22/2007,['Create Fine']
 90194313217.0,A10025,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 90194313218.0,A10025,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 90194313219.0,A10025,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 90194313220.0,A10025,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 94489280512.0,A10026,Create Fine,complete,3/22/2007,['Create Fine']
 94489280513.0,A10026,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 94489280514.0,A10026,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 94489280515.0,A10026,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 94489280516.0,A10026,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 98784247808.0,A10029,Create Fine,complete,3/22/2007,['Create Fine']
 98784247809.0,A10029,Payment,complete,4/10/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 103079000000.0,A10030,Create Fine,complete,3/22/2007,['Create Fine']
 103079000000.0,A10030,Payment,complete,3/26/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 107374000000.0,A10033,Create Fine,complete,3/23/2007,['Create Fine']
 107374000000.0,A10033,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 107374000000.0,A10033,Insert Fine Notification,complete,8/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 107374000000.0,A10033,Add penalty,complete,10/18/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 107374000000.0,A10033,Payment,complete,9/13/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 111669000000.0,A10034,Create Fine,complete,3/23/2007,['Create Fine']
 111669000000.0,A10034,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 111669000000.0,A10034,Insert Fine Notification,complete,8/20/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 111669000000.0,A10034,Add penalty,complete,10/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 111669000000.0,A10034,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 115964000000.0,A10041,Create Fine,complete,3/24/2007,['Create Fine']
 115964000000.0,A10041,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 120259000000.0,A10042,Create Fine,complete,3/24/2007,['Create Fine']
 120259000000.0,A10042,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 120259000000.0,A10042,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 120259000000.0,A10042,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 120259000000.0,A10042,Payment,complete,10/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
 120259000000.0,A10042,Payment,complete,11/13/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 124554000000.0,A10043,Create Fine,complete,3/24/2007,['Create Fine']
 124554000000.0,A10043,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 124554000000.0,A10043,Insert Fine Notification,complete,8/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 124554000000.0,A10043,Add penalty,complete,10/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 124554000000.0,A10043,Payment,complete,10/10/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 128849000000.0,A10044,Create Fine,complete,3/24/2007,['Create Fine']
 128849000000.0,A10044,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 128849000000.0,A10044,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 128849000000.0,A10044,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 128849000000.0,A10044,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 133144000000.0,A10045,Create Fine,complete,3/24/2007,['Create Fine']
 133144000000.0,A10045,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 137439000000.0,A10046,Create Fine,complete,3/28/2007,['Create Fine']
 137439000000.0,A10046,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 137439000000.0,A10046,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 137439000000.0,A10046,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 137439000000.0,A10046,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 141734000000.0,A10047,Create Fine,complete,3/28/2007,['Create Fine']
 141734000000.0,A10047,Payment,complete,4/2/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 146029000000.0,A10049,Create Fine,complete,3/28/2007,['Create Fine']
 146029000000.0,A10049,Payment,complete,3/30/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 150324000000.0,A10050,Create Fine,complete,3/28/2007,['Create Fine']
 150324000000.0,A10050,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 150324000000.0,A10050,Insert Fine Notification,complete,8/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 150324000000.0,A10050,Add penalty,complete,10/27/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 150324000000.0,A10050,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 154619000000.0,A10054,Create Fine,complete,3/7/2007,['Create Fine']
 154619000000.0,A10054,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 158914000000.0,A10056,Create Fine,complete,3/7/2007,['Create Fine']
 158914000000.0,A10056,Payment,complete,3/17/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 163209000000.0,A10059,Create Fine,complete,3/8/2007,['Create Fine']
 163209000000.0,A10059,Payment,complete,4/18/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 167504000000.0,A1006,Create Fine,complete,8/8/2006,['Create Fine']
 167504000000.0,A1006,Payment,complete,9/12/2006,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 171799000000.0,A10060,Create Fine,complete,3/8/2007,['Create Fine']
 171799000000.0,A10060,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 176094000000.0,A10061,Create Fine,complete,3/8/2007,['Create Fine']
 176094000000.0,A10061,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 176094000000.0,A10061,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 176094000000.0,A10061,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 176094000000.0,A10061,Payment,complete,9/25/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 180389000000.0,A10063,Create Fine,complete,3/8/2007,['Create Fine']
 180389000000.0,A10063,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 180389000000.0,A10063,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 180389000000.0,A10063,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 180389000000.0,A10063,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 184684000000.0,A10067,Create Fine,complete,3/9/2007,['Create Fine']
 184684000000.0,A10067,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 184684000000.0,A10067,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 184684000000.0,A10067,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 184684000000.0,A10067,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 188979000000.0,A10068,Create Fine,complete,3/9/2007,['Create Fine']
 188979000000.0,A10068,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 188979000000.0,A10068,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 188979000000.0,A10068,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 188979000000.0,A10068,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 193274000000.0,A10069,Create Fine,complete,3/9/2007,['Create Fine']
 193274000000.0,A10069,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 193274000000.0,A10069,Insert Fine Notification,complete,7/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 193274000000.0,A10069,Add penalty,complete,9/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 193274000000.0,A10069,Payment,complete,9/30/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 197568000000.0,A1007,Create Fine,complete,8/28/2006,['Create Fine']
 197568000000.0,A1007,Send Fine,complete,12/15/2006,"['Create Fine', 'Send Fine']"
 197568000000.0,A1007,Insert Fine Notification,complete,1/7/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 197568000000.0,A1007,Add penalty,complete,3/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 197568000000.0,A1007,Payment,complete,11/30/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 201863000000.0,A10071,Create Fine,complete,3/9/2007,['Create Fine']
 201863000000.0,A10071,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 201863000000.0,A10071,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 201863000000.0,A10071,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 201863000000.0,A10071,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 206158000000.0,A10072,Create Fine,complete,3/10/2007,['Create Fine']
 206158000000.0,A10072,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 210453000000.0,A10074,Create Fine,complete,3/10/2007,['Create Fine']
 210453000000.0,A10074,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 214748000000.0,A10075,Create Fine,complete,3/11/2007,['Create Fine']
 214748000000.0,A10075,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 214748000000.0,A10075,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 214748000000.0,A10075,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 214748000000.0,A10075,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 219043000000.0,A10076,Create Fine,complete,3/11/2007,['Create Fine']
 219043000000.0,A10076,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 223338000000.0,A10077,Create Fine,complete,3/11/2007,['Create Fine']
 223338000000.0,A10077,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 227633000000.0,A10078,Create Fine,complete,3/11/2007,['Create Fine']
 227633000000.0,A10078,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 231928000000.0,A10079,Create Fine,complete,3/11/2007,['Create Fine']
 231928000000.0,A10079,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 231928000000.0,A10079,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 231928000000.0,A10079,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 231928000000.0,A10079,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 236223000000.0,A1008,Create Fine,complete,8/28/2006,['Create Fine']
 236223000000.0,A1008,Send Fine,complete,4/4/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 240518000000.0,A10082,Payment,complete,3/11/2007,['Payment']
 240518000000.0,A10082,Create Fine,complete,3/11/2007,"['Payment', 'Create Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 244813000000.0,A10083,Create Fine,complete,3/11/2007,['Create Fine']
 244813000000.0,A10083,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 244813000000.0,A10083,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 244813000000.0,A10083,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 244813000000.0,A10083,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 249108000000.0,A10085,Create Fine,complete,3/14/2007,['Create Fine']
 249108000000.0,A10085,Payment,complete,3/16/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 253403000000.0,A10089,Create Fine,complete,3/11/2007,['Create Fine']
 253403000000.0,A10089,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 257698000000.0,A1009,Create Fine,complete,8/29/2006,['Create Fine']
 257698000000.0,A1009,Send Fine,complete,12/15/2006,"['Create Fine', 'Send Fine']"
 257698000000.0,A1009,Insert Fine Notification,complete,1/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 257698000000.0,A1009,Add penalty,complete,3/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 257698000000.0,A1009,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 261993000000.0,A10090,Create Fine,complete,3/11/2007,['Create Fine']
 261993000000.0,A10090,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 261993000000.0,A10090,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 261993000000.0,A10090,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 261993000000.0,A10090,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 266288000000.0,A10091,Create Fine,complete,3/11/2007,['Create Fine']
 266288000000.0,A10091,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 270583000000.0,A10092,Payment,complete,3/11/2007,['Payment']
 270583000000.0,A10092,Create Fine,complete,3/11/2007,"['Payment', 'Create Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 274878000000.0,A10095,Create Fine,complete,3/11/2007,['Create Fine']
 274878000000.0,A10095,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 274878000000.0,A10095,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 274878000000.0,A10095,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 274878000000.0,A10095,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 279173000000.0,A10097,Create Fine,complete,3/11/2007,['Create Fine']
 279173000000.0,A10097,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 279173000000.0,A10097,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 279173000000.0,A10097,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 279173000000.0,A10097,Payment,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 283468000000.0,A10099,Create Fine,complete,3/11/2007,['Create Fine']
 283468000000.0,A10099,Payment,complete,3/22/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 287763000000.0,A101,Create Fine,complete,7/30/2006,['Create Fine']
 287763000000.0,A101,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 292058000000.0,A10101,Create Fine,complete,3/5/2007,['Create Fine']
 292058000000.0,A10101,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
 292058000000.0,A10101,Insert Fine Notification,complete,7/6/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 292058000000.0,A10101,Add penalty,complete,9/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 292058000000.0,A10101,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 296353000000.0,A10102,Create Fine,complete,3/5/2007,['Create Fine']
 296353000000.0,A10102,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
 296353000000.0,A10102,Insert Fine Notification,complete,7/7/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 296353000000.0,A10102,Add penalty,complete,9/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 296353000000.0,A10102,Insert Date Appeal to Prefecture,complete,9/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture']"
 296353000000.0,A10102,Send Appeal to Prefecture,complete,10/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 300648000000.0,A10104,Payment,complete,3/6/2007,['Payment']
 300648000000.0,A10104,Create Fine,complete,3/6/2007,"['Payment', 'Create Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 304943000000.0,A10106,Create Fine,complete,3/6/2007,['Create Fine']
 304943000000.0,A10106,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 304943000000.0,A10106,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 304943000000.0,A10106,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 304943000000.0,A10106,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 309238000000.0,A10107,Create Fine,complete,3/6/2007,['Create Fine']
 309238000000.0,A10107,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 309238000000.0,A10107,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 309238000000.0,A10107,Insert Date Appeal to Prefecture,complete,7/27/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']"
 309238000000.0,A10107,Send Appeal to Prefecture,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture']"
 309238000000.0,A10107,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Add penalty']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 313533000000.0,A10108,Create Fine,complete,3/6/2007,['Create Fine']
 313533000000.0,A10108,Payment,complete,3/23/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 317828000000.0,A10109,Create Fine,complete,3/6/2007,['Create Fine']
 317828000000.0,A10109,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 322123000000.0,A10112,Create Fine,complete,3/6/2007,['Create Fine']
 322123000000.0,A10112,Payment,complete,3/15/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 326418000000.0,A10113,Create Fine,complete,3/6/2007,['Create Fine']
 326418000000.0,A10113,Payment,complete,3/7/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 330712000000.0,A10115,Create Fine,complete,3/7/2007,['Create Fine']
 330712000000.0,A10115,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 330712000000.0,A10115,Insert Fine Notification,complete,8/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 330712000000.0,A10115,Add penalty,complete,10/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 330712000000.0,A10115,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 335007000000.0,A10117,Create Fine,complete,3/7/2007,['Create Fine']
 335007000000.0,A10117,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 339302000000.0,A10118,Create Fine,complete,3/7/2007,['Create Fine']
 339302000000.0,A10118,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 343597000000.0,A10119,Create Fine,complete,3/7/2007,['Create Fine']
 343597000000.0,A10119,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 347892000000.0,A10120,Create Fine,complete,3/8/2007,['Create Fine']
 347892000000.0,A10120,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 347892000000.0,A10120,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 347892000000.0,A10120,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 347892000000.0,A10120,Payment,complete,9/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
 347892000000.0,A10120,Payment,complete,11/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 352187000000.0,A10121,Create Fine,complete,3/8/2007,['Create Fine']
 352187000000.0,A10121,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 352187000000.0,A10121,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 352187000000.0,A10121,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 352187000000.0,A10121,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 356482000000.0,A10122,Create Fine,complete,3/9/2007,['Create Fine']
 356482000000.0,A10122,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 356482000000.0,A10122,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 356482000000.0,A10122,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 356482000000.0,A10122,Payment,complete,9/25/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 360777000000.0,A10124,Create Fine,complete,3/10/2007,['Create Fine']
 360777000000.0,A10124,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 365072000000.0,A10125,Create Fine,complete,3/10/2007,['Create Fine']
 365072000000.0,A10125,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 365072000000.0,A10125,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
@@ -320,76 +405,94 @@ eventID,case_concept:name,event_concept:name,event_lifecycle:transition,event_ti
 365072000000.0,A10125,Payment,complete,9/14/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Payment']"
 365072000000.0,A10125,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Payment', 'Add penalty']"
 365072000000.0,A10125,Send Appeal to Prefecture,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Payment', 'Add penalty', 'Send Appeal to Prefecture']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 369367000000.0,A10126,Create Fine,complete,3/10/2007,['Create Fine']
 369367000000.0,A10126,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 369367000000.0,A10126,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 369367000000.0,A10126,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 369367000000.0,A10126,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 373662000000.0,A10127,Create Fine,complete,3/10/2007,['Create Fine']
 373662000000.0,A10127,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 373662000000.0,A10127,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 373662000000.0,A10127,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 373662000000.0,A10127,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 377957000000.0,A1013,Create Fine,complete,9/7/2006,['Create Fine']
 377957000000.0,A1013,Send Fine,complete,12/15/2006,"['Create Fine', 'Send Fine']"
 377957000000.0,A1013,Insert Fine Notification,complete,1/6/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 377957000000.0,A1013,Add penalty,complete,3/7/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 377957000000.0,A1013,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 382252000000.0,A10130,Create Fine,complete,3/10/2007,['Create Fine']
 382252000000.0,A10130,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 382252000000.0,A10130,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 382252000000.0,A10130,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 382252000000.0,A10130,Payment,complete,10/31/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 386547000000.0,A10131,Create Fine,complete,3/10/2007,['Create Fine']
 386547000000.0,A10131,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 386547000000.0,A10131,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 386547000000.0,A10131,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 386547000000.0,A10131,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 390842000000.0,A10137,Payment,complete,3/12/2007,['Payment']
 390842000000.0,A10137,Create Fine,complete,3/12/2007,"['Payment', 'Create Fine']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 395137000000.0,A10138,Create Fine,complete,3/12/2007,['Create Fine']
 395137000000.0,A10138,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 395137000000.0,A10138,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 395137000000.0,A10138,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 395137000000.0,A10138,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 399432000000.0,A10139,Create Fine,complete,3/12/2007,['Create Fine']
 399432000000.0,A10139,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
 399432000000.0,A10139,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 399432000000.0,A10139,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 399432000000.0,A10139,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 403727000000.0,A1014,Create Fine,complete,9/8/2006,['Create Fine']
 403727000000.0,A1014,Send Fine,complete,12/29/2006,"['Create Fine', 'Send Fine']"
 403727000000.0,A1014,Insert Fine Notification,complete,1/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 403727000000.0,A1014,Add penalty,complete,3/20/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 403727000000.0,A1014,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 408022000000.0,A10140,Create Fine,complete,3/12/2007,['Create Fine']
 408022000000.0,A10140,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 408022000000.0,A10140,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 408022000000.0,A10140,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 408022000000.0,A10140,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 412317000000.0,A10141,Create Fine,complete,3/12/2007,['Create Fine']
 412317000000.0,A10141,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 412317000000.0,A10141,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 412317000000.0,A10141,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 412317000000.0,A10141,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 416612000000.0,A10143,Create Fine,complete,3/12/2007,['Create Fine']
 416612000000.0,A10143,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 420907000000.0,A10144,Create Fine,complete,3/12/2007,['Create Fine']
 420907000000.0,A10144,Payment,complete,3/17/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 425202000000.0,A10147,Create Fine,complete,3/13/2007,['Create Fine']
 425202000000.0,A10147,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 425202000000.0,A10147,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 425202000000.0,A10147,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 425202000000.0,A10147,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 429497000000.0,A10150,Create Fine,complete,3/15/2007,['Create Fine']
 429497000000.0,A10150,Payment,complete,3/19/2007,"['Create Fine', 'Payment']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 433792000000.0,A10151,Create Fine,complete,3/6/2007,['Create Fine']
 433792000000.0,A10151,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 433792000000.0,A10151,Insert Fine Notification,complete,8/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 433792000000.0,A10151,Add penalty,complete,10/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 433792000000.0,A10151,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
 438087000000.0,A10152,Create Fine,complete,3/6/2007,['Create Fine']
 438087000000.0,A10152,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
 438087000000.0,A10152,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
 438087000000.0,A10152,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
 438087000000.0,A10152,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
+ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
