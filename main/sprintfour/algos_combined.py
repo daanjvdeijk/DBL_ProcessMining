@@ -24,7 +24,7 @@ import statistics
 from statistics import mode
 
 #Format used for reading the dates
-format = '%Y-%m-%d %H:%M:%S.%f'
+format = '%m/%d/%Y %H:%M'
 
 #Main class
 class SimplePredict:
@@ -32,6 +32,67 @@ class SimplePredict:
     def __init__(self, data, current_event = "None"):
         self.data = data
         self.current_event = current_event
+
+
+    #First algorithm that calculates the most occuring event after the current event
+    def calculate_nextevent_Baseline(self):
+        selected_data = self.data[['event_concept:name']]
+        all_events = []
+
+        #Gets all events in the database which follow on the specified event
+        for index, row in self.data.iterrows():
+            #Second condition is added to prevent indexOutOfBounds errors
+            if row['event_concept:name'] == self.current_event and index < len(self.data) - 1:
+                next_event = selected_data.at[index+1, 'event_concept:name']
+                all_events.append(next_event)
+
+        #Takes the most occuring event out of the list of next_events
+        max_event = mode(all_events)
+
+        #Printing statements for testing
+        #print(all_events)
+        #print("Event " + str(self.current_event) + " is most often followed by " + str(max_event))
+
+        #Returns the value to be used later
+        return max_event
+
+    #Second algorithm that calculates the average time between a certain event and the next one
+    def calculate_avgtime_Baseline(self, next_event):
+        selected_data = self.data[['event_concept:name', 'event_time:timestamp']]
+        avg_time = 0
+        all_time = []
+
+        #Gets the time between the current specified event and all other following events
+        for index, row in self.data.iterrows():
+            if index < len(self.data) - 1:
+                upcoming_event = selected_data.at[index + 1, 'event_concept:name']
+            else:
+                upcoming_event = "A_ACCEPTED"
+
+            #Second condition is added to prevent indexOutOfBounds errors
+            if (row['event_concept:name'] == self.current_event) and (upcoming_event == next_event) and index < len(self.data) - 1:
+                event_time = selected_data.at[index, 'event_time:timestamp']
+                next_time = selected_data.at[index+1, 'event_time:timestamp']
+
+                #Hardcoded exception for when one of the two values that is being compared is ENDOFTRACE
+                if event_time == "ENDOFTRACE" or next_time == "ENDOFTRACE" or isinstance(event_time, float) or isinstance(next_time, float):
+                    time = 0
+                else:
+                    time = datetime.strptime(next_time, format).timestamp()*1000 - datetime.strptime(event_time, format).timestamp()*1000
+
+                all_time.append(time)
+
+
+        #Calculates the average time in the set of all durations between the current specified and next event
+        avg_time = sum(all_time) / len(all_time)
+        #avg_time_days = round(avg_time/86400000, 0)
+
+        #Printing statements for testing
+        #print(all_time)
+        #print("The time it takes between " + str(self.current_event) + " and " + next_event + " is on average " + str(avg_time_days) + " days")
+
+        #Returns the value to be used later
+        return avg_time
 
     #Function that adds a temporary column to a specified file which stores all events
     #in a trace up until a certain point. This column is removed at the end
@@ -58,7 +119,7 @@ class SimplePredict:
         return listAllSeq
 
     #Updated function that calculates the next event based on the current trace
-    def calculate_nextevent(self, list):
+    def calculate_nextevent_EventSeq(self, list):
         #Lists used in the function
         selected_data = self.data[['event_concept:name']]
         all_events = []
@@ -79,21 +140,8 @@ class SimplePredict:
         #Returns both the most occuring and all next events for later use
         return max_event, all_events
 
-    #Function that calculates the chance of the predicted event to actually happen
-    def calculate_nexteventchance(self, max_event, all_events):
-        #Calculates based on the list of all next events and the most often happening event
-        #how often the predicted event actually happens and converts that to rounded off percentage
-        percentageOccurring = all_events.count(max_event)/len(all_events) * 100
-        percentageOccurringRound = round(percentageOccurring, 2)
-
-        #Prints the result of the calculation
-        #print("The chance of event " + str(mode(all_events)) + " to occur next is: " + str(percentageOccurringRound) + "%")
-
-        #Returns the percentage for later use
-        return percentageOccurring
-
     #Second algorithm that calculates the average time between a certain event and the next one
-    def calculate_avgtime(self, next_event, list):
+    def calculate_avgtime_EventSeq(self, next_event, list):
         #Lists used in the function
         selected_data = self.data[['event_concept:name', 'event_time:timestamp']]
         avg_time = 0
@@ -121,6 +169,7 @@ class SimplePredict:
 
         #Calculates the average time in the set of all durations between the current specified and next event
         avg_time = sum(all_time) / len(all_time)
+        #avg_time_days = round(avg_time/86400000, 0)
 
         #Prints the value
         #print("The time it takes between the event trace and " + next_event + " is on average " + str(avg_time) + " milliseconds")
@@ -183,8 +232,8 @@ class SimplePredict:
 
 def init():
     #Input for the right results:
-    #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
     #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results-small.csv
+    #../../databases/BPI_Challenge_2012/BPI_Challenge_2012-small.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-results-small.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
     temp = input("Please enter a training set, a test set and a result file location: ")
@@ -213,29 +262,34 @@ def init():
     #Finds all unique event sequences in the training set
     unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTempTraining)]
 
-    print(len(unique_data))
-
     #Opens the test database file(chunks[1]) and creates or opens a result database file(chunks[2])
     with open(chunks[1], 'r', newline='') as read_obj, open(chunks[2], 'w', newline='') as write_obj:
         #The test database becomes the reader and the result database the writer
         csv_reader = reader(read_obj,delimiter=',')
         csv_writer = writer(write_obj)
 
-        #Dictionaries that are used to add the calculated values to the database
+        #Dictionaries for the baseline that are used to add the calculated values to the database
         #Contains values for the top row, since these are not going to be calculated
-        timedict = {'event concept:name':'avg time in milliseconds'}
-        eventdict = {('eventSeq',):'most occuring next event'}
-        eventchancedict = {('eventSeq',):'chance of most occuring next event to take place'}
+        timedictBaseline = {'event concept:name':'avg time in milliseconds'}
+        eventdictBaseline = {'event concept:name':'most occuring next event'}
+
+        #Dictionaries for the eventseq-temp algorithm that are used to add the calculated values to the database
+        timedictEventSeq = {'event concept:name':'avg time in milliseconds'}
+        eventdictEventSeq = {('eventSeq',):'most occuring next event'}
 
         #Runs the algorithms for every unique event sequence and adds their result to a dictionary
         for x in unique_data:
-            max_event, all_events = object.calculate_nextevent(x)
-            y = object.calculate_nexteventchance(max_event, all_events)
-            z = object.calculate_avgtime(max_event, x)
+            max_event, all_events = object.calculate_nextevent_EventSeq(x)
+            z = object.calculate_avgtime_EventSeq(max_event, x)
 
-            eventdict.update({tuple(x):max_event})
-            eventchancedict.update({tuple(x):y})
-            timedict.update({tuple(x):z})
+            eventdictEventSeq.update({tuple(x):max_event})
+            timedictEventSeq.update({tuple(x):z})
+
+        #For every unique possible event the two algorithms are ran
+        for x in data['event_concept:name'].unique():
+            object = SimplePredict(data, x)
+            eventdictBaseline.update({x:object.calculate_nextevent_Baseline()})
+            timedictBaseline.update({x:object.calculate_avgtime_Baseline(eventdictBaseline[x])})
 
         #Iterable variable that is used in the for loop for indexing
         i = -1
@@ -246,18 +300,21 @@ def init():
             #Skips the first row since it contains column names and not values
             if i > -1:
                 try:
-                    row.append(eventdict[tuple(eventSeqTempTest[i])])
-                    row.append(eventchancedict[tuple(eventSeqTempTest[i])])
-                    row.append(timedict[tuple(eventSeqTempTest[i])])
+                    row.append(eventdictBaseline[row[2]])
+                    row.append(timedictBaseline[row[2]])
+                    row.append(eventdictEventSeq[tuple(eventSeqTempTest[i])])
+                    row.append(timedictEventSeq[tuple(eventSeqTempTest[i])])
+
                 #If there is no existing trace in the dictionary there is no information available
                 except KeyError:
                     row.append("No Information Available")
 
             #Manually put in column names
             else:
-                row.append('most occuring next event in trace')
-                row.append('chance of most occuring next event taking place')
-                row.append('average time in days')
+                row.append('most occuring next event in trace (BASELINE)')
+                row.append('average time in days (BASELINE)')
+                row.append('most occuring next event in trace (EVENTSEQ)')
+                row.append('average time in days (EVENTSEQ)')
 
             #Updates the iterable variable
             if i < len(eventSeqTempTest) - 1:
@@ -265,7 +322,7 @@ def init():
 
             #Deletes the event sequence row since it isn't supposed to be in the end result
             #Since 3 rows are appended after we can always locate it's position regardless of the dataset
-            del row[len(row) - 4]
+            del row[len(row) - 5]
 
             #Writes the new rows to the file
             csv_writer.writerow(row)
