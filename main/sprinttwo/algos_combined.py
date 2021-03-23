@@ -24,7 +24,8 @@ import statistics
 from statistics import mode
 
 #Format used for reading the dates
-format = '%Y-%m-%d %H:%M:%S.%f'
+#format = '%Y-%m-%d %H:%M:%S.%f'
+format = '%m/%d/%Y'
 
 #Main class
 class SimplePredict:
@@ -213,7 +214,6 @@ def init():
     #Finds all unique event sequences in the training set
     unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTempTraining)]
 
-    print(len(unique_data))
 
     #Opens the test database file(chunks[1]) and creates or opens a result database file(chunks[2])
     with open(chunks[1], 'r', newline='') as read_obj, open(chunks[2], 'w', newline='') as write_obj:
