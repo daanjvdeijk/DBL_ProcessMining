@@ -18,8 +18,13 @@ from csv import reader
 from csv import writer
 import pandas as pd
 from datetime import datetime
-from statistics import mode
+import statistics
 from dateutil import parser
+import numpy as np
+from sklearn.cluster import KMeans
+from sklearn import metrics
+from sklearn.metrics import pairwise_distances
+
 
 #Main class
 class SimplePredict:
@@ -42,7 +47,7 @@ class SimplePredict:
 
         #Takes the most occuring event out of the list of next_events
         try:
-            max_event = mode(all_events)
+            max_event = statistics.mode(all_events)
         except:
             max_event = 0
 
@@ -131,7 +136,7 @@ class SimplePredict:
 
         #Takes the most occuring next event
         try:
-            max_event = mode(all_events)
+            max_event = statistics.mode(all_events)
         except:
             max_event = 0
 
@@ -233,6 +238,71 @@ class SimplePredict:
             self.data = pd.DataFrame(allList, columns=cols)
             self.data.to_csv(filepath, index=False)
 
+    def addClusteringColumns(self, filepath, current_event, next_event):
+        #Lists used in this functions
+        totalTimeList = []
+        timeTillNextEvent = []
+
+        #Adds events up to and including the current event to a list and appends
+        #it to a list which contains all traces. Resets when it sees ENDOFTRACE
+        for index, row in self.data.iterrows():
+            try:
+                if self.selected_data[index][0] == "ENDOFTRACE" or self.selected_data[index + 1][0] == "ENDOFTRACE":
+                    totalTimeList.append(None)
+                    timeTillNextEvent.append(None)
+                elif pd.isnull(self.selected_data[index][0]) or pd.isnull(self.selected_data[index + 1][0]):
+                    totalTimeList.append(None)
+                    timeTillNextEvent.append(None)
+                elif self.selected_data[index][0] == current_event:
+                    totalTimeList.append(parser.parse(self.selected_data[index][1]).timestamp()*1000)
+
+                    if next_event == self.selected_data[index + 1][0]:
+                        timeTillNextEvent.append(parser.parse(self.selected_data[index + 1][1]).timestamp()*1000 - parser.parse(self.selected_data[index][1]).timestamp()*1000)
+                    else:
+                        timeTillNextEvent.append(None)
+                else:
+                    totalTimeList.append(None)
+                    timeTillNextEvent.append(None)
+            except IndexError:
+                totalTimeList.append(None)
+                timeTillNextEvent.append(None)
+
+        #Writes new column to file
+        self.data['total_time:timestamp'] = totalTimeList
+        self.data['time_till_next_event:timestamp'] = timeTillNextEvent
+        self.data.to_csv(filepath, index=False)
+
+    #Second algorithm that calculates the average time between a certain event and the next one
+    def calculate_avgtime_Clustering(self):
+        try:
+            selected_data_clustering = self.data[['total_time:timestamp', 'time_till_next_event:timestamp',]].dropna()
+
+            n_clusters_range = [2,3,4,5,6,7,8,9,10]
+            n_clusters_range_silhouetteScore = {}
+
+            for x in n_clusters_range:
+                kmeans = KMeans(n_clusters=x).fit(selected_data_clustering)
+                n_clusters_range_silhouetteScore[x] = metrics.silhouette_score(selected_data_clustering, kmeans.labels_, sample_size = 1000)
+
+            #print(max(n_clusters_range_silhouetteScore, key=n_clusters_range_silhouetteScore.get))
+            kmeans = KMeans(n_clusters = max(n_clusters_range_silhouetteScore, key=n_clusters_range_silhouetteScore.get)).fit(selected_data_clustering)
+            cluster_means = kmeans.cluster_centers_.ravel()
+
+            cluster_means_all = []
+            for x in range(1, len(cluster_means), 2):
+                cluster_means_all.append(cluster_means[x])
+
+            avg_time = statistics.mean(cluster_means_all)
+
+            #print("The average time is " + str(avg_time) + " milliseconds")
+
+        except ValueError:
+            avg_time = 0
+
+
+
+        return avg_time
+
 def init():
     #Input for the right results:
     #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results-small.csv
@@ -281,20 +351,44 @@ def init():
         timedictEventSeq = {'event concept:name':'avg time in milliseconds'}
         eventdictEventSeq = {'eventSeq':'most occuring next event'}
 
-        #Runs the algorithms for every unique event sequence and adds their result to a dictionary
+        #Dictionaries for the eventseq-temp algorithm that are used to add the calculated values to the database
+        timedictClustering = {('event concept:name', 'cluster_labels:name'):'avg time in milliseconds'}
+        #eventdictBaseline = {'eventSeq':'most occuring next event'}
+
+        #For every unique possible event the two algorithms are ran (CLUSTERING)
+        for x in data['event_concept:name'].unique():
+            print("CLUSTERING event " + str(np.where(data['event_concept:name'].unique() == x)[0][0] + 1) + " out of " + str(len(data['event_concept:name'].unique())))
+
+            object = SimplePredict(data, x)
+            next_event = object.calculate_nextevent_Baseline()
+            eventdictBaseline.update({x:next_event})
+
+            object.addClusteringColumns(chunks[0], x, next_event)
+            timedictClustering.update({x:object.calculate_avgtime_Clustering()})
+
+        print(" ")
+
+        #For every unique possible event the two algorithms are ran (BASELINE)
+        for x in data['event_concept:name'].unique():
+            print("BASELINE event " + str(np.where(data['event_concept:name'].unique() == x)[0][0] + 1) + " out of " + str(len(data['event_concept:name'].unique())))
+            object = SimplePredict(data, x)
+
+            eventdictBaseline.update({x:object.calculate_nextevent_Baseline()})
+            timedictBaseline.update({x:object.calculate_avgtime_Baseline(eventdictBaseline[x])})
+
+        print(" ")
+        #Runs the algorithms for every unique event sequence and adds their result to a dictionary (EVENTSEQ)
         for x in unique_data:
+            print("EVENTSEQ event " + str(unique_data.index(x) + 1) + " out of " + str(len(unique_data)))
+
             max_event, all_events = object.calculate_nextevent_EventSeq(x)
             z = object.calculate_avgtime_EventSeq(max_event, x)
 
             eventdictEventSeq.update({tuple(x):max_event})
             timedictEventSeq.update({tuple(x):z})
 
-        #For every unique possible event the two algorithms are ran
-        for x in data['event_concept:name'].unique():
-            object = SimplePredict(data, x)
 
-            eventdictBaseline.update({x:object.calculate_nextevent_Baseline()})
-            timedictBaseline.update({x:object.calculate_avgtime_Baseline(eventdictBaseline[x])})
+
 
         #Iterable variable that is used in the for loop for indexing
         i = -1
@@ -314,17 +408,27 @@ def init():
                 try:
                     row.append(eventdictEventSeq[tuple(eventSeqTempTest[i])])
                     row.append(timedictEventSeq[tuple(eventSeqTempTest[i])])
+
                 #If there is no existing trace in the dictionary there is no information available
                 except KeyError:
                     row.append("No Information Available (EVENTSEQ)")
                     row.append("No Information Available (EVENTSEQ)")
 
+                try:
+                    row.append(eventdictBaseline[row[data.columns.get_loc("event_concept:name")]])
+                    row.append(timedictClustering[row[data.columns.get_loc("event_concept:name")]])
+                #If there is no existing trace in the dictionary there is no information available
+                except KeyError:
+                    row.append("No Information Available (CLUSTERING)")
+                    row.append("No Information Available (CLUSTERING)")
             #Manually put in column names
             else:
                 row.append('most occuring next event in trace (BASELINE)')
                 row.append('average time in milliseconds (BASELINE)')
                 row.append('most occuring next event in trace (EVENTSEQ)')
                 row.append('average time in milliseconds (EVENTSEQ)')
+                row.append('most occuring next event in trace (CLUSTERING)')
+                row.append('average time in milliseconds (CLUSTERING)')
 
             #Updates the iterable variable
             if i < len(eventSeqTempTest) - 1:
@@ -332,7 +436,7 @@ def init():
 
             #Deletes the event sequence row since it isn't supposed to be in the end result
             #Since 3 rows are appended after we can always locate it's position regardless of the dataset
-            del row[len(row) - 5]
+            del row[len(row) - 7]
 
             #Writes the new rows to the file
             csv_writer.writerow(row)
