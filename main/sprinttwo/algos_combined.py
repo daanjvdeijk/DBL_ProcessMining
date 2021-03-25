@@ -24,6 +24,7 @@ import statistics
 from statistics import mode
 
 #Format used for reading the dates
+#format = '%Y-%m-%d %H:%M:%S.%f'
 format = '%m/%d/%Y'
 
 #Main class
@@ -73,8 +74,8 @@ class SimplePredict:
         max_event = mode(all_events)
 
         #Prints which event takes place most often after the specified trace
-        print(str(max_event) + " is the event that most often takes place after ")
-        print(list)
+        #print(str(max_event) + " is the event that most often takes place after ")
+        #print(list)
 
         #Returns both the most occuring and all next events for later use
         return max_event, all_events
@@ -87,7 +88,7 @@ class SimplePredict:
         percentageOccurringRound = round(percentageOccurring, 2)
 
         #Prints the result of the calculation
-        print("The chance of event " + str(mode(all_events)) + " to occur next is: " + str(percentageOccurringRound) + "%")
+        #print("The chance of event " + str(mode(all_events)) + " to occur next is: " + str(percentageOccurringRound) + "%")
 
         #Returns the percentage for later use
         return percentageOccurring
@@ -112,7 +113,7 @@ class SimplePredict:
                 next_time = selected_data.at[index+1, 'event_time:timestamp']
 
                 #Hardcoded exception for when one of the two values that is being compared is ENDOFTRACE
-                if event_time == "ENDOFTRACE" or next_time == "ENDOFTRACE":
+                if event_time == "ENDOFTRACE" or next_time == "ENDOFTRACE" or isinstance(event_time, float) or isinstance(next_time, float):
                     time = 0
                 else:
                     time = datetime.strptime(next_time, format).timestamp()*1000 - datetime.strptime(event_time, format).timestamp()*1000
@@ -121,16 +122,13 @@ class SimplePredict:
 
         #Calculates the average time in the set of all durations between the current specified and next event
         avg_time = sum(all_time) / len(all_time)
-        #Converts to days
-        avg_time_days = avg_time/86400000
-        avg_time_days_round = round(avg_time_days, 0)
 
         #Prints the value
-        print("The time it takes between the event trace and " + next_event + " is on average " + str(avg_time_days_round) + " days")
-        print(' ')
+        #print("The time it takes between the event trace and " + next_event + " is on average " + str(avg_time) + " milliseconds")
+        #print(' ')
 
         #Returns the value to be used later
-        return avg_time_days_round
+        return avg_time
 
     #Supplementary function for addEndOfTrace()
     #Finds the index of the last event in the trace
@@ -138,12 +136,14 @@ class SimplePredict:
         try:
             #Since no trace is longer than 15 events, only the next 15 events are
             #checked. This massively reduces the runtime
-            for i in reversed(range(y, y + 15)):
+            for i in reversed(range(y, y + 150)):
+                print(li[i])
+
                 if li[i] == x:
                     return i
+
         #Catches IndexErrors if the last event is not in the range, this happens for the last trace
         except IndexError:
-            print("hi")
             for i in reversed(range(y, len(li))):
                 if li[i] == x:
                     return i
@@ -214,6 +214,7 @@ def init():
     #Finds all unique event sequences in the training set
     unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTempTraining)]
 
+
     #Opens the test database file(chunks[1]) and creates or opens a result database file(chunks[2])
     with open(chunks[1], 'r', newline='') as read_obj, open(chunks[2], 'w', newline='') as write_obj:
         #The test database becomes the reader and the result database the writer
@@ -251,6 +252,7 @@ def init():
                 #If there is no existing trace in the dictionary there is no information available
                 except KeyError:
                     row.append("No Information Available")
+
             #Manually put in column names
             else:
                 row.append('most occuring next event in trace')
