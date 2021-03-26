@@ -1,1186 +1,996 @@
-eventID,case_concept:name,event_concept:name,event_lifecycle:transition,event_time:timestamp,eventSeq
-0,A1,Create Fine,complete,7/24/2006,['Create Fine']
-1,A1,Send Fine,complete,12/5/2006,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4294967296,A100,Create Fine,complete,8/2/2006,['Create Fine']
-4294967297,A100,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
-4294967298,A100,Insert Fine Notification,complete,1/15/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4294967299,A100,Add penalty,complete,3/16/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4294967300,A100,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8589934592,A10000,Create Fine,complete,3/9/2007,['Create Fine']
-8589934593,A10000,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8589934594,A10000,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8589934595,A10000,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8589934596,A10000,Payment,complete,9/9/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-12884901888,A10001,Create Fine,complete,3/19/2007,['Create Fine']
-12884901889,A10001,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-12884901890,A10001,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-12884901891,A10001,Insert Date Appeal to Prefecture,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']"
-12884901892,A10001,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty']"
-12884901893,A10001,Send Appeal to Prefecture,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty', 'Send Appeal to Prefecture']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-17179869184,A10004,Create Fine,complete,3/20/2007,['Create Fine']
-17179869185,A10004,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-17179869186,A10004,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-17179869187,A10004,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-17179869188,A10004,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-21474836480,A10005,Create Fine,complete,3/20/2007,['Create Fine']
-21474836481,A10005,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-25769803776,A10007,Create Fine,complete,3/20/2007,['Create Fine']
-25769803777,A10007,Payment,complete,3/23/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-30064771072,A10008,Create Fine,complete,3/20/2007,['Create Fine']
-30064771073,A10008,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-30064771074,A10008,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-30064771075,A10008,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-30064771076,A10008,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-34359738368,A10009,Create Fine,complete,3/20/2007,['Create Fine']
-34359738369,A10009,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-34359738370,A10009,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-34359738371,A10009,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-34359738372,A10009,Payment,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-34359738373,A10009,Payment,complete,10/31/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-38654705664,A1001,Create Fine,complete,8/2/2006,['Create Fine']
-38654705665,A1001,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
-38654705666,A1001,Insert Fine Notification,complete,12/31/2006,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-38654705667,A1001,Add penalty,complete,3/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-38654705668,A1001,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-42949672960,A10010,Create Fine,complete,3/20/2007,['Create Fine']
-42949672961,A10010,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-42949672962,A10010,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-42949672963,A10010,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-42949672964,A10010,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-47244640256,A10011,Create Fine,complete,3/21/2007,['Create Fine']
-47244640257,A10011,Send Fine,complete,9/29/2007,"['Create Fine', 'Send Fine']"
-47244640258,A10011,Insert Fine Notification,complete,10/12/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-47244640259,A10011,Add penalty,complete,12/11/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-47244640260,A10011,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-51539607552,A10012,Create Fine,complete,3/21/2007,['Create Fine']
-51539607553,A10012,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-55834574848,A10015,Create Fine,complete,3/21/2007,['Create Fine']
-55834574849,A10015,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-55834574850,A10015,Insert Fine Notification,complete,8/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-55834574851,A10015,Add penalty,complete,10/18/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-55834574852,A10015,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-60129542144,A10018,Create Fine,complete,3/22/2007,['Create Fine']
-60129542145,A10018,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-60129542146,A10018,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-60129542148,A10018,Payment,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment']"
-60129542147,A10018,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Payment', 'Add penalty']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-64424509440,A10019,Create Fine,complete,3/22/2007,['Create Fine']
-64424509441,A10019,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-64424509442,A10019,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-64424509443,A10019,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-64424509444,A10019,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-68719476736,A1002,Create Fine,complete,8/5/2006,['Create Fine']
-68719476737,A1002,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
-68719476738,A1002,Insert Fine Notification,complete,1/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-68719476739,A1002,Add penalty,complete,3/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-68719476740,A1002,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-73014444032,A10021,Create Fine,complete,3/22/2007,['Create Fine']
-73014444033,A10021,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-73014444034,A10021,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-73014444035,A10021,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-73014444036,A10021,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-77309411328,A10022,Create Fine,complete,3/22/2007,['Create Fine']
-77309411329,A10022,Payment,complete,3/28/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-81604378624,A10023,Create Fine,complete,3/22/2007,['Create Fine']
-81604378625,A10023,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-81604378626,A10023,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-81604378627,A10023,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-81604378628,A10023,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-85899345920,A10024,Create Fine,complete,3/22/2007,['Create Fine']
-85899345921,A10024,Payment,complete,3/26/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-90194313216,A10025,Create Fine,complete,3/22/2007,['Create Fine']
-90194313217,A10025,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-90194313218,A10025,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-90194313219,A10025,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-90194313220,A10025,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-94489280512,A10026,Create Fine,complete,3/22/2007,['Create Fine']
-94489280513,A10026,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-94489280514,A10026,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-94489280515,A10026,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-94489280516,A10026,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-98784247808,A10029,Create Fine,complete,3/22/2007,['Create Fine']
-98784247809,A10029,Payment,complete,4/10/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.03E+11,A10030,Create Fine,complete,3/22/2007,['Create Fine']
-1.03E+11,A10030,Payment,complete,3/26/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.07E+11,A10033,Create Fine,complete,3/23/2007,['Create Fine']
-1.07E+11,A10033,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.07E+11,A10033,Insert Fine Notification,complete,8/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.07E+11,A10033,Add penalty,complete,10/18/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.07E+11,A10033,Payment,complete,9/13/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.12E+11,A10034,Create Fine,complete,3/23/2007,['Create Fine']
-1.12E+11,A10034,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.12E+11,A10034,Insert Fine Notification,complete,8/20/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.12E+11,A10034,Add penalty,complete,10/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.12E+11,A10034,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.16E+11,A10041,Create Fine,complete,3/24/2007,['Create Fine']
-1.16E+11,A10041,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.20E+11,A10042,Create Fine,complete,3/24/2007,['Create Fine']
-1.20E+11,A10042,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.20E+11,A10042,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.20E+11,A10042,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.20E+11,A10042,Payment,complete,10/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-1.20E+11,A10042,Payment,complete,11/13/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.25E+11,A10043,Create Fine,complete,3/24/2007,['Create Fine']
-1.25E+11,A10043,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.25E+11,A10043,Insert Fine Notification,complete,8/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.25E+11,A10043,Add penalty,complete,10/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.25E+11,A10043,Payment,complete,10/10/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.29E+11,A10044,Create Fine,complete,3/24/2007,['Create Fine']
-1.29E+11,A10044,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.29E+11,A10044,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.29E+11,A10044,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.29E+11,A10044,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.33E+11,A10045,Create Fine,complete,3/24/2007,['Create Fine']
-1.33E+11,A10045,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.37E+11,A10046,Create Fine,complete,3/28/2007,['Create Fine']
-1.37E+11,A10046,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-1.37E+11,A10046,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.37E+11,A10046,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.37E+11,A10046,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.42E+11,A10047,Create Fine,complete,3/28/2007,['Create Fine']
-1.42E+11,A10047,Payment,complete,4/2/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.46E+11,A10049,Create Fine,complete,3/28/2007,['Create Fine']
-1.46E+11,A10049,Payment,complete,3/30/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.50E+11,A10050,Create Fine,complete,3/28/2007,['Create Fine']
-1.50E+11,A10050,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.50E+11,A10050,Insert Fine Notification,complete,8/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.50E+11,A10050,Add penalty,complete,10/27/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.50E+11,A10050,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.55E+11,A10054,Create Fine,complete,3/7/2007,['Create Fine']
-1.55E+11,A10054,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.59E+11,A10056,Create Fine,complete,3/7/2007,['Create Fine']
-1.59E+11,A10056,Payment,complete,3/17/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.63E+11,A10059,Create Fine,complete,3/8/2007,['Create Fine']
-1.63E+11,A10059,Payment,complete,4/18/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.68E+11,A1006,Create Fine,complete,8/8/2006,['Create Fine']
-1.68E+11,A1006,Payment,complete,9/12/2006,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.72E+11,A10060,Create Fine,complete,3/8/2007,['Create Fine']
-1.72E+11,A10060,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.76E+11,A10061,Create Fine,complete,3/8/2007,['Create Fine']
-1.76E+11,A10061,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-1.76E+11,A10061,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.76E+11,A10061,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.76E+11,A10061,Payment,complete,9/25/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.80E+11,A10063,Create Fine,complete,3/8/2007,['Create Fine']
-1.80E+11,A10063,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-1.80E+11,A10063,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.80E+11,A10063,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.80E+11,A10063,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.85E+11,A10067,Create Fine,complete,3/9/2007,['Create Fine']
-1.85E+11,A10067,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-1.85E+11,A10067,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.85E+11,A10067,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.85E+11,A10067,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.89E+11,A10068,Create Fine,complete,3/9/2007,['Create Fine']
-1.89E+11,A10068,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-1.89E+11,A10068,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.89E+11,A10068,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.89E+11,A10068,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.93E+11,A10069,Create Fine,complete,3/9/2007,['Create Fine']
-1.93E+11,A10069,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-1.93E+11,A10069,Insert Fine Notification,complete,7/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.93E+11,A10069,Add penalty,complete,9/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.93E+11,A10069,Payment,complete,9/30/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.98E+11,A1007,Create Fine,complete,8/28/2006,['Create Fine']
-1.98E+11,A1007,Send Fine,complete,12/15/2006,"['Create Fine', 'Send Fine']"
-1.98E+11,A1007,Insert Fine Notification,complete,1/7/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.98E+11,A1007,Add penalty,complete,3/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.98E+11,A1007,Payment,complete,11/30/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.02E+11,A10071,Create Fine,complete,3/9/2007,['Create Fine']
-2.02E+11,A10071,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-2.02E+11,A10071,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.02E+11,A10071,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.02E+11,A10071,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.06E+11,A10072,Create Fine,complete,3/10/2007,['Create Fine']
-2.06E+11,A10072,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.10E+11,A10074,Create Fine,complete,3/10/2007,['Create Fine']
-2.10E+11,A10074,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.15E+11,A10075,Create Fine,complete,3/11/2007,['Create Fine']
-2.15E+11,A10075,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-2.15E+11,A10075,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.15E+11,A10075,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.15E+11,A10075,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.19E+11,A10076,Create Fine,complete,3/11/2007,['Create Fine']
-2.19E+11,A10076,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.23E+11,A10077,Create Fine,complete,3/11/2007,['Create Fine']
-2.23E+11,A10077,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.28E+11,A10078,Create Fine,complete,3/11/2007,['Create Fine']
-2.28E+11,A10078,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.32E+11,A10079,Create Fine,complete,3/11/2007,['Create Fine']
-2.32E+11,A10079,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-2.32E+11,A10079,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.32E+11,A10079,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.32E+11,A10079,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.36E+11,A1008,Create Fine,complete,8/28/2006,['Create Fine']
-2.36E+11,A1008,Send Fine,complete,4/4/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.41E+11,A10082,Payment,complete,3/11/2007,['Payment']
-2.41E+11,A10082,Create Fine,complete,3/11/2007,"['Payment', 'Create Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.45E+11,A10083,Create Fine,complete,3/11/2007,['Create Fine']
-2.45E+11,A10083,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-2.45E+11,A10083,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.45E+11,A10083,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.45E+11,A10083,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.49E+11,A10085,Create Fine,complete,3/14/2007,['Create Fine']
-2.49E+11,A10085,Payment,complete,3/16/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.53E+11,A10089,Create Fine,complete,3/11/2007,['Create Fine']
-2.53E+11,A10089,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.58E+11,A1009,Create Fine,complete,8/29/2006,['Create Fine']
-2.58E+11,A1009,Send Fine,complete,12/15/2006,"['Create Fine', 'Send Fine']"
-2.58E+11,A1009,Insert Fine Notification,complete,1/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.58E+11,A1009,Add penalty,complete,3/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.58E+11,A1009,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.62E+11,A10090,Create Fine,complete,3/11/2007,['Create Fine']
-2.62E+11,A10090,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-2.62E+11,A10090,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.62E+11,A10090,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.62E+11,A10090,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.66E+11,A10091,Create Fine,complete,3/11/2007,['Create Fine']
-2.66E+11,A10091,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.71E+11,A10092,Payment,complete,3/11/2007,['Payment']
-2.71E+11,A10092,Create Fine,complete,3/11/2007,"['Payment', 'Create Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.75E+11,A10095,Create Fine,complete,3/11/2007,['Create Fine']
-2.75E+11,A10095,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-2.75E+11,A10095,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.75E+11,A10095,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.75E+11,A10095,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.79E+11,A10097,Create Fine,complete,3/11/2007,['Create Fine']
-2.79E+11,A10097,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-2.79E+11,A10097,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.79E+11,A10097,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.79E+11,A10097,Payment,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.83E+11,A10099,Create Fine,complete,3/11/2007,['Create Fine']
-2.83E+11,A10099,Payment,complete,3/22/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.88E+11,A101,Create Fine,complete,7/30/2006,['Create Fine']
-2.88E+11,A101,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.92E+11,A10101,Create Fine,complete,3/5/2007,['Create Fine']
-2.92E+11,A10101,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
-2.92E+11,A10101,Insert Fine Notification,complete,7/6/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.92E+11,A10101,Add penalty,complete,9/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.92E+11,A10101,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-2.96E+11,A10102,Create Fine,complete,3/5/2007,['Create Fine']
-2.96E+11,A10102,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
-2.96E+11,A10102,Insert Fine Notification,complete,7/7/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-2.96E+11,A10102,Add penalty,complete,9/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-2.96E+11,A10102,Insert Date Appeal to Prefecture,complete,9/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture']"
-2.96E+11,A10102,Send Appeal to Prefecture,complete,10/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.01E+11,A10104,Payment,complete,3/6/2007,['Payment']
-3.01E+11,A10104,Create Fine,complete,3/6/2007,"['Payment', 'Create Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.05E+11,A10106,Create Fine,complete,3/6/2007,['Create Fine']
-3.05E+11,A10106,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.05E+11,A10106,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.05E+11,A10106,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.05E+11,A10106,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.09E+11,A10107,Create Fine,complete,3/6/2007,['Create Fine']
-3.09E+11,A10107,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.09E+11,A10107,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.09E+11,A10107,Insert Date Appeal to Prefecture,complete,7/27/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']"
-3.09E+11,A10107,Send Appeal to Prefecture,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture']"
-3.09E+11,A10107,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Add penalty']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.14E+11,A10108,Create Fine,complete,3/6/2007,['Create Fine']
-3.14E+11,A10108,Payment,complete,3/23/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.18E+11,A10109,Create Fine,complete,3/6/2007,['Create Fine']
-3.18E+11,A10109,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.22E+11,A10112,Create Fine,complete,3/6/2007,['Create Fine']
-3.22E+11,A10112,Payment,complete,3/15/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.26E+11,A10113,Create Fine,complete,3/6/2007,['Create Fine']
-3.26E+11,A10113,Payment,complete,3/7/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.31E+11,A10115,Create Fine,complete,3/7/2007,['Create Fine']
-3.31E+11,A10115,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.31E+11,A10115,Insert Fine Notification,complete,8/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.31E+11,A10115,Add penalty,complete,10/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.31E+11,A10115,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.35E+11,A10117,Create Fine,complete,3/7/2007,['Create Fine']
-3.35E+11,A10117,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.39E+11,A10118,Create Fine,complete,3/7/2007,['Create Fine']
-3.39E+11,A10118,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.44E+11,A10119,Create Fine,complete,3/7/2007,['Create Fine']
-3.44E+11,A10119,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.48E+11,A10120,Create Fine,complete,3/8/2007,['Create Fine']
-3.48E+11,A10120,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.48E+11,A10120,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.48E+11,A10120,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.48E+11,A10120,Payment,complete,9/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-3.48E+11,A10120,Payment,complete,11/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.52E+11,A10121,Create Fine,complete,3/8/2007,['Create Fine']
-3.52E+11,A10121,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.52E+11,A10121,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.52E+11,A10121,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.52E+11,A10121,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.56E+11,A10122,Create Fine,complete,3/9/2007,['Create Fine']
-3.56E+11,A10122,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.56E+11,A10122,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.56E+11,A10122,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.56E+11,A10122,Payment,complete,9/25/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.61E+11,A10124,Create Fine,complete,3/10/2007,['Create Fine']
-3.61E+11,A10124,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.65E+11,A10125,Create Fine,complete,3/10/2007,['Create Fine']
-3.65E+11,A10125,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.65E+11,A10125,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.65E+11,A10125,Insert Date Appeal to Prefecture,complete,8/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']"
-3.65E+11,A10125,Payment,complete,9/14/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Payment']"
-3.65E+11,A10125,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Payment', 'Add penalty']"
-3.65E+11,A10125,Send Appeal to Prefecture,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Payment', 'Add penalty', 'Send Appeal to Prefecture']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.69E+11,A10126,Create Fine,complete,3/10/2007,['Create Fine']
-3.69E+11,A10126,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.69E+11,A10126,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.69E+11,A10126,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.69E+11,A10126,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.74E+11,A10127,Create Fine,complete,3/10/2007,['Create Fine']
-3.74E+11,A10127,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.74E+11,A10127,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.74E+11,A10127,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.74E+11,A10127,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.78E+11,A1013,Create Fine,complete,9/7/2006,['Create Fine']
-3.78E+11,A1013,Send Fine,complete,12/15/2006,"['Create Fine', 'Send Fine']"
-3.78E+11,A1013,Insert Fine Notification,complete,1/6/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.78E+11,A1013,Add penalty,complete,3/7/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.78E+11,A1013,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.82E+11,A10130,Create Fine,complete,3/10/2007,['Create Fine']
-3.82E+11,A10130,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.82E+11,A10130,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.82E+11,A10130,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.82E+11,A10130,Payment,complete,10/31/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.87E+11,A10131,Create Fine,complete,3/10/2007,['Create Fine']
-3.87E+11,A10131,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.87E+11,A10131,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.87E+11,A10131,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.87E+11,A10131,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.91E+11,A10137,Payment,complete,3/12/2007,['Payment']
-3.91E+11,A10137,Create Fine,complete,3/12/2007,"['Payment', 'Create Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.95E+11,A10138,Create Fine,complete,3/12/2007,['Create Fine']
-3.95E+11,A10138,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-3.95E+11,A10138,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.95E+11,A10138,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.95E+11,A10138,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-3.99E+11,A10139,Create Fine,complete,3/12/2007,['Create Fine']
-3.99E+11,A10139,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-3.99E+11,A10139,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-3.99E+11,A10139,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-3.99E+11,A10139,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.04E+11,A1014,Create Fine,complete,9/8/2006,['Create Fine']
-4.04E+11,A1014,Send Fine,complete,12/29/2006,"['Create Fine', 'Send Fine']"
-4.04E+11,A1014,Insert Fine Notification,complete,1/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.04E+11,A1014,Add penalty,complete,3/20/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.04E+11,A1014,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.08E+11,A10140,Create Fine,complete,3/12/2007,['Create Fine']
-4.08E+11,A10140,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.08E+11,A10140,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.08E+11,A10140,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.08E+11,A10140,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.12E+11,A10141,Create Fine,complete,3/12/2007,['Create Fine']
-4.12E+11,A10141,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.12E+11,A10141,Insert Fine Notification,complete,7/26/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.12E+11,A10141,Add penalty,complete,9/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.12E+11,A10141,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.17E+11,A10143,Create Fine,complete,3/12/2007,['Create Fine']
-4.17E+11,A10143,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.21E+11,A10144,Create Fine,complete,3/12/2007,['Create Fine']
-4.21E+11,A10144,Payment,complete,3/17/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.25E+11,A10147,Create Fine,complete,3/13/2007,['Create Fine']
-4.25E+11,A10147,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.25E+11,A10147,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.25E+11,A10147,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.25E+11,A10147,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.29E+11,A10150,Create Fine,complete,3/15/2007,['Create Fine']
-4.29E+11,A10150,Payment,complete,3/19/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.34E+11,A10151,Create Fine,complete,3/6/2007,['Create Fine']
-4.34E+11,A10151,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.34E+11,A10151,Insert Fine Notification,complete,8/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.34E+11,A10151,Add penalty,complete,10/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.34E+11,A10151,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.38E+11,A10152,Create Fine,complete,3/6/2007,['Create Fine']
-4.38E+11,A10152,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.38E+11,A10152,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.38E+11,A10152,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.38E+11,A10152,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.42E+11,A10153,Create Fine,complete,3/6/2007,['Create Fine']
-4.42E+11,A10153,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.42E+11,A10153,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.42E+11,A10153,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.42E+11,A10153,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.47E+11,A10154,Create Fine,complete,3/6/2007,['Create Fine']
-4.47E+11,A10154,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.47E+11,A10154,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.47E+11,A10154,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.47E+11,A10154,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.51E+11,A10156,Create Fine,complete,3/6/2007,['Create Fine']
-4.51E+11,A10156,Payment,complete,3/7/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.55E+11,A10157,Create Fine,complete,3/6/2007,['Create Fine']
-4.55E+11,A10157,Payment,complete,4/13/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.60E+11,A10158,Create Fine,complete,3/6/2007,['Create Fine']
-4.60E+11,A10158,Payment,complete,3/7/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.64E+11,A10159,Create Fine,complete,3/6/2007,['Create Fine']
-4.64E+11,A10159,Payment,complete,3/7/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.68E+11,A1016,Create Fine,complete,9/11/2006,['Create Fine']
-4.68E+11,A1016,Send Fine,complete,12/29/2006,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.72E+11,A10161,Create Fine,complete,3/8/2007,['Create Fine']
-4.72E+11,A10161,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.72E+11,A10161,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.72E+11,A10161,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.72E+11,A10161,Payment,complete,10/15/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.77E+11,A10162,Create Fine,complete,3/8/2007,['Create Fine']
-4.77E+11,A10162,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.81E+11,A10163,Create Fine,complete,3/8/2007,['Create Fine']
-4.81E+11,A10163,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.85E+11,A10164,Create Fine,complete,3/8/2007,['Create Fine']
-4.85E+11,A10164,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.85E+11,A10164,Insert Fine Notification,complete,8/13/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.85E+11,A10164,Add penalty,complete,10/12/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.85E+11,A10164,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.90E+11,A10165,Create Fine,complete,3/9/2007,['Create Fine']
-4.90E+11,A10165,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.90E+11,A10165,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.90E+11,A10165,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.90E+11,A10165,Payment,complete,1/21/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-4.90E+11,A10165,Payment,complete,10/15/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.94E+11,A10168,Create Fine,complete,3/9/2007,['Create Fine']
-4.94E+11,A10168,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-4.94E+11,A10168,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.94E+11,A10168,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.94E+11,A10168,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-4.98E+11,A1017,Create Fine,complete,9/11/2006,['Create Fine']
-4.98E+11,A1017,Send Fine,complete,12/29/2006,"['Create Fine', 'Send Fine']"
-4.98E+11,A1017,Insert Fine Notification,complete,1/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-4.98E+11,A1017,Add penalty,complete,3/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-4.98E+11,A1017,Payment,complete,4/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-4.98E+11,A1017,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.03E+11,A10171,Create Fine,complete,3/10/2007,['Create Fine']
-5.03E+11,A10171,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-5.03E+11,A10171,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.03E+11,A10171,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.03E+11,A10171,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.07E+11,A10174,Create Fine,complete,3/10/2007,['Create Fine']
-5.07E+11,A10174,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.11E+11,A10175,Create Fine,complete,3/10/2007,['Create Fine']
-5.11E+11,A10175,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.15E+11,A10177,Create Fine,complete,3/10/2007,['Create Fine']
-5.15E+11,A10177,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.20E+11,A10178,Create Fine,complete,3/11/2007,['Create Fine']
-5.20E+11,A10178,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.24E+11,A10180,Create Fine,complete,3/11/2007,['Create Fine']
-5.24E+11,A10180,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-5.24E+11,A10180,Insert Fine Notification,complete,7/30/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.24E+11,A10180,Add penalty,complete,9/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.24E+11,A10180,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.28E+11,A10181,Create Fine,complete,3/11/2007,['Create Fine']
-5.28E+11,A10181,Payment,complete,3/14/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.33E+11,A10184,Create Fine,complete,3/12/2007,['Create Fine']
-5.33E+11,A10184,Send Fine,complete,9/29/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.37E+11,A10185,Create Fine,complete,3/12/2007,['Create Fine']
-5.37E+11,A10185,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.41E+11,A10186,Create Fine,complete,3/12/2007,['Create Fine']
-5.41E+11,A10186,Payment,complete,3/16/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.45E+11,A10187,Create Fine,complete,3/12/2007,['Create Fine']
-5.45E+11,A10187,Send Fine,complete,8/20/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.50E+11,A10188,Create Fine,complete,3/13/2007,['Create Fine']
-5.50E+11,A10188,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.54E+11,A10189,Create Fine,complete,3/13/2007,['Create Fine']
-5.54E+11,A10189,Payment,complete,3/29/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.58E+11,A10192,Create Fine,complete,3/13/2007,['Create Fine']
-5.58E+11,A10192,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-5.58E+11,A10192,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.58E+11,A10192,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.58E+11,A10192,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.63E+11,A10193,Create Fine,complete,3/13/2007,['Create Fine']
-5.63E+11,A10193,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-5.63E+11,A10193,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.63E+11,A10193,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.63E+11,A10193,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.67E+11,A10194,Payment,complete,3/13/2007,['Payment']
-5.67E+11,A10194,Create Fine,complete,3/13/2007,"['Payment', 'Create Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.71E+11,A10195,Create Fine,complete,3/13/2007,['Create Fine']
-5.71E+11,A10195,Payment,complete,3/19/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.76E+11,A10196,Create Fine,complete,3/13/2007,['Create Fine']
-5.76E+11,A10196,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-5.76E+11,A10196,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.76E+11,A10196,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.76E+11,A10196,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.80E+11,A102,Create Fine,complete,7/30/2006,['Create Fine']
-5.80E+11,A102,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
-5.80E+11,A102,Insert Fine Notification,complete,1/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.80E+11,A102,Add penalty,complete,3/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.80E+11,A102,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.84E+11,A10203,Create Fine,complete,3/5/2007,['Create Fine']
-5.84E+11,A10203,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
-5.84E+11,A10203,Insert Fine Notification,complete,7/6/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.84E+11,A10203,Add penalty,complete,9/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.84E+11,A10203,Payment,complete,2/19/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-5.84E+11,A10203,Payment,complete,4/11/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.88E+11,A10205,Create Fine,complete,3/8/2007,['Create Fine']
-5.88E+11,A10205,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-5.88E+11,A10205,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.88E+11,A10205,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.88E+11,A10205,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.93E+11,A10206,Create Fine,complete,3/8/2007,['Create Fine']
-5.93E+11,A10206,Payment,complete,3/14/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-5.97E+11,A10211,Create Fine,complete,3/9/2007,['Create Fine']
-5.97E+11,A10211,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-5.97E+11,A10211,Insert Fine Notification,complete,8/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-5.97E+11,A10211,Add penalty,complete,10/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-5.97E+11,A10211,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.01E+11,A10212,Create Fine,complete,3/9/2007,['Create Fine']
-6.01E+11,A10212,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.01E+11,A10212,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.01E+11,A10212,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.01E+11,A10212,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.06E+11,A10213,Create Fine,complete,3/9/2007,['Create Fine']
-6.06E+11,A10213,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.06E+11,A10213,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.06E+11,A10213,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.06E+11,A10213,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.10E+11,A10215,Create Fine,complete,3/9/2007,['Create Fine']
-6.10E+11,A10215,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.14E+11,A10216,Create Fine,complete,3/9/2007,['Create Fine']
-6.14E+11,A10216,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.14E+11,A10216,Insert Fine Notification,complete,8/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.14E+11,A10216,Add penalty,complete,10/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.14E+11,A10216,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.18E+11,A10218,Create Fine,complete,3/9/2007,['Create Fine']
-6.18E+11,A10218,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.18E+11,A10218,Insert Fine Notification,complete,7/27/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.18E+11,A10218,Add penalty,complete,9/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.18E+11,A10218,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.23E+11,A10220,Create Fine,complete,3/9/2007,['Create Fine']
-6.23E+11,A10220,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.27E+11,A10221,Create Fine,complete,3/9/2007,['Create Fine']
-6.27E+11,A10221,Payment,complete,4/19/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.31E+11,A10223,Create Fine,complete,3/10/2007,['Create Fine']
-6.31E+11,A10223,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.31E+11,A10223,Insert Fine Notification,complete,8/3/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.31E+11,A10223,Add penalty,complete,10/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.31E+11,A10223,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.36E+11,A10224,Create Fine,complete,3/10/2007,['Create Fine']
-6.36E+11,A10224,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.36E+11,A10224,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.36E+11,A10224,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.36E+11,A10224,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.40E+11,A10226,Create Fine,complete,3/11/2007,['Create Fine']
-6.40E+11,A10226,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.44E+11,A10228,Create Fine,complete,3/11/2007,['Create Fine']
-6.44E+11,A10228,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.49E+11,A10229,Create Fine,complete,3/11/2007,['Create Fine']
-6.49E+11,A10229,Payment,complete,3/14/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.53E+11,A10230,Create Fine,complete,3/11/2007,['Create Fine']
-6.53E+11,A10230,Payment,complete,3/19/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.57E+11,A10231,Create Fine,complete,3/11/2007,['Create Fine']
-6.57E+11,A10231,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.61E+11,A10234,Create Fine,complete,3/11/2007,['Create Fine']
-6.61E+11,A10234,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.66E+11,A10235,Create Fine,complete,3/11/2007,['Create Fine']
-6.66E+11,A10235,Payment,complete,3/11/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.70E+11,A10236,Create Fine,complete,3/11/2007,['Create Fine']
-6.70E+11,A10236,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.70E+11,A10236,Insert Fine Notification,complete,7/30/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.70E+11,A10236,Insert Date Appeal to Prefecture,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']"
-6.70E+11,A10236,Add penalty,complete,9/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty']"
-6.70E+11,A10236,Send Appeal to Prefecture,complete,10/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty', 'Send Appeal to Prefecture']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.74E+11,A10237,Create Fine,complete,3/11/2007,['Create Fine']
-6.74E+11,A10237,Payment,complete,3/12/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.79E+11,A10238,Create Fine,complete,3/12/2007,['Create Fine']
-6.79E+11,A10238,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.79E+11,A10238,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.79E+11,A10238,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.79E+11,A10238,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.83E+11,A10242,Create Fine,complete,3/14/2007,['Create Fine']
-6.83E+11,A10242,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-6.83E+11,A10242,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.83E+11,A10242,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.83E+11,A10242,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.87E+11,A10243,Create Fine,complete,3/14/2007,['Create Fine']
-6.87E+11,A10243,Payment,complete,3/15/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.91E+11,A10245,Create Fine,complete,3/14/2007,['Create Fine']
-6.91E+11,A10245,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-6.96E+11,A10247,Create Fine,complete,3/14/2007,['Create Fine']
-6.96E+11,A10247,Send Fine,complete,9/13/2007,"['Create Fine', 'Send Fine']"
-6.96E+11,A10247,Insert Fine Notification,complete,10/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-6.96E+11,A10247,Add penalty,complete,12/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-6.96E+11,A10247,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.00E+11,A10249,Create Fine,complete,3/14/2007,['Create Fine']
-7.00E+11,A10249,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-7.00E+11,A10249,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-7.00E+11,A10249,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-7.00E+11,A10249,Insert Date Appeal to Prefecture,complete,11/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture']"
-7.00E+11,A10249,Send Appeal to Prefecture,complete,12/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture']"
-7.00E+11,A10249,Receive Result Appeal from Prefecture,complete,1/22/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture']"
-7.00E+11,A10249,Notify Result Appeal to Offender,complete,1/25/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture', 'Notify Result Appeal to Offender']"
-7.00E+11,A10249,Payment,complete,2/9/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture', 'Notify Result Appeal to Offender', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.04E+11,A10250,Create Fine,complete,3/14/2007,['Create Fine']
-7.04E+11,A10250,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-7.04E+11,A10250,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-7.04E+11,A10250,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-7.04E+11,A10250,Payment,complete,9/3/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.09E+11,A10251,Create Fine,complete,3/14/2007,['Create Fine']
-7.09E+11,A10251,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.13E+11,A10253,Create Fine,complete,3/14/2007,['Create Fine']
-7.13E+11,A10253,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.17E+11,A10254,Create Fine,complete,3/15/2007,['Create Fine']
-7.17E+11,A10254,Send Fine,complete,9/29/2007,"['Create Fine', 'Send Fine']"
-7.17E+11,A10254,Insert Fine Notification,complete,10/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-7.17E+11,A10254,Add penalty,complete,12/20/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-7.17E+11,A10254,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.22E+11,A10262,Create Fine,complete,3/16/2007,['Create Fine']
-7.22E+11,A10262,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.26E+11,A10263,Create Fine,complete,3/16/2007,['Create Fine']
-7.26E+11,A10263,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-7.26E+11,A10263,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-7.26E+11,A10263,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-7.26E+11,A10263,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.30E+11,A10264,Create Fine,complete,3/16/2007,['Create Fine']
-7.30E+11,A10264,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.34E+11,A10265,Create Fine,complete,3/16/2007,['Create Fine']
-7.34E+11,A10265,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.39E+11,A10266,Create Fine,complete,3/16/2007,['Create Fine']
-7.39E+11,A10266,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-7.39E+11,A10266,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-7.39E+11,A10266,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-7.39E+11,A10266,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.43E+11,A10267,Create Fine,complete,3/16/2007,['Create Fine']
-7.43E+11,A10267,Payment,complete,3/22/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.47E+11,A10268,Create Fine,complete,3/17/2007,['Create Fine']
-7.47E+11,A10268,Payment,complete,3/22/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.52E+11,A10269,Create Fine,complete,3/17/2007,['Create Fine']
-7.52E+11,A10269,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-7.52E+11,A10269,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-7.52E+11,A10269,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-7.52E+11,A10269,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.56E+11,A10271,Create Fine,complete,3/17/2007,['Create Fine']
-7.56E+11,A10271,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.60E+11,A10273,Create Fine,complete,3/17/2007,['Create Fine']
-7.60E+11,A10273,Payment,complete,3/20/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.65E+11,A10277,Create Fine,complete,3/18/2007,['Create Fine']
-7.65E+11,A10277,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.69E+11,A10280,Create Fine,complete,3/18/2007,['Create Fine']
-7.69E+11,A10280,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.73E+11,A10281,Create Fine,complete,3/18/2007,['Create Fine']
-7.73E+11,A10281,Payment,complete,3/20/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.77E+11,A10282,Create Fine,complete,3/18/2007,['Create Fine']
-7.77E+11,A10282,Payment,complete,3/20/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.82E+11,A10283,Create Fine,complete,3/18/2007,['Create Fine']
-7.82E+11,A10283,Payment,complete,5/17/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.86E+11,A10284,Create Fine,complete,3/18/2007,['Create Fine']
-7.86E+11,A10284,Payment,complete,3/22/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.90E+11,A10285,Create Fine,complete,3/18/2007,['Create Fine']
-7.90E+11,A10285,Payment,complete,3/24/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.95E+11,A10286,Create Fine,complete,3/18/2007,['Create Fine']
-7.95E+11,A10286,Payment,complete,3/20/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-7.99E+11,A10287,Create Fine,complete,3/18/2007,['Create Fine']
-7.99E+11,A10287,Payment,complete,3/22/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.03E+11,A10288,Create Fine,complete,3/18/2007,['Create Fine']
-8.03E+11,A10288,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.03E+11,A10288,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.03E+11,A10288,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.03E+11,A10288,Payment,complete,10/1/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.07E+11,A10289,Create Fine,complete,3/18/2007,['Create Fine']
-8.07E+11,A10289,Payment,complete,3/18/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.12E+11,A10290,Create Fine,complete,3/18/2007,['Create Fine']
-8.12E+11,A10290,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.12E+11,A10290,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.12E+11,A10290,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.12E+11,A10290,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.16E+11,A10291,Create Fine,complete,3/18/2007,['Create Fine']
-8.16E+11,A10291,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.20E+11,A10292,Create Fine,complete,3/18/2007,['Create Fine']
-8.20E+11,A10292,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.25E+11,A10295,Create Fine,complete,3/18/2007,['Create Fine']
-8.25E+11,A10295,Payment,complete,5/18/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.29E+11,A10296,Create Fine,complete,3/21/2007,['Create Fine']
-8.29E+11,A10296,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.33E+11,A10299,Create Fine,complete,3/21/2007,['Create Fine']
-8.33E+11,A10299,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.33E+11,A10299,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.33E+11,A10299,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.33E+11,A10299,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.38E+11,A103,Create Fine,complete,7/30/2006,['Create Fine']
-8.38E+11,A103,Send Fine,complete,12/12/2006,"['Create Fine', 'Send Fine']"
-8.38E+11,A103,Insert Fine Notification,complete,1/14/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.38E+11,A103,Add penalty,complete,3/15/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.38E+11,A103,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.42E+11,A10304,Create Fine,complete,3/9/2007,['Create Fine']
-8.42E+11,A10304,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.42E+11,A10304,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.42E+11,A10304,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.42E+11,A10304,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.46E+11,A10305,Create Fine,complete,3/10/2007,['Create Fine']
-8.46E+11,A10305,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.46E+11,A10305,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.46E+11,A10305,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.46E+11,A10305,Payment,complete,10/10/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.50E+11,A10306,Create Fine,complete,3/10/2007,['Create Fine']
-8.50E+11,A10306,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.55E+11,A10308,Create Fine,complete,3/10/2007,['Create Fine']
-8.55E+11,A10308,Payment,complete,3/13/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.59E+11,A10309,Create Fine,complete,3/10/2007,['Create Fine']
-8.59E+11,A10309,Payment,complete,4/16/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.63E+11,A10310,Create Fine,complete,3/10/2007,['Create Fine']
-8.63E+11,A10310,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.63E+11,A10310,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.63E+11,A10310,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.63E+11,A10310,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.68E+11,A10311,Create Fine,complete,3/10/2007,['Create Fine']
-8.68E+11,A10311,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.68E+11,A10311,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.68E+11,A10311,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.68E+11,A10311,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.72E+11,A10312,Create Fine,complete,3/10/2007,['Create Fine']
-8.72E+11,A10312,Payment,complete,3/15/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.76E+11,A10317,Create Fine,complete,3/14/2007,['Create Fine']
-8.76E+11,A10317,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.80E+11,A10318,Create Fine,complete,3/14/2007,['Create Fine']
-8.80E+11,A10318,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.85E+11,A10319,Create Fine,complete,3/14/2007,['Create Fine']
-8.85E+11,A10319,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.85E+11,A10319,Insert Fine Notification,complete,8/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.85E+11,A10319,Add penalty,complete,10/4/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.85E+11,A10319,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.89E+11,A10320,Create Fine,complete,3/15/2007,['Create Fine']
-8.89E+11,A10320,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.89E+11,A10320,Insert Fine Notification,complete,8/2/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.89E+11,A10320,Add penalty,complete,10/1/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.89E+11,A10320,Payment,complete,9/17/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.93E+11,A10321,Create Fine,complete,3/15/2007,['Create Fine']
-8.93E+11,A10321,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.93E+11,A10321,Insert Fine Notification,complete,7/30/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.93E+11,A10321,Add penalty,complete,9/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.93E+11,A10321,Payment,complete,9/9/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-8.98E+11,A10322,Create Fine,complete,3/15/2007,['Create Fine']
-8.98E+11,A10322,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-8.98E+11,A10322,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-8.98E+11,A10322,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-8.98E+11,A10322,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.02E+11,A10323,Create Fine,complete,3/15/2007,['Create Fine']
-9.02E+11,A10323,Payment,complete,3/16/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.06E+11,A10324,Create Fine,complete,3/15/2007,['Create Fine']
-9.06E+11,A10324,Payment,complete,3/23/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.11E+11,A10325,Create Fine,complete,3/15/2007,['Create Fine']
-9.11E+11,A10325,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-9.11E+11,A10325,Insert Fine Notification,complete,7/24/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-9.11E+11,A10325,Add penalty,complete,9/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-9.11E+11,A10325,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.15E+11,A10326,Create Fine,complete,3/17/2007,['Create Fine']
-9.15E+11,A10326,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.19E+11,A10328,Create Fine,complete,3/18/2007,['Create Fine']
-9.19E+11,A10328,Payment,complete,3/23/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.23E+11,A10331,Create Fine,complete,3/18/2007,['Create Fine']
-9.23E+11,A10331,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-9.23E+11,A10331,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-9.23E+11,A10331,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-9.23E+11,A10331,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.28E+11,A10332,Payment,complete,3/18/2007,['Payment']
-9.28E+11,A10332,Create Fine,complete,3/18/2007,"['Payment', 'Create Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.32E+11,A10333,Create Fine,complete,3/18/2007,['Create Fine']
-9.32E+11,A10333,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-9.32E+11,A10333,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-9.32E+11,A10333,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-9.32E+11,A10333,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.36E+11,A10335,Create Fine,complete,3/18/2007,['Create Fine']
-9.36E+11,A10335,Payment,complete,3/21/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.41E+11,A10337,Create Fine,complete,3/18/2007,['Create Fine']
-9.41E+11,A10337,Payment,complete,3/22/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.45E+11,A10338,Create Fine,complete,3/18/2007,['Create Fine']
-9.45E+11,A10338,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-9.45E+11,A10338,Insert Fine Notification,complete,7/25/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-9.45E+11,A10338,Add penalty,complete,9/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-9.45E+11,A10338,Insert Date Appeal to Prefecture,complete,10/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture']"
-9.45E+11,A10338,Send Appeal to Prefecture,complete,10/12/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture']"
-9.45E+11,A10338,Receive Result Appeal from Prefecture,complete,10/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture']"
-9.45E+11,A10338,Notify Result Appeal to Offender,complete,10/31/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture', 'Notify Result Appeal to Offender']"
-9.45E+11,A10338,Payment,complete,11/12/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Insert Date Appeal to Prefecture', 'Send Appeal to Prefecture', 'Receive Result Appeal from Prefecture', 'Notify Result Appeal to Offender', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.49E+11,A10339,Create Fine,complete,3/18/2007,['Create Fine']
-9.49E+11,A10339,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.53E+11,A10342,Create Fine,complete,3/18/2007,['Create Fine']
-9.53E+11,A10342,Payment,complete,3/23/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.58E+11,A10344,Create Fine,complete,3/18/2007,['Create Fine']
-9.58E+11,A10344,Payment,complete,3/28/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.62E+11,A10345,Create Fine,complete,3/18/2007,['Create Fine']
-9.62E+11,A10345,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.66E+11,A10349,Create Fine,complete,3/19/2007,['Create Fine']
-9.66E+11,A10349,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-9.66E+11,A10349,Insert Fine Notification,complete,7/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-9.66E+11,A10349,Add penalty,complete,9/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-9.66E+11,A10349,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.71E+11,A10351,Create Fine,complete,3/19/2007,['Create Fine']
-9.71E+11,A10351,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-9.71E+11,A10351,Insert Fine Notification,complete,7/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-9.71E+11,A10351,Add penalty,complete,9/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-9.71E+11,A10351,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.75E+11,A10354,Create Fine,complete,3/23/2007,['Create Fine']
-9.75E+11,A10354,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.79E+11,A10357,Create Fine,complete,3/23/2007,['Create Fine']
-9.79E+11,A10357,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-9.79E+11,A10357,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-9.79E+11,A10357,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-9.79E+11,A10357,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.84E+11,A10358,Create Fine,complete,3/24/2007,['Create Fine']
-9.84E+11,A10358,Payment,complete,3/28/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.88E+11,A10359,Create Fine,complete,3/24/2007,['Create Fine']
-9.88E+11,A10359,Payment,complete,3/27/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.92E+11,A10361,Create Fine,complete,3/24/2007,['Create Fine']
-9.92E+11,A10361,Payment,complete,3/26/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-9.96E+11,A10366,Create Fine,complete,3/25/2007,['Create Fine']
-9.96E+11,A10366,Payment,complete,3/26/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.00E+12,A10367,Create Fine,complete,3/25/2007,['Create Fine']
-1.00E+12,A10367,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.01E+12,A10368,Create Fine,complete,3/25/2007,['Create Fine']
-1.01E+12,A10368,Payment,complete,3/29/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.01E+12,A10373,Create Fine,complete,3/25/2007,['Create Fine']
-1.01E+12,A10373,Payment,complete,3/28/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.01E+12,A10374,Create Fine,complete,3/27/2007,['Create Fine']
-1.01E+12,A10374,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.01E+12,A10374,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.01E+12,A10374,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.01E+12,A10374,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.02E+12,A10379,Create Fine,complete,3/27/2007,['Create Fine']
-1.02E+12,A10379,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-1.02E+12,A10379,Insert Fine Notification,complete,8/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.02E+12,A10379,Add penalty,complete,10/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.02E+12,A10379,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.02E+12,A10381,Create Fine,complete,3/30/2007,['Create Fine']
-1.02E+12,A10381,Payment,complete,4/6/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.03E+12,A10382,Create Fine,complete,3/30/2007,['Create Fine']
-1.03E+12,A10382,Payment,complete,4/11/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.03E+12,A10383,Create Fine,complete,3/30/2007,['Create Fine']
-1.03E+12,A10383,Payment,complete,4/2/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.04E+12,A10384,Create Fine,complete,3/30/2007,['Create Fine']
-1.04E+12,A10384,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.04E+12,A10384,Insert Fine Notification,complete,8/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.04E+12,A10384,Add penalty,complete,10/18/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.04E+12,A10384,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.04E+12,A10385,Create Fine,complete,3/30/2007,['Create Fine']
-1.04E+12,A10385,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.04E+12,A10386,Create Fine,complete,3/30/2007,['Create Fine']
-1.04E+12,A10386,Payment,complete,4/2/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.05E+12,A10388,Create Fine,complete,3/30/2007,['Create Fine']
-1.05E+12,A10388,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.05E+12,A10388,Insert Fine Notification,complete,8/23/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.05E+12,A10388,Add penalty,complete,10/22/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.05E+12,A10388,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.05E+12,A10390,Create Fine,complete,3/31/2007,['Create Fine']
-1.05E+12,A10390,Send Fine,complete,9/29/2007,"['Create Fine', 'Send Fine']"
-1.05E+12,A10390,Insert Fine Notification,complete,10/12/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.05E+12,A10390,Add penalty,complete,12/11/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.05E+12,A10390,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.06E+12,A10391,Create Fine,complete,4/2/2007,['Create Fine']
-1.06E+12,A10391,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.06E+12,A10391,Insert Fine Notification,complete,8/11/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.06E+12,A10391,Add penalty,complete,10/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.06E+12,A10391,Payment,complete,11/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.06E+12,A10392,Create Fine,complete,4/5/2007,['Create Fine']
-1.06E+12,A10392,Payment,complete,5/3/2007,"['Create Fine', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.07E+12,A10393,Payment,complete,4/5/2007,['Payment']
-1.07E+12,A10393,Create Fine,complete,4/5/2007,"['Payment', 'Create Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.07E+12,A10396,Create Fine,complete,4/6/2007,['Create Fine']
-1.07E+12,A10396,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.07E+12,A10397,Create Fine,complete,4/7/2007,['Create Fine']
-1.07E+12,A10397,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.07E+12,A10397,Insert Fine Notification,complete,8/14/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.07E+12,A10397,Add penalty,complete,10/13/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.07E+12,A10397,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.08E+12,A10400,Create Fine,complete,4/7/2007,['Create Fine']
-1.08E+12,A10400,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.08E+12,A10400,Insert Fine Notification,complete,8/10/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.08E+12,A10400,Add penalty,complete,10/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.08E+12,A10400,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.08E+12,A10401,Create Fine,complete,2/24/2007,['Create Fine']
-1.08E+12,A10401,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
-1.08E+12,A10401,Insert Fine Notification,complete,7/21/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.08E+12,A10401,Add penalty,complete,9/19/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.08E+12,A10401,Payment,complete,11/17/2008,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Payment']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.09E+12,A10402,Create Fine,complete,2/24/2007,['Create Fine']
-1.09E+12,A10402,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.09E+12,A10403,Create Fine,complete,2/24/2007,['Create Fine']
-1.09E+12,A10403,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
-1.09E+12,A10403,Insert Fine Notification,complete,7/7/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.09E+12,A10403,Add penalty,complete,9/5/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.09E+12,A10403,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.10E+12,A10404,Create Fine,complete,3/2/2007,['Create Fine']
-1.10E+12,A10404,Send Fine,complete,6/27/2007,"['Create Fine', 'Send Fine']"
-1.10E+12,A10404,Insert Fine Notification,complete,7/17/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.10E+12,A10404,Add penalty,complete,9/15/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.10E+12,A10404,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.10E+12,A10406,Create Fine,complete,3/11/2007,['Create Fine']
-1.10E+12,A10406,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.10E+12,A10407,Create Fine,complete,3/12/2007,['Create Fine']
-1.10E+12,A10407,Send Fine,complete,7/17/2007,"['Create Fine', 'Send Fine']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.11E+12,A10409,Create Fine,complete,3/17/2007,['Create Fine']
-1.11E+12,A10409,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.11E+12,A10409,Insert Fine Notification,complete,8/28/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.11E+12,A10409,Add penalty,complete,10/27/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.11E+12,A10409,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.11E+12,A1041,Create Fine,complete,11/16/2006,['Create Fine']
-1.11E+12,A1041,Send Fine,complete,4/4/2007,"['Create Fine', 'Send Fine']"
-1.11E+12,A1041,Insert Fine Notification,complete,4/13/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.11E+12,A1041,Add penalty,complete,6/12/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.11E+12,A1041,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.12E+12,A10411,Create Fine,complete,3/25/2007,['Create Fine']
-1.12E+12,A10411,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.12E+12,A10411,Insert Fine Notification,complete,8/9/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.12E+12,A10411,Insert Date Appeal to Prefecture,complete,9/17/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture']"
-1.12E+12,A10411,Add penalty,complete,10/8/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty']"
-1.12E+12,A10411,Send Appeal to Prefecture,complete,10/30/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Insert Date Appeal to Prefecture', 'Add penalty', 'Send Appeal to Prefecture']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
-1.12E+12,A10413,Create Fine,complete,4/1/2007,['Create Fine']
-1.12E+12,A10413,Send Fine,complete,8/2/2007,"['Create Fine', 'Send Fine']"
-1.12E+12,A10413,Insert Fine Notification,complete,8/14/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification']"
-1.12E+12,A10413,Add penalty,complete,10/13/2007,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty']"
-1.12E+12,A10413,Send for Credit Collection,complete,3/30/2009,"['Create Fine', 'Send Fine', 'Insert Fine Notification', 'Add penalty', 'Send for Credit Collection']"
-ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,ENDOFTRACE,[]
+﻿eventID ,case concept:name,event concept:name,event lifecycle:transition,event time:timestamp
+5.04611E+14,S38735,Create Fine,complete,00:00.0
+5.11861E+14,S49055,Create Fine,complete,00:00.0
+5.11866E+14,S49056,Create Fine,complete,00:00.0
+5.07352E+14,S44306,Create Fine,complete,00:00.0
+5.1187E+14,S49057,Create Fine,complete,00:00.0
+1.28304E+14,N21197,Create Fine,complete,00:00.0
+5.04044E+14,S37636,Create Fine,complete,00:00.0
+1.29553E+14,N22010,Create Fine,complete,00:00.0
+1.30382E+14,N22398,Create Fine,complete,00:00.0
+1.29571E+14,N22019,Create Fine,complete,00:00.0
+1.30378E+14,N22397,Create Fine,complete,00:00.0
+1.30374E+14,N22396,Create Fine,complete,00:00.0
+1.30365E+14,N22391,Create Fine,complete,00:00.0
+1.29558E+14,N22011,Create Fine,complete,00:00.0
+1.30387E+14,N22399,Create Fine,complete,00:00.0
+1.30369E+14,N22394,Create Fine,complete,00:00.0
+1.29566E+14,N22018,Create Fine,complete,00:00.0
+5.11878E+14,S49065,Create Fine,complete,00:00.0
+5.07433E+14,S44572,Create Fine,complete,00:00.0
+5.12329E+14,S49386,Create Fine,complete,00:00.0
+1.30438E+14,N22415,Create Fine,complete,00:00.0
+5.0404E+14,S37635,Create Fine,complete,00:00.0
+5.07429E+14,S44571,Create Fine,complete,00:00.0
+5.0998E+14,S47793,Create Fine,complete,00:00.0
+5.11874E+14,S49063,Create Fine,complete,00:00.0
+5.12334E+14,S49387,Create Fine,complete,00:00.0
+5.12334E+14,S49387,Payment,complete,00:00.0
+1.30159E+14,N22273,Create Fine,complete,00:00.0
+1.30155E+14,N22272,Create Fine,complete,00:00.0
+1.28286E+14,N21190,Create Fine,complete,00:00.0
+5.09976E+14,S47792,Create Fine,complete,00:00.0
+1.28291E+14,N21191,Create Fine,complete,00:00.0
+1.28329E+14,N21207,Create Fine,complete,00:00.0
+1.30391E+14,N22400,Create Fine,complete,00:00.0
+1.28295E+14,N21192,Create Fine,complete,00:00.0
+5.11256E+14,S48561,Create Fine,complete,00:00.0
+1.29562E+14,N22015,Create Fine,complete,00:00.0
+1.30434E+14,N22414,Create Fine,complete,00:00.0
+1.30142E+14,N22265,Create Fine,complete,00:00.0
+1.28312E+14,N21200,Create Fine,complete,00:00.0
+1.28308E+14,N21198,Create Fine,complete,00:00.0
+1.30395E+14,N22401,Create Fine,complete,00:00.0
+1.28299E+14,N21196,Create Fine,complete,00:00.0
+5.04036E+14,S37634,Create Fine,complete,00:00.0
+5.11711E+14,S48943,Create Fine,complete,00:00.0
+1.28445E+14,N21264,Create Fine,complete,00:00.0
+1.54662E+14,N31331,Create Fine,complete,00:00.0
+1.28325E+14,N21204,Create Fine,complete,00:00.0
+1.53648E+14,N30948,Create Fine,complete,00:00.0
+1.28321E+14,N21202,Create Fine,complete,00:00.0
+1.28316E+14,N21201,Payment,complete,00:00.0
+1.28316E+14,N21201,Create Fine,complete,00:00.0
+1.02375E+14,C10763,Create Fine,complete,00:00.0
+5.12351E+14,S49394,Payment,complete,00:00.0
+1.02375E+14,C10763,Send Fine,complete,00:00.0
+1.02375E+14,C10763,Insert Fine Notification,complete,00:00.0
+1.28441E+14,N21263,Create Fine,complete,00:00.0
+1.30408E+14,N22406,Create Fine,complete,00:00.0
+5.12351E+14,S49394,Create Fine,complete,00:00.0
+1.30404E+14,N22405,Create Fine,complete,00:00.0
+1.30417E+14,N22408,Create Fine,complete,00:00.0
+5.12347E+14,S49393,Create Fine,complete,00:00.0
+5.12342E+14,S49391,Payment,complete,00:00.0
+1.304E+14,N22404,Create Fine,complete,00:00.0
+5.12342E+14,S49391,Create Fine,complete,00:00.0
+1.28437E+14,N21260,Create Fine,complete,00:00.0
+5.12338E+14,S49390,Create Fine,complete,00:00.0
+1.29562E+14,N22015,Payment,complete,00:00.0
+5.07433E+14,S44572,Payment,complete,00:00.0
+1.30451E+14,N22418,Create Fine,complete,00:00.0
+1.2845E+14,N21265,Create Fine,complete,00:00.0
+1.30421E+14,N22409,Create Fine,complete,00:00.0
+1.28454E+14,N21266,Create Fine,complete,00:00.0
+5.11724E+14,S48947,Create Fine,complete,00:00.0
+5.1172E+14,S48946,Create Fine,complete,00:00.0
+1.30146E+14,N22269,Create Fine,complete,00:00.0
+1.29128E+14,N21856,Create Fine,complete,00:00.0
+1.30425E+14,N22410,Create Fine,complete,00:00.0
+1.30447E+14,N22417,Create Fine,complete,00:00.0
+1.29124E+14,N21855,Create Fine,complete,00:00.0
+1.3043E+14,N22412,Create Fine,complete,00:00.0
+1.28458E+14,N21268,Create Fine,complete,00:00.0
+1.28462E+14,N21269,Create Fine,complete,00:00.0
+5.11715E+14,S48944,Create Fine,complete,00:00.0
+1.3015E+14,N22271,Create Fine,complete,00:00.0
+5.09679E+14,S47647,Create Fine,complete,00:00.0
+1.29107E+14,N21850,Create Fine,complete,00:00.0
+1.30442E+14,N22416,Create Fine,complete,00:00.0
+1.29102E+14,N21849,Create Fine,complete,00:00.0
+1.29098E+14,N21848,Create Fine,complete,00:00.0
+5.09684E+14,S47648,Create Fine,complete,00:00.0
+1.29094E+14,N21845,Create Fine,complete,00:00.0
+1.2909E+14,N21844,Create Fine,complete,00:00.0
+1.30412E+14,N22407,Create Fine,complete,00:00.0
+5.09688E+14,S47651,Create Fine,complete,00:00.0
+1.30163E+14,N22274,Create Fine,complete,00:00.0
+1.28351E+14,N21214,Create Fine,complete,00:00.0
+5.11737E+14,S48951,Create Fine,complete,00:00.0
+5.12364E+14,S49399,Create Fine,complete,00:00.0
+1.28355E+14,N21215,Create Fine,complete,00:00.0
+1.29626E+14,N22037,Create Fine,complete,00:00.0
+5.11728E+14,S48948,Create Fine,complete,00:00.0
+1.29631E+14,N22038,Create Fine,complete,00:00.0
+1.29635E+14,N22039,Create Fine,complete,00:00.0
+5.07438E+14,S44574,Create Fine,complete,00:00.0
+5.07442E+14,S44575,Create Fine,complete,00:00.0
+5.07446E+14,S44576,Create Fine,complete,00:00.0
+5.0745E+14,S44577,Create Fine,complete,00:00.0
+1.29575E+14,N22022,Create Fine,complete,00:00.0
+5.11732E+14,S48950,Create Fine,complete,00:00.0
+1.30172E+14,N22276,Create Fine,complete,00:00.0
+1.29579E+14,N22024,Create Fine,complete,00:00.0
+1.29583E+14,N22025,Create Fine,complete,00:00.0
+5.11024E+14,S48420,Create Fine,complete,00:00.0
+5.04049E+14,S37637,Create Fine,complete,00:00.0
+1.2912E+14,N21854,Create Fine,complete,00:00.0
+1.29115E+14,N21853,Create Fine,complete,00:00.0
+5.06097E+14,S43048,Create Fine,complete,00:00.0
+5.06093E+14,S43047,Create Fine,complete,00:00.0
+5.06089E+14,S43046,Create Fine,complete,00:00.0
+1.29588E+14,N22026,Create Fine,complete,00:00.0
+1.29111E+14,N21852,Create Fine,complete,00:00.0
+1.28334E+14,N21209,Create Fine,complete,00:00.0
+1.28347E+14,N21212,Create Fine,complete,00:00.0
+1.28338E+14,N21210,Create Fine,complete,00:00.0
+1.2845E+14,N21265,Payment,complete,00:00.0
+5.1102E+14,S48419,Create Fine,complete,00:00.0
+1.29592E+14,N22027,Create Fine,complete,00:00.0
+1.29596E+14,N22028,Create Fine,complete,00:00.0
+5.12355E+14,S49396,Create Fine,complete,00:00.0
+5.07356E+14,S44308,Create Fine,complete,00:00.0
+1.29601E+14,N22029,Create Fine,complete,00:00.0
+1.28342E+14,N21211,Create Fine,complete,00:00.0
+5.1236E+14,S49398,Create Fine,complete,00:00.0
+1.30168E+14,N22275,Create Fine,complete,00:00.0
+1.29605E+14,N22030,Create Fine,complete,00:00.0
+5.05475E+14,S42684,Create Fine,complete,00:00.0
+5.0547E+14,S42683,Create Fine,complete,00:00.0
+5.0736E+14,S44314,Create Fine,complete,00:00.0
+5.12338E+14,S49390,Payment,complete,00:00.0
+1.02413E+14,C10837,Send Fine,complete,00:00.0
+1.3049E+14,N22435,Create Fine,complete,00:00.0
+1.30494E+14,N22436,Create Fine,complete,00:00.0
+1.29609E+14,N22032,Create Fine,complete,00:00.0
+5.09692E+14,S47655,Create Fine,complete,00:00.0
+1.29175E+14,N21872,Create Fine,complete,00:00.0
+1.28372E+14,N21221,Create Fine,complete,00:00.0
+5.09989E+14,S47796,Create Fine,complete,00:00.0
+1.29588E+14,N22026,Payment,complete,00:00.0
+5.07364E+14,S44316,Create Fine,complete,00:00.0
+1.29141E+14,N21860,Create Fine,complete,00:00.0
+1.29137E+14,N21859,Payment,complete,00:00.0
+1.29137E+14,N21859,Create Fine,complete,00:00.0
+1.28368E+14,N21220,Create Fine,complete,00:00.0
+5.1126E+14,S48562,Create Fine,complete,00:00.0
+1.28359E+14,N21217,Create Fine,complete,00:00.0
+1.28377E+14,N21224,Create Fine,complete,00:00.0
+1.02413E+14,C10837,Insert Fine Notification,complete,00:00.0
+1.29132E+14,N21857,Create Fine,complete,00:00.0
+1.30455E+14,N22419,Create Fine,complete,00:00.0
+5.09984E+14,S47795,Create Fine,complete,00:00.0
+1.29622E+14,N22036,Create Fine,complete,00:00.0
+5.07369E+14,S44317,Create Fine,complete,00:00.0
+5.04053E+14,S37638,Create Fine,complete,00:00.0
+1.02413E+14,C10837,Create Fine,complete,00:00.0
+1.28364E+14,N21219,Create Fine,complete,00:00.0
+5.11028E+14,S48421,Create Fine,complete,00:00.0
+1.29618E+14,N22035,Create Fine,complete,00:00.0
+1.28381E+14,N21225,Create Fine,complete,00:00.0
+5.12368E+14,S49401,Create Fine,complete,00:00.0
+1.29614E+14,N22033,Create Fine,complete,00:00.0
+5.11264E+14,S48563,Create Fine,complete,00:00.0
+5.11269E+14,S48564,Create Fine,complete,00:00.0
+1.29648E+14,N22042,Create Fine,complete,00:00.0
+1.29652E+14,N22043,Create Fine,complete,00:00.0
+5.06914E+14,S43700,Create Fine,complete,00:00.0
+1.29656E+14,N22044,Create Fine,complete,00:00.0
+1.29154E+14,N21864,Create Fine,complete,00:00.0
+1.29661E+14,N22046,Create Fine,complete,00:00.0
+1.2915E+14,N21862,Create Fine,complete,00:00.0
+1.3046E+14,N22423,Create Fine,complete,00:00.0
+1.29158E+14,N21866,Create Fine,complete,00:00.0
+5.11758E+14,S48957,Create Fine,complete,00:00.0
+1.29145E+14,N21861,Create Fine,complete,00:00.0
+1.29163E+14,N21867,Create Fine,complete,00:00.0
+5.07373E+14,S44319,Create Fine,complete,00:00.0
+1.30468E+14,N22425,Create Fine,complete,00:00.0
+1.29167E+14,N21869,Create Fine,complete,00:00.0
+1.30477E+14,N22431,Create Fine,complete,00:00.0
+1.29171E+14,N21870,Create Fine,complete,00:00.0
+5.08185E+14,S44901,Create Fine,complete,00:00.0
+1.30485E+14,N22434,Create Fine,complete,00:00.0
+5.1175E+14,S48955,Create Fine,complete,00:00.0
+5.08189E+14,S44902,Create Fine,complete,00:00.0
+5.08193E+14,S44903,Create Fine,complete,00:00.0
+5.08198E+14,S44904,Create Fine,complete,00:00.0
+1.30481E+14,N22433,Create Fine,complete,00:00.0
+5.12372E+14,S49402,Create Fine,complete,00:00.0
+1.30537E+14,N22449,Create Fine,complete,00:00.0
+5.05977E+14,S42935,Create Fine,complete,00:00.0
+5.11745E+14,S48954,Create Fine,complete,00:00.0
+5.12372E+14,S49402,Payment,complete,00:00.0
+5.07377E+14,S44320,Create Fine,complete,00:00.0
+1.30541E+14,N22450,Create Fine,complete,00:00.0
+1.30546E+14,N22452,Create Fine,complete,00:00.0
+1.30464E+14,N22424,Create Fine,complete,00:00.0
+1.3018E+14,N22282,Create Fine,complete,00:00.0
+5.11741E+14,S48953,Create Fine,complete,00:00.0
+1.30176E+14,N22280,Create Fine,complete,00:00.0
+1.29618E+14,N22035,Payment,complete,00:00.0
+5.11754E+14,S48956,Create Fine,complete,00:00.0
+1.30473E+14,N22429,Create Fine,complete,00:00.0
+1.3018E+14,N22282,Payment,complete,00:00.0
+1.29687E+14,N22056,Create Fine,complete,00:00.0
+1.29201E+14,N21878,Create Fine,complete,00:00.0
+1.29639E+14,N22040,Create Fine,complete,00:00.0
+1.29644E+14,N22041,Create Fine,complete,00:00.0
+1.29206E+14,N21879,Create Fine,complete,00:00.0
+5.09697E+14,S47656,Create Fine,complete,00:00.0
+5.08202E+14,S44905,Create Fine,complete,00:00.0
+5.12377E+14,S49405,Create Fine,complete,00:00.0
+5.11883E+14,S49068,Create Fine,complete,00:00.0
+1.29704E+14,N22061,Create Fine,complete,00:00.0
+5.09817E+14,S47696,Create Fine,complete,00:00.0
+1.30533E+14,N22448,Create Fine,complete,00:00.0
+5.11891E+14,S49070,Create Fine,complete,00:00.0
+1.30524E+14,N22446,Create Fine,complete,00:00.0
+5.04422E+14,S38052,Create Fine,complete,00:00.0
+5.05479E+14,S42688,Create Fine,complete,00:00.0
+1.29669E+14,N22051,Create Fine,complete,00:00.0
+1.30498E+14,N22437,Create Fine,complete,00:00.0
+5.11273E+14,S48565,Create Fine,complete,00:00.0
+1.30193E+14,N22287,Create Fine,complete,00:00.0
+1.29197E+14,N21877,Create Fine,complete,00:00.0
+1.3058E+14,N22461,Create Fine,complete,00:00.0
+1.30571E+14,N22459,Create Fine,complete,00:00.0
+1.29188E+14,N21875,Payment,complete,00:00.0
+1.30576E+14,N22460,Create Fine,complete,00:00.0
+1.30185E+14,N22284,Send Fine,complete,00:00.0
+1.29184E+14,N21874,Create Fine,complete,00:00.0
+1.30528E+14,N22447,Create Fine,complete,00:00.0
+1.29193E+14,N21876,Create Fine,complete,00:00.0
+1.30503E+14,N22438,Create Fine,complete,00:00.0
+1.29665E+14,N22050,Create Fine,complete,00:00.0
+1.29678E+14,N22054,Create Fine,complete,00:00.0
+1.2918E+14,N21873,Create Fine,complete,00:00.0
+5.05977E+14,S42935,Payment,complete,00:00.0
+5.11277E+14,S48566,Create Fine,complete,00:00.0
+5.06093E+14,S43047,Payment,complete,00:00.0
+1.29244E+14,N21891,Create Fine,complete,00:00.0
+5.04427E+14,S38054,Create Fine,complete,00:00.0
+1.29652E+14,N22043,Payment,complete,00:00.0
+1.29682E+14,N22055,Create Fine,complete,00:00.0
+1.30515E+14,N22442,Create Fine,complete,00:00.0
+1.29188E+14,N21875,Create Fine,complete,00:00.0
+1.29115E+14,N21853,Payment,complete,00:00.0
+1.30507E+14,N22439,Create Fine,complete,00:00.0
+5.11281E+14,S48567,Create Fine,complete,00:00.0
+1.30511E+14,N22440,Create Fine,complete,00:00.0
+1.30189E+14,N22286,Create Fine,complete,00:00.0
+5.11754E+14,S48956,Payment,complete,00:00.0
+1.3052E+14,N22445,Create Fine,complete,00:00.0
+1.29674E+14,N22052,Create Fine,complete,00:00.0
+1.30185E+14,N22284,Create Fine,complete,00:00.0
+5.11887E+14,S49069,Create Fine,complete,00:00.0
+1.29248E+14,N21892,Create Fine,complete,00:00.0
+5.11032E+14,S48427,Create Fine,complete,00:00.0
+5.11286E+14,S48569,Create Fine,complete,00:00.0
+1.28385E+14,N21227,Create Fine,complete,00:00.0
+1.30228E+14,N22298,Create Fine,complete,00:00.0
+5.08206E+14,S44906,Create Fine,complete,00:00.0
+1.30215E+14,N22294,Create Fine,complete,00:00.0
+1.29257E+14,N21894,Create Fine,complete,00:00.0
+1.29253E+14,N21893,Create Fine,complete,00:00.0
+5.09684E+14,S47648,Payment,complete,00:00.0
+1.30211E+14,N22293,Create Fine,complete,00:00.0
+1.29227E+14,N21885,Create Fine,complete,00:00.0
+1.3061E+14,N22475,Create Fine,complete,00:00.0
+1.29223E+14,N21883,Create Fine,complete,00:00.0
+1.29218E+14,N21882,Create Fine,complete,00:00.0
+1.29214E+14,N21881,Create Fine,complete,00:00.0
+1.2921E+14,N21880,Create Fine,complete,00:00.0
+1.30567E+14,N22457,Create Fine,complete,00:00.0
+1.30563E+14,N22456,Create Fine,complete,00:00.0
+1.30558E+14,N22455,Create Fine,complete,00:00.0
+1.29699E+14,N22060,Create Fine,complete,00:00.0
+1.30554E+14,N22454,Create Fine,complete,00:00.0
+1.29695E+14,N22059,Create Fine,complete,00:00.0
+1.3055E+14,N22453,Create Fine,complete,00:00.0
+1.29691E+14,N22058,Create Fine,complete,00:00.0
+5.09701E+14,S47658,Create Fine,complete,00:00.0
+1.29171E+14,N21870,Payment,complete,00:00.0
+1.29132E+14,N21857,Payment,complete,00:00.0
+5.09705E+14,S47659,Create Fine,complete,00:00.0
+5.11041E+14,S48434,Create Fine,complete,00:00.0
+1.30206E+14,N22292,Create Fine,complete,00:00.0
+5.0971E+14,S47660,Create Fine,complete,00:00.0
+1.30202E+14,N22290,Create Fine,complete,00:00.0
+5.11024E+14,S48420,Payment,complete,00:00.0
+1.30198E+14,N22289,Create Fine,complete,00:00.0
+1.30498E+14,N22437,Payment,complete,00:00.0
+5.12381E+14,S49406,Create Fine,complete,00:00.0
+5.09714E+14,S47662,Create Fine,complete,00:00.0
+1.28411E+14,N21238,Create Fine,complete,00:00.0
+5.11037E+14,S48433,Create Fine,complete,00:00.0
+5.1175E+14,S48955,Payment,complete,00:00.0
+5.11032E+14,S48427,Payment,complete,00:00.0
+1.28415E+14,N21239,Create Fine,complete,00:00.0
+1.30223E+14,N22296,Create Fine,complete,00:00.0
+5.10178E+14,S47858,Create Fine,complete,00:00.0
+1.29236E+14,N21888,Create Fine,complete,00:00.0
+5.10173E+14,S47857,Create Fine,complete,00:00.0
+1.28428E+14,N21243,Create Fine,complete,00:00.0
+5.10182E+14,S47859,Create Fine,complete,00:00.0
+5.10169E+14,S47856,Create Fine,complete,00:00.0
+1.29231E+14,N21887,Create Fine,complete,00:00.0
+5.11741E+14,S48953,Payment,complete,00:00.0
+1.3043E+14,N22412,Payment,complete,00:00.0
+5.10161E+14,S47854,Create Fine,complete,00:00.0
+1.30219E+14,N22295,Create Fine,complete,00:00.0
+1.29274E+14,N21901,Create Fine,complete,00:00.0
+5.10165E+14,S47855,Create Fine,complete,00:00.0
+1.30601E+14,N22470,Create Fine,complete,00:00.0
+5.11767E+14,S48961,Create Fine,complete,00:00.0
+5.10156E+14,S47853,Create Fine,complete,00:00.0
+1.30584E+14,N22463,Create Fine,complete,00:00.0
+1.30584E+14,N22463,Payment,complete,00:00.0
+5.10148E+14,S47851,Payment,complete,00:00.0
+1.30588E+14,N22465,Create Fine,complete,00:00.0
+1.30597E+14,N22468,Create Fine,complete,00:00.0
+5.11045E+14,S48436,Create Fine,complete,00:00.0
+1.28407E+14,N21237,Create Fine,complete,00:00.0
+1.30593E+14,N22467,Create Fine,complete,00:00.0
+5.09731E+14,S47667,Create Fine,complete,00:00.0
+1.28389E+14,N21231,Create Fine,complete,00:00.0
+5.09727E+14,S47666,Create Fine,complete,00:00.0
+5.10152E+14,S47852,Create Fine,complete,00:00.0
+5.10148E+14,S47851,Create Fine,complete,00:00.0
+5.09722E+14,S47664,Create Fine,complete,00:00.0
+5.12394E+14,S49411,Create Fine,complete,00:00.0
+5.09718E+14,S47663,Create Fine,complete,00:00.0
+5.05483E+14,S42689,Create Fine,complete,00:00.0
+5.1239E+14,S49409,Create Fine,complete,00:00.0
+1.2924E+14,N21890,Create Fine,complete,00:00.0
+1.28402E+14,N21236,Create Fine,complete,00:00.0
+1.28394E+14,N21232,Create Fine,complete,00:00.0
+5.09993E+14,S47800,Create Fine,complete,00:00.0
+1.28398E+14,N21233,Create Fine,complete,00:00.0
+5.07377E+14,S44320,Payment,complete,00:00.0
+5.11763E+14,S48959,Create Fine,complete,00:00.0
+5.07382E+14,S44324,Create Fine,complete,00:00.0
+5.12385E+14,S49408,Create Fine,complete,00:00.0
+5.05488E+14,S42690,Create Fine,complete,00:00.0
+1.29609E+14,N22032,Payment,complete,00:00.0
+1.02418E+14,C10838,Insert Fine Notification,complete,13-01-2000 00:00:00.000
+1.28471E+14,N21272,Create Fine,complete,13-01-2000 00:00:00.000
+1.29729E+14,N22073,Create Fine,complete,13-01-2000 00:00:00.000
+1.29193E+14,N21876,Payment,complete,13-01-2000 00:00:00.000
+5.11775E+14,S48963,Create Fine,complete,13-01-2000 00:00:00.000
+1.3055E+14,N22453,Payment,complete,13-01-2000 00:00:00.000
+5.0974E+14,S47670,Create Fine,complete,13-01-2000 00:00:00.000
+1.29734E+14,N22074,Create Fine,complete,13-01-2000 00:00:00.000
+1.29738E+14,N22075,Create Fine,complete,13-01-2000 00:00:00.000
+1.29261E+14,N21896,Create Fine,complete,13-01-2000 00:00:00.000
+1.29266E+14,N21899,Create Fine,complete,13-01-2000 00:00:00.000
+1.2927E+14,N21900,Create Fine,complete,13-01-2000 00:00:00.000
+5.11771E+14,S48962,Create Fine,complete,13-01-2000 00:00:00.000
+5.1105E+14,S48437,Create Fine,complete,13-01-2000 00:00:00.000
+5.09735E+14,S47669,Create Fine,complete,13-01-2000 00:00:00.000
+5.10169E+14,S47856,Payment,complete,13-01-2000 00:00:00.000
+1.30202E+14,N22290,Payment,complete,13-01-2000 00:00:00.000
+1.28475E+14,N21273,Create Fine,complete,13-01-2000 00:00:00.000
+5.08099E+14,S44861,Create Fine,complete,13-01-2000 00:00:00.000
+5.08095E+14,S44859,Create Fine,complete,13-01-2000 00:00:00.000
+5.0809E+14,S44858,Create Fine,complete,13-01-2000 00:00:00.000
+5.08086E+14,S44857,Create Fine,complete,13-01-2000 00:00:00.000
+1.28497E+14,N21278,Create Fine,complete,13-01-2000 00:00:00.000
+1.29614E+14,N22033,Payment,complete,13-01-2000 00:00:00.000
+1.02418E+14,C10838,Send Fine,complete,13-01-2000 00:00:00.000
+1.02388E+14,C10808,Insert Fine Notification,complete,13-01-2000 00:00:00.000
+5.07386E+14,S44325,Create Fine,complete,13-01-2000 00:00:00.000
+1.02388E+14,C10808,Send Fine,complete,13-01-2000 00:00:00.000
+1.28493E+14,N21277,Create Fine,complete,13-01-2000 00:00:00.000
+1.02388E+14,C10808,Create Fine,complete,13-01-2000 00:00:00.000
+5.09748E+14,S47673,Create Fine,complete,13-01-2000 00:00:00.000
+5.09993E+14,S47800,Payment,complete,13-01-2000 00:00:00.000
+5.09744E+14,S47672,Create Fine,complete,13-01-2000 00:00:00.000
+1.30232E+14,N22300,Create Fine,complete,13-01-2000 00:00:00.000
+1.02418E+14,C10838,Create Fine,complete,13-01-2000 00:00:00.000
+1.28488E+14,N21276,Create Fine,complete,13-01-2000 00:00:00.000
+1.2848E+14,N21274,Create Fine,complete,13-01-2000 00:00:00.000
+1.28484E+14,N21275,Create Fine,complete,13-01-2000 00:00:00.000
+1.30241E+14,N22302,Create Fine,complete,13-01-2000 00:00:00.000
+1.30236E+14,N22301,Create Fine,complete,13-01-2000 00:00:00.000
+1.2842E+14,N21240,Create Fine,complete,13-01-2000 00:00:00.000
+5.12398E+14,S49412,Create Fine,complete,13-01-2000 00:00:00.000
+1.28467E+14,N21271,Create Fine,complete,13-01-2000 00:00:00.000
+5.10186E+14,S47860,Create Fine,complete,13-01-2000 00:00:00.000
+5.04431E+14,S38058,Create Fine,complete,13-01-2000 00:00:00.000
+1.29717E+14,N22068,Create Fine,complete,13-01-2000 00:00:00.000
+1.28424E+14,N21242,Create Fine,complete,13-01-2000 00:00:00.000
+1.29712E+14,N22066,Create Fine,complete,13-01-2000 00:00:00.000
+1.29708E+14,N22065,Create Fine,complete,13-01-2000 00:00:00.000
+5.08095E+14,S44859,Payment,complete,14-01-2000 00:00:00.000
+1.29656E+14,N22044,Payment,complete,14-01-2000 00:00:00.000
+5.08193E+14,S44903,Payment,complete,14-01-2000 00:00:00.000
+5.09757E+14,S47675,Create Fine,complete,14-01-2000 00:00:00.000
+1.29291E+14,N21908,Create Fine,complete,14-01-2000 00:00:00.000
+1.29167E+14,N21869,Payment,complete,14-01-2000 00:00:00.000
+1.31336E+14,N22753,Create Fine,complete,14-01-2000 00:00:00.000
+1.29279E+14,N21903,Create Fine,complete,14-01-2000 00:00:00.000
+1.28432E+14,N21245,Create Fine,complete,14-01-2000 00:00:00.000
+1.29777E+14,N22084,Create Fine,complete,14-01-2000 00:00:00.000
+5.10199E+14,S47864,Create Fine,complete,14-01-2000 00:00:00.000
+1.30631E+14,N22486,Create Fine,complete,14-01-2000 00:00:00.000
+1.29781E+14,N22086,Create Fine,complete,14-01-2000 00:00:00.000
+5.08112E+14,S44866,Create Fine,complete,14-01-2000 00:00:00.000
+1.29699E+14,N22060,Payment,complete,14-01-2000 00:00:00.000
+5.09765E+14,S47678,Create Fine,complete,14-01-2000 00:00:00.000
+5.09752E+14,S47674,Create Fine,complete,14-01-2000 00:00:00.000
+1.29725E+14,N22072,Create Fine,complete,14-01-2000 00:00:00.000
+5.10203E+14,S47865,Create Fine,complete,14-01-2000 00:00:00.000
+5.11758E+14,S48957,Payment,complete,14-01-2000 00:00:00.000
+1.30606E+14,N22473,Create Fine,complete,14-01-2000 00:00:00.000
+5.10195E+14,S47863,Create Fine,complete,14-01-2000 00:00:00.000
+5.11054E+14,S48439,Create Fine,complete,14-01-2000 00:00:00.000
+1.29296E+14,N21909,Create Fine,complete,14-01-2000 00:00:00.000
+1.29283E+14,N21906,Create Fine,complete,14-01-2000 00:00:00.000
+1.30627E+14,N22485,Create Fine,complete,14-01-2000 00:00:00.000
+5.08108E+14,S44865,Create Fine,complete,14-01-2000 00:00:00.000
+5.10191E+14,S47862,Create Fine,complete,14-01-2000 00:00:00.000
+1.29721E+14,N22071,Create Fine,complete,14-01-2000 00:00:00.000
+5.10208E+14,S47866,Create Fine,complete,14-01-2000 00:00:00.000
+5.04435E+14,S38060,Create Fine,complete,14-01-2000 00:00:00.000
+5.09761E+14,S47677,Create Fine,complete,14-01-2000 00:00:00.000
+1.29772E+14,N22083,Create Fine,complete,14-01-2000 00:00:00.000
+1.29287E+14,N21907,Create Fine,complete,14-01-2000 00:00:00.000
+5.07455E+14,S44585,Create Fine,complete,14-01-2000 00:00:00.000
+5.08103E+14,S44863,Create Fine,complete,14-01-2000 00:00:00.000
+5.08116E+14,S44867,Create Fine,complete,14-01-2000 00:00:00.000
+5.11784E+14,S48965,Create Fine,complete,15-01-2000 00:00:00.000
+1.29751E+14,N22078,Create Fine,complete,15-01-2000 00:00:00.000
+5.0407E+14,S37644,Create Fine,complete,15-01-2000 00:00:00.000
+1.29747E+14,N22077,Create Fine,complete,15-01-2000 00:00:00.000
+1.28518E+14,N21286,Create Fine,complete,15-01-2000 00:00:00.000
+1.31357E+14,N22759,Create Fine,complete,15-01-2000 00:00:00.000
+1.02444E+14,C10866,Create Fine,complete,15-01-2000 00:00:00.000
+1.29768E+14,N22082,Create Fine,complete,15-01-2000 00:00:00.000
+1.31379E+14,N22764,Create Fine,complete,15-01-2000 00:00:00.000
+5.09774E+14,S47681,Create Fine,complete,15-01-2000 00:00:00.000
+1.31374E+14,N22763,Create Fine,complete,15-01-2000 00:00:00.000
+5.0977E+14,S47680,Create Fine,complete,15-01-2000 00:00:00.000
+1.28501E+14,N21280,Create Fine,complete,15-01-2000 00:00:00.000
+1.02409E+14,C10834,Create Fine,complete,15-01-2000 00:00:00.000
+5.11805E+14,S48973,Create Fine,complete,15-01-2000 00:00:00.000
+1.29764E+14,N22081,Create Fine,complete,15-01-2000 00:00:00.000
+1.3137E+14,N22762,Create Fine,complete,15-01-2000 00:00:00.000
+5.04066E+14,S37641,Create Fine,complete,15-01-2000 00:00:00.000
+1.31366E+14,N22761,Create Fine,complete,15-01-2000 00:00:00.000
+1.31362E+14,N22760,Create Fine,complete,15-01-2000 00:00:00.000
+1.31353E+14,N22758,Create Fine,complete,15-01-2000 00:00:00.000
+1.31349E+14,N22757,Create Fine,complete,15-01-2000 00:00:00.000
+1.31344E+14,N22756,Create Fine,complete,15-01-2000 00:00:00.000
+1.3134E+14,N22755,Create Fine,complete,15-01-2000 00:00:00.000
+1.02444E+14,C10866,Send Fine,complete,15-01-2000 00:00:00.000
+1.30619E+14,N22481,Create Fine,complete,15-01-2000 00:00:00.000
+1.2976E+14,N22080,Create Fine,complete,15-01-2000 00:00:00.000
+5.1129E+14,S48570,Create Fine,complete,15-01-2000 00:00:00.000
+1.02444E+14,C10866,Insert Fine Notification,complete,15-01-2000 00:00:00.000
+1.29755E+14,N22079,Create Fine,complete,15-01-2000 00:00:00.000
+1.30245E+14,N22309,Create Fine,complete,15-01-2000 00:00:00.000
+1.30249E+14,N22310,Create Fine,complete,15-01-2000 00:00:00.000
+5.11801E+14,S48972,Create Fine,complete,15-01-2000 00:00:00.000
+5.11797E+14,S48968,Create Fine,complete,15-01-2000 00:00:00.000
+5.11788E+14,S48966,Create Fine,complete,15-01-2000 00:00:00.000
+1.29742E+14,N22076,Create Fine,complete,15-01-2000 00:00:00.000
+5.04057E+14,S37639,Create Fine,complete,15-01-2000 00:00:00.000
+5.11299E+14,S48572,Create Fine,complete,15-01-2000 00:00:00.000
+5.04062E+14,S37640,Create Fine,complete,15-01-2000 00:00:00.000
+1.28514E+14,N21285,Create Fine,complete,15-01-2000 00:00:00.000
+5.12407E+14,S49415,Create Fine,complete,15-01-2000 00:00:00.000
+1.30623E+14,N22483,Create Fine,complete,15-01-2000 00:00:00.000
+5.12402E+14,S49414,Create Fine,complete,15-01-2000 00:00:00.000
+1.30614E+14,N22478,Create Fine,complete,15-01-2000 00:00:00.000
+1.2851E+14,N21283,Create Fine,complete,15-01-2000 00:00:00.000
+1.28505E+14,N21282,Create Fine,complete,15-01-2000 00:00:00.000
+5.1178E+14,S48964,Create Fine,complete,15-01-2000 00:00:00.000
+5.11294E+14,S48571,Create Fine,complete,15-01-2000 00:00:00.000
+5.11793E+14,S48967,Create Fine,complete,15-01-2000 00:00:00.000
+5.11058E+14,S48441,Create Fine,complete,16-01-2000 00:00:00.000
+5.11307E+14,S48577,Create Fine,complete,16-01-2000 00:00:00.000
+5.11303E+14,S48575,Create Fine,complete,16-01-2000 00:00:00.000
+1.29695E+14,N22059,Payment,complete,17-01-2000 00:00:00.000
+1.31387E+14,N22769,Create Fine,complete,17-01-2000 00:00:00.000
+1.2747E+14,N18632,Create Fine,complete,17-01-2000 00:00:00.000
+1.2979E+14,N22090,Create Fine,complete,17-01-2000 00:00:00.000
+1.30679E+14,N22506,Create Fine,complete,17-01-2000 00:00:00.000
+1.31336E+14,N22753,Payment,complete,17-01-2000 00:00:00.000
+1.27488E+14,N18639,Create Fine,complete,17-01-2000 00:00:00.000
+5.07442E+14,S44575,Payment,complete,17-01-2000 00:00:00.000
+1.30619E+14,N22481,Payment,complete,17-01-2000 00:00:00.000
+1.30198E+14,N22289,Payment,complete,17-01-2000 00:00:00.000
+1.30644E+14,N22492,Create Fine,complete,17-01-2000 00:00:00.000
+5.09731E+14,S47667,Payment,complete,17-01-2000 00:00:00.000
+1.29755E+14,N22079,Payment,complete,17-01-2000 00:00:00.000
+1.3064E+14,N22488,Create Fine,complete,17-01-2000 00:00:00.000
+1.31443E+14,N22786,Create Fine,complete,17-01-2000 00:00:00.000
+1.29785E+14,N22089,Create Fine,complete,17-01-2000 00:00:00.000
+1.29807E+14,N22096,Create Fine,complete,17-01-2000 00:00:00.000
+5.11058E+14,S48441,Payment,complete,17-01-2000 00:00:00.000
+1.30636E+14,N22487,Create Fine,complete,17-01-2000 00:00:00.000
+1.29803E+14,N22094,Create Fine,complete,17-01-2000 00:00:00.000
+1.27466E+14,N18630,Create Fine,complete,17-01-2000 00:00:00.000
+1.31413E+14,N22775,Create Fine,complete,17-01-2000 00:00:00.000
+1.31409E+14,N22774,Create Fine,complete,17-01-2000 00:00:00.000
+5.10191E+14,S47862,Payment,complete,17-01-2000 00:00:00.000
+1.27483E+14,N18638,Create Fine,complete,17-01-2000 00:00:00.000
+1.31405E+14,N22773,Create Fine,complete,17-01-2000 00:00:00.000
+1.31392E+14,N22770,Create Fine,complete,17-01-2000 00:00:00.000
+1.31383E+14,N22767,Create Fine,complete,17-01-2000 00:00:00.000
+1.314E+14,N22772,Create Fine,complete,17-01-2000 00:00:00.000
+1.31396E+14,N22771,Create Fine,complete,17-01-2000 00:00:00.000
+5.09778E+14,S47682,Create Fine,complete,17-01-2000 00:00:00.000
+1.29798E+14,N22093,Create Fine,complete,17-01-2000 00:00:00.000
+1.29794E+14,N22091,Create Fine,complete,17-01-2000 00:00:00.000
+1.30649E+14,N22495,Create Fine,complete,17-01-2000 00:00:00.000
+1.31439E+14,N22785,Create Fine,complete,18-01-2000 00:00:00.000
+1.29309E+14,N21914,Create Fine,complete,18-01-2000 00:00:00.000
+1.29304E+14,N21912,Create Fine,complete,18-01-2000 00:00:00.000
+1.293E+14,N21910,Create Fine,complete,18-01-2000 00:00:00.000
+1.29854E+14,N22111,Create Fine,complete,18-01-2000 00:00:00.000
+5.11801E+14,S48972,Payment,complete,18-01-2000 00:00:00.000
+5.0739E+14,S44328,Create Fine,complete,18-01-2000 00:00:00.000
+1.2985E+14,N22109,Create Fine,complete,18-01-2000 00:00:00.000
+1.55946E+14,N31815,Create Fine,complete,18-01-2000 00:00:00.000
+1.5595E+14,N31817,Create Fine,complete,18-01-2000 00:00:00.000
+5.11767E+14,S48961,Payment,complete,18-01-2000 00:00:00.000
+5.0444E+14,S38062,Create Fine,complete,18-01-2000 00:00:00.000
+1.2936E+14,N21931,Create Fine,complete,18-01-2000 00:00:00.000
+5.0971E+14,S47660,Payment,complete,18-01-2000 00:00:00.000
+1.28553E+14,N21298,Create Fine,complete,18-01-2000 00:00:00.000
+1.28548E+14,N21296,Create Fine,complete,18-01-2000 00:00:00.000
+1.28544E+14,N21295,Payment,complete,18-01-2000 00:00:00.000
+1.28544E+14,N21295,Create Fine,complete,18-01-2000 00:00:00.000
+1.2854E+14,N21294,Create Fine,complete,18-01-2000 00:00:00.000
+1.28535E+14,N21293,Create Fine,complete,18-01-2000 00:00:00.000
+5.09718E+14,S47663,Payment,complete,18-01-2000 00:00:00.000
+1.28531E+14,N21292,Create Fine,complete,18-01-2000 00:00:00.000
+1.28527E+14,N21291,Create Fine,complete,18-01-2000 00:00:00.000
+1.28523E+14,N21288,Create Fine,complete,18-01-2000 00:00:00.000
+1.28475E+14,N21273,Payment,complete,18-01-2000 00:00:00.000
+5.10182E+14,S47859,Payment,complete,18-01-2000 00:00:00.000
+1.29622E+14,N22036,Payment,complete,18-01-2000 00:00:00.000
+5.09783E+14,S47686,Create Fine,complete,18-01-2000 00:00:00.000
+5.09787E+14,S47687,Create Fine,complete,18-01-2000 00:00:00.000
+5.09791E+14,S47690,Create Fine,complete,18-01-2000 00:00:00.000
+5.09795E+14,S47691,Create Fine,complete,18-01-2000 00:00:00.000
+5.098E+14,S47692,Create Fine,complete,18-01-2000 00:00:00.000
+1.3064E+14,N22488,Payment,complete,18-01-2000 00:00:00.000
+1.30653E+14,N22498,Create Fine,complete,18-01-2000 00:00:00.000
+1.30657E+14,N22500,Create Fine,complete,18-01-2000 00:00:00.000
+1.30661E+14,N22502,Create Fine,complete,18-01-2000 00:00:00.000
+5.11067E+14,S48446,Create Fine,complete,18-01-2000 00:00:00.000
+1.30666E+14,N22503,Create Fine,complete,18-01-2000 00:00:00.000
+1.3067E+14,N22504,Create Fine,complete,18-01-2000 00:00:00.000
+1.30674E+14,N22505,Create Fine,complete,18-01-2000 00:00:00.000
+1.30692E+14,N22510,Create Fine,complete,18-01-2000 00:00:00.000
+1.29768E+14,N22082,Payment,complete,18-01-2000 00:00:00.000
+5.08206E+14,S44906,Payment,complete,18-01-2000 00:00:00.000
+1.02396E+14,C10822,Insert Fine Notification,complete,18-01-2000 00:00:00.000
+1.31447E+14,N22788,Create Fine,complete,18-01-2000 00:00:00.000
+1.31435E+14,N22784,Create Fine,complete,18-01-2000 00:00:00.000
+1.3143E+14,N22783,Create Fine,complete,18-01-2000 00:00:00.000
+1.31426E+14,N22782,Create Fine,complete,18-01-2000 00:00:00.000
+1.31422E+14,N22780,Create Fine,complete,18-01-2000 00:00:00.000
+1.31417E+14,N22779,Create Fine,complete,18-01-2000 00:00:00.000
+1.31409E+14,N22774,Payment,complete,18-01-2000 00:00:00.000
+5.08129E+14,S44874,Create Fine,complete,18-01-2000 00:00:00.000
+5.08125E+14,S44872,Create Fine,complete,18-01-2000 00:00:00.000
+5.0812E+14,S44871,Create Fine,complete,18-01-2000 00:00:00.000
+1.02396E+14,C10822,Send Fine,complete,18-01-2000 00:00:00.000
+1.02396E+14,C10822,Create Fine,complete,18-01-2000 00:00:00.000
+1.02383E+14,C10798,Insert Fine Notification,complete,18-01-2000 00:00:00.000
+1.02383E+14,C10798,Send Fine,complete,18-01-2000 00:00:00.000
+1.02383E+14,C10798,Create Fine,complete,18-01-2000 00:00:00.000
+5.12411E+14,S49416,Create Fine,complete,18-01-2000 00:00:00.000
+5.11062E+14,S48445,Create Fine,complete,18-01-2000 00:00:00.000
+5.12381E+14,S49406,Payment,complete,18-01-2000 00:00:00.000
+1.314E+14,N22772,Payment,complete,19-01-2000 00:00:00.000
+1.29364E+14,N21933,Create Fine,complete,19-01-2000 00:00:00.000
+5.08099E+14,S44861,Payment,complete,19-01-2000 00:00:00.000
+5.11041E+14,S48434,Payment,complete,19-01-2000 00:00:00.000
+5.07459E+14,S44586,Create Fine,complete,19-01-2000 00:00:00.000
+1.27475E+14,N18633,Create Fine,complete,19-01-2000 00:00:00.000
+5.12385E+14,S49408,Payment,complete,19-01-2000 00:00:00.000
+1.29841E+14,N22107,Create Fine,complete,19-01-2000 00:00:00.000
+1.29828E+14,N22103,Create Fine,complete,19-01-2000 00:00:00.000
+5.05982E+14,S42937,Create Fine,complete,19-01-2000 00:00:00.000
+1.27475E+14,N18633,Payment,complete,19-01-2000 00:00:00.000
+1.29824E+14,N22101,Create Fine,complete,19-01-2000 00:00:00.000
+5.09821E+14,S47697,Create Fine,complete,19-01-2000 00:00:00.000
+1.2982E+14,N22099,Create Fine,complete,19-01-2000 00:00:00.000
+5.12398E+14,S49412,Payment,complete,19-01-2000 00:00:00.000
+1.29317E+14,N21917,Create Fine,complete,19-01-2000 00:00:00.000
+1.30683E+14,N22508,Create Fine,complete,19-01-2000 00:00:00.000
+1.30722E+14,N22521,Create Fine,complete,19-01-2000 00:00:00.000
+1.29317E+14,N21917,Payment,complete,19-01-2000 00:00:00.000
+1.30726E+14,N22522,Create Fine,complete,19-01-2000 00:00:00.000
+1.29845E+14,N22108,Create Fine,complete,19-01-2000 00:00:00.000
+1.29321E+14,N21918,Create Fine,complete,19-01-2000 00:00:00.000
+1.27496E+14,N18642,Create Fine,complete,19-01-2000 00:00:00.000
+1.3073E+14,N22523,Create Fine,complete,19-01-2000 00:00:00.000
+1.29815E+14,N22098,Create Fine,complete,19-01-2000 00:00:00.000
+1.27479E+14,N18635,Create Fine,complete,19-01-2000 00:00:00.000
+1.29304E+14,N21912,Payment,complete,19-01-2000 00:00:00.000
+5.09821E+14,S47697,Payment,complete,19-01-2000 00:00:00.000
+1.275E+14,N18643,Create Fine,complete,19-01-2000 00:00:00.000
+5.09826E+14,S47698,Create Fine,complete,19-01-2000 00:00:00.000
+5.09813E+14,S47695,Payment,complete,19-01-2000 00:00:00.000
+1.30687E+14,N22509,Create Fine,complete,19-01-2000 00:00:00.000
+5.0983E+14,S47700,Create Fine,complete,19-01-2000 00:00:00.000
+5.09813E+14,S47695,Create Fine,complete,19-01-2000 00:00:00.000
+5.09808E+14,S47694,Create Fine,complete,19-01-2000 00:00:00.000
+1.29811E+14,N22097,Create Fine,complete,19-01-2000 00:00:00.000
+1.29326E+14,N21919,Create Fine,complete,19-01-2000 00:00:00.000
+5.09804E+14,S47693,Create Fine,complete,19-01-2000 00:00:00.000
+5.12441E+14,S49433,Create Fine,complete,19-01-2000 00:00:00.000
+1.29313E+14,N21916,Create Fine,complete,19-01-2000 00:00:00.000
+1.29837E+14,N22106,Create Fine,complete,19-01-2000 00:00:00.000
+1.29833E+14,N22105,Create Fine,complete,19-01-2000 00:00:00.000
+1.31374E+14,N22763,Payment,complete,20-01-2000 00:00:00.000
+1.28557E+14,N21299,Create Fine,complete,20-01-2000 00:00:00.000
+1.307E+14,N22515,Create Fine,complete,20-01-2000 00:00:00.000
+1.30704E+14,N22516,Create Fine,complete,20-01-2000 00:00:00.000
+1.2933E+14,N21922,Create Fine,complete,20-01-2000 00:00:00.000
+1.30747E+14,N22530,Create Fine,complete,20-01-2000 00:00:00.000
+1.29334E+14,N21923,Create Fine,complete,20-01-2000 00:00:00.000
+1.30709E+14,N22518,Create Fine,complete,20-01-2000 00:00:00.000
+1.29352E+14,N21929,Create Fine,complete,20-01-2000 00:00:00.000
+1.27509E+14,N18649,Create Fine,complete,20-01-2000 00:00:00.000
+1.29347E+14,N21928,Create Fine,complete,20-01-2000 00:00:00.000
+1.28561E+14,N21302,Create Fine,complete,20-01-2000 00:00:00.000
+1.30743E+14,N22529,Create Fine,complete,20-01-2000 00:00:00.000
+1.30696E+14,N22514,Create Fine,complete,20-01-2000 00:00:00.000
+1.27492E+14,N18641,Create Fine,complete,20-01-2000 00:00:00.000
+5.10208E+14,S47866,Payment,complete,20-01-2000 00:00:00.000
+1.30713E+14,N22519,Create Fine,complete,20-01-2000 00:00:00.000
+1.30717E+14,N22520,Create Fine,complete,20-01-2000 00:00:00.000
+1.29343E+14,N21927,Create Fine,complete,20-01-2000 00:00:00.000
+1.29339E+14,N21924,Create Fine,complete,20-01-2000 00:00:00.000
+1.29356E+14,N21930,Create Fine,complete,20-01-2000 00:00:00.000
+1.28566E+14,N21303,Create Fine,complete,20-01-2000 00:00:00.000
+1.27505E+14,N18644,Create Fine,complete,21-01-2000 00:00:00.000
+5.11913E+14,S49083,Create Fine,complete,21-01-2000 00:00:00.000
+5.07463E+14,S44590,Create Fine,complete,21-01-2000 00:00:00.000
+1.30752E+14,N22531,Create Fine,complete,21-01-2000 00:00:00.000
+5.10221E+14,S47873,Create Fine,complete,21-01-2000 00:00:00.000
+1.2991E+14,N22129,Create Fine,complete,21-01-2000 00:00:00.000
+1.29412E+14,N21947,Create Fine,complete,21-01-2000 00:00:00.000
+5.0977E+14,S47680,Payment,complete,21-01-2000 00:00:00.000
+5.07468E+14,S44591,Create Fine,complete,21-01-2000 00:00:00.000
+1.29725E+14,N22072,Payment,complete,21-01-2000 00:00:00.000
+5.1132E+14,S48582,Create Fine,complete,21-01-2000 00:00:00.000
+5.09834E+14,S47701,Create Fine,complete,21-01-2000 00:00:00.000
+5.09843E+14,S47703,Create Fine,complete,21-01-2000 00:00:00.000
+5.08202E+14,S44905,Payment,complete,21-01-2000 00:00:00.000
+5.04422E+14,S38052,Payment,complete,21-01-2000 00:00:00.000
+5.11896E+14,S49076,Create Fine,complete,21-01-2000 00:00:00.000
+1.29871E+14,N22116,Create Fine,complete,21-01-2000 00:00:00.000
+1.30623E+14,N22483,Payment,complete,21-01-2000 00:00:00.000
+5.12411E+14,S49416,Payment,complete,21-01-2000 00:00:00.000
+1.29876E+14,N22117,Create Fine,complete,21-01-2000 00:00:00.000
+5.11316E+14,S48580,Create Fine,complete,21-01-2000 00:00:00.000
+1.29377E+14,N21937,Create Fine,complete,21-01-2000 00:00:00.000
+5.09838E+14,S47702,Create Fine,complete,21-01-2000 00:00:00.000
+5.10216E+14,S47872,Create Fine,complete,21-01-2000 00:00:00.000
+1.29863E+14,N22114,Create Fine,complete,21-01-2000 00:00:00.000
+1.30425E+14,N22410,Payment,complete,21-01-2000 00:00:00.000
+5.11909E+14,S49082,Create Fine,complete,21-01-2000 00:00:00.000
+5.10225E+14,S47874,Create Fine,complete,21-01-2000 00:00:00.000
+1.27522E+14,N18656,Create Fine,complete,21-01-2000 00:00:00.000
+1.30735E+14,N22525,Create Fine,complete,21-01-2000 00:00:00.000
+1.29313E+14,N21916,Payment,complete,21-01-2000 00:00:00.000
+5.11904E+14,S49080,Create Fine,complete,21-01-2000 00:00:00.000
+5.09765E+14,S47678,Payment,complete,21-01-2000 00:00:00.000
+1.29867E+14,N22115,Create Fine,complete,21-01-2000 00:00:00.000
+1.29407E+14,N21946,Create Fine,complete,21-01-2000 00:00:00.000
+1.30232E+14,N22300,Payment,complete,21-01-2000 00:00:00.000
+5.1242E+14,S49421,Create Fine,complete,21-01-2000 00:00:00.000
+4.47759E+14,S15998,Create Fine,complete,21-01-2000 00:00:00.000
+5.1181E+14,S48974,Create Fine,complete,21-01-2000 00:00:00.000
+1.29373E+14,N21936,Create Fine,complete,21-01-2000 00:00:00.000
+5.11312E+14,S48579,Create Fine,complete,21-01-2000 00:00:00.000
+1.30249E+14,N22310,Payment,complete,21-01-2000 00:00:00.000
+1.29369E+14,N21935,Create Fine,complete,21-01-2000 00:00:00.000
+1.29403E+14,N21944,Create Fine,complete,21-01-2000 00:00:00.000
+1.29858E+14,N22112,Create Fine,complete,21-01-2000 00:00:00.000
+1.30739E+14,N22526,Create Fine,complete,21-01-2000 00:00:00.000
+5.10212E+14,S47870,Create Fine,complete,21-01-2000 00:00:00.000
+5.12415E+14,S49419,Create Fine,complete,21-01-2000 00:00:00.000
+5.05483E+14,S42689,Payment,complete,21-01-2000 00:00:00.000
+1.28557E+14,N21299,Payment,complete,21-01-2000 00:00:00.000
+5.119E+14,S49079,Create Fine,complete,21-01-2000 00:00:00.000
+5.11827E+14,S48980,Create Fine,complete,22-01-2000 00:00:00.000
+1.29382E+14,N21939,Create Fine,complete,22-01-2000 00:00:00.000
+1.2988E+14,N22118,Create Fine,complete,22-01-2000 00:00:00.000
+1.29394E+14,N21942,Create Fine,complete,22-01-2000 00:00:00.000
+1.29884E+14,N22119,Create Fine,complete,22-01-2000 00:00:00.000
+1.02379E+14,C10794,Create Fine,complete,22-01-2000 00:00:00.000
+1.02379E+14,C10794,Send Fine,complete,22-01-2000 00:00:00.000
+1.02379E+14,C10794,Insert Fine Notification,complete,22-01-2000 00:00:00.000
+1.29888E+14,N22122,Create Fine,complete,22-01-2000 00:00:00.000
+5.11342E+14,S48590,Create Fine,complete,22-01-2000 00:00:00.000
+1.27535E+14,N18664,Create Fine,complete,22-01-2000 00:00:00.000
+1.29893E+14,N22123,Create Fine,complete,22-01-2000 00:00:00.000
+1.27518E+14,N18652,Create Fine,complete,22-01-2000 00:00:00.000
+1.2857E+14,N21305,Create Fine,complete,22-01-2000 00:00:00.000
+5.11784E+14,S48965,Payment,complete,22-01-2000 00:00:00.000
+1.29897E+14,N22126,Create Fine,complete,22-01-2000 00:00:00.000
+1.28574E+14,N21306,Create Fine,complete,22-01-2000 00:00:00.000
+1.29901E+14,N22127,Create Fine,complete,22-01-2000 00:00:00.000
+1.29906E+14,N22128,Create Fine,complete,22-01-2000 00:00:00.000
+1.28578E+14,N21307,Create Fine,complete,22-01-2000 00:00:00.000
+1.31344E+14,N22756,Payment,complete,22-01-2000 00:00:00.000
+1.28583E+14,N21309,Create Fine,complete,22-01-2000 00:00:00.000
+1.2939E+14,N21941,Create Fine,complete,22-01-2000 00:00:00.000
+1.2933E+14,N21922,Payment,complete,22-01-2000 00:00:00.000
+1.28587E+14,N21310,Create Fine,complete,22-01-2000 00:00:00.000
+5.04452E+14,S38066,Create Fine,complete,22-01-2000 00:00:00.000
+1.29386E+14,N21940,Create Fine,complete,22-01-2000 00:00:00.000
+1.27539E+14,N18665,Create Fine,complete,22-01-2000 00:00:00.000
+1.29399E+14,N21943,Create Fine,complete,22-01-2000 00:00:00.000
+1.27513E+14,N18651,Create Fine,complete,22-01-2000 00:00:00.000
+5.11814E+14,S48977,Create Fine,complete,22-01-2000 00:00:00.000
+1.27543E+14,N18666,Create Fine,complete,22-01-2000 00:00:00.000
+5.04448E+14,S38065,Create Fine,complete,22-01-2000 00:00:00.000
+5.11818E+14,S48978,Create Fine,complete,22-01-2000 00:00:00.000
+5.04444E+14,S38064,Create Fine,complete,22-01-2000 00:00:00.000
+5.11823E+14,S48979,Create Fine,complete,22-01-2000 00:00:00.000
+5.04457E+14,S38067,Create Fine,complete,22-01-2000 00:00:00.000
+4.47793E+14,S15999,Create Fine,complete,23-01-2000 00:00:00.000
+5.08155E+14,S44881,Create Fine,complete,23-01-2000 00:00:00.000
+5.09851E+14,S47708,Create Fine,complete,23-01-2000 00:00:00.000
+5.0815E+14,S44879,Create Fine,complete,23-01-2000 00:00:00.000
+5.09864E+14,S47714,Create Fine,complete,23-01-2000 00:00:00.000
+5.08146E+14,S44878,Create Fine,complete,23-01-2000 00:00:00.000
+5.0986E+14,S47713,Create Fine,complete,23-01-2000 00:00:00.000
+5.09856E+14,S47712,Create Fine,complete,23-01-2000 00:00:00.000
+5.09847E+14,S47706,Create Fine,complete,23-01-2000 00:00:00.000
+5.08142E+14,S44877,Create Fine,complete,23-01-2000 00:00:00.000
+5.08138E+14,S44876,Create Fine,complete,23-01-2000 00:00:00.000
+5.08133E+14,S44875,Create Fine,complete,23-01-2000 00:00:00.000
+5.08163E+14,S44885,Create Fine,complete,23-01-2000 00:00:00.000
+5.08159E+14,S44883,Create Fine,complete,23-01-2000 00:00:00.000
+1.30786E+14,N22548,Create Fine,complete,24-01-2000 00:00:00.000
+5.09783E+14,S47686,Payment,complete,24-01-2000 00:00:00.000
+1.3079E+14,N22549,Create Fine,complete,24-01-2000 00:00:00.000
+1.28574E+14,N21306,Payment,complete,24-01-2000 00:00:00.000
+5.08116E+14,S44867,Payment,complete,24-01-2000 00:00:00.000
+5.11329E+14,S48586,Create Fine,complete,24-01-2000 00:00:00.000
+5.1135E+14,S48592,Create Fine,complete,24-01-2000 00:00:00.000
+5.07472E+14,S44592,Create Fine,complete,24-01-2000 00:00:00.000
+1.29914E+14,N22130,Create Fine,complete,24-01-2000 00:00:00.000
+1.29425E+14,N21953,Create Fine,complete,24-01-2000 00:00:00.000
+1.29833E+14,N22105,Payment,complete,24-01-2000 00:00:00.000
+1.29914E+14,N22130,Send Fine,complete,24-01-2000 00:00:00.000
+5.11831E+14,S48984,Create Fine,complete,24-01-2000 00:00:00.000
+5.09826E+14,S47698,Payment,complete,24-01-2000 00:00:00.000
+1.29433E+14,N21956,Create Fine,complete,24-01-2000 00:00:00.000
+5.09989E+14,S47796,Payment,complete,24-01-2000 00:00:00.000
+5.11346E+14,S48591,Create Fine,complete,24-01-2000 00:00:00.000
+1.29918E+14,N22131,Create Fine,complete,24-01-2000 00:00:00.000
+5.11836E+14,S48986,Create Fine,complete,24-01-2000 00:00:00.000
+1.29918E+14,N22131,Payment,complete,24-01-2000 00:00:00.000
+1.29923E+14,N22132,Create Fine,complete,24-01-2000 00:00:00.000
+5.11342E+14,S48590,Payment,complete,24-01-2000 00:00:00.000
+5.11324E+14,S48585,Create Fine,complete,24-01-2000 00:00:00.000
+1.29927E+14,N22134,Create Fine,complete,24-01-2000 00:00:00.000
+1.29416E+14,N21950,Create Fine,complete,24-01-2000 00:00:00.000
+1.293E+14,N21910,Payment,complete,24-01-2000 00:00:00.000
+1.29931E+14,N22135,Create Fine,complete,24-01-2000 00:00:00.000
+5.11337E+14,S48588,Create Fine,complete,24-01-2000 00:00:00.000
+5.09722E+14,S47664,Payment,complete,24-01-2000 00:00:00.000
+1.29429E+14,N21955,Create Fine,complete,24-01-2000 00:00:00.000
+1.28312E+14,N21200,Payment,complete,24-01-2000 00:00:00.000
+1.2942E+14,N21951,Create Fine,complete,24-01-2000 00:00:00.000
+5.11333E+14,S48587,Create Fine,complete,24-01-2000 00:00:00.000
+5.05986E+14,S42940,Create Fine,complete,24-01-2000 00:00:00.000
+1.29876E+14,N22117,Payment,complete,24-01-2000 00:00:00.000
+5.05982E+14,S42937,Payment,complete,24-01-2000 00:00:00.000
+5.1239E+14,S49409,Payment,complete,24-01-2000 00:00:00.000
+1.30756E+14,N22535,Create Fine,complete,24-01-2000 00:00:00.000
+5.09787E+14,S47687,Payment,complete,24-01-2000 00:00:00.000
+1.3076E+14,N22536,Create Fine,complete,24-01-2000 00:00:00.000
+5.11355E+14,S48593,Create Fine,complete,24-01-2000 00:00:00.000
+1.30765E+14,N22539,Create Fine,complete,24-01-2000 00:00:00.000
+1.29957E+14,N22143,Create Fine,complete,24-01-2000 00:00:00.000
+5.09834E+14,S47701,Payment,complete,24-01-2000 00:00:00.000
+1.31469E+14,N22793,Create Fine,complete,25-01-2000 00:00:00.000
+1.29953E+14,N22142,Create Fine,complete,25-01-2000 00:00:00.000
+1.31473E+14,N22795,Create Fine,complete,25-01-2000 00:00:00.000
+1.30782E+14,N22547,Create Fine,complete,25-01-2000 00:00:00.000
+5.09808E+14,S47694,Payment,complete,25-01-2000 00:00:00.000
+5.12428E+14,S49425,Create Fine,complete,25-01-2000 00:00:00.000
+5.04461E+14,S38069,Create Fine,complete,25-01-2000 00:00:00.000
+1.31478E+14,N22796,Create Fine,complete,25-01-2000 00:00:00.000
+5.05986E+14,S42940,Payment,complete,25-01-2000 00:00:00.000
+1.3134E+14,N22755,Payment,complete,25-01-2000 00:00:00.000
+5.0447E+14,S38072,Create Fine,complete,25-01-2000 00:00:00.000
+5.12424E+14,S49424,Create Fine,complete,25-01-2000 00:00:00.000
+5.07476E+14,S44594,Create Fine,complete,25-01-2000 00:00:00.000
+1.30773E+14,N22543,Create Fine,complete,25-01-2000 00:00:00.000
+1.30769E+14,N22541,Create Fine,complete,25-01-2000 00:00:00.000
+1.29871E+14,N22116,Payment,complete,25-01-2000 00:00:00.000
+5.11363E+14,S48595,Create Fine,complete,25-01-2000 00:00:00.000
+5.11071E+14,S48448,Create Fine,complete,25-01-2000 00:00:00.000
+1.2994E+14,N22138,Create Fine,complete,25-01-2000 00:00:00.000
+1.29936E+14,N22137,Create Fine,complete,25-01-2000 00:00:00.000
+1.02392E+14,C10811,Send Fine,complete,25-01-2000 00:00:00.000
+1.02392E+14,C10811,Insert Fine Notification,complete,25-01-2000 00:00:00.000
+1.29944E+14,N22139,Create Fine,complete,25-01-2000 00:00:00.000
+1.30777E+14,N22546,Create Fine,complete,25-01-2000 00:00:00.000
+1.29403E+14,N21944,Payment,complete,25-01-2000 00:00:00.000
+5.11359E+14,S48594,Create Fine,complete,25-01-2000 00:00:00.000
+1.02392E+14,C10811,Create Fine,complete,25-01-2000 00:00:00.000
+5.11075E+14,S48449,Create Fine,complete,25-01-2000 00:00:00.000
+1.2753E+14,N18663,Create Fine,complete,25-01-2000 00:00:00.000
+1.29983E+14,N22150,Create Fine,complete,25-01-2000 00:00:00.000
+1.29979E+14,N22149,Create Fine,complete,25-01-2000 00:00:00.000
+5.12437E+14,S49427,Create Fine,complete,25-01-2000 00:00:00.000
+5.04465E+14,S38070,Create Fine,complete,25-01-2000 00:00:00.000
+1.31452E+14,N22789,Create Fine,complete,25-01-2000 00:00:00.000
+1.29987E+14,N22151,Create Fine,complete,25-01-2000 00:00:00.000
+5.12433E+14,S49426,Create Fine,complete,25-01-2000 00:00:00.000
+1.29949E+14,N22140,Create Fine,complete,25-01-2000 00:00:00.000
+1.31456E+14,N22790,Create Fine,complete,25-01-2000 00:00:00.000
+1.27526E+14,N18659,Create Fine,complete,25-01-2000 00:00:00.000
+1.3146E+14,N22791,Create Fine,complete,25-01-2000 00:00:00.000
+1.31465E+14,N22792,Create Fine,complete,25-01-2000 00:00:00.000
+1.29974E+14,N22148,Create Fine,complete,26-01-2000 00:00:00.000
+1.2939E+14,N21941,Payment,complete,26-01-2000 00:00:00.000
+1.31533E+14,N22814,Create Fine,complete,26-01-2000 00:00:00.000
+5.05492E+14,S42693,Create Fine,complete,26-01-2000 00:00:00.000
+5.09868E+14,S47715,Create Fine,complete,26-01-2000 00:00:00.000
+1.31482E+14,N22798,Create Fine,complete,26-01-2000 00:00:00.000
+1.31486E+14,N22799,Create Fine,complete,26-01-2000 00:00:00.000
+5.11367E+14,S48597,Create Fine,complete,26-01-2000 00:00:00.000
+1.3E+14,N22155,Create Fine,complete,26-01-2000 00:00:00.000
+5.0812E+14,S44871,Payment,complete,26-01-2000 00:00:00.000
+1.3149E+14,N22800,Create Fine,complete,26-01-2000 00:00:00.000
+5.10229E+14,S47879,Create Fine,complete,26-01-2000 00:00:00.000
+1.30004E+14,N22156,Create Fine,complete,26-01-2000 00:00:00.000
+5.09873E+14,S47718,Create Fine,complete,26-01-2000 00:00:00.000
+1.31495E+14,N22803,Create Fine,complete,26-01-2000 00:00:00.000
+5.10229E+14,S47879,Payment,complete,26-01-2000 00:00:00.000
+1.29446E+14,N21959,Create Fine,complete,26-01-2000 00:00:00.000
+1.02401E+14,C10823,Create Fine,complete,26-01-2000 00:00:00.000
+1.29837E+14,N22106,Payment,complete,26-01-2000 00:00:00.000
+1.2997E+14,N22147,Create Fine,complete,26-01-2000 00:00:00.000
+5.0748E+14,S44596,Create Fine,complete,26-01-2000 00:00:00.000
+1.31499E+14,N22804,Create Fine,complete,26-01-2000 00:00:00.000
+1.29961E+14,N22145,Create Fine,complete,26-01-2000 00:00:00.000
+1.31503E+14,N22805,Create Fine,complete,26-01-2000 00:00:00.000
+1.31508E+14,N22806,Create Fine,complete,26-01-2000 00:00:00.000
+1.31512E+14,N22808,Create Fine,complete,26-01-2000 00:00:00.000
+1.31516E+14,N22809,Create Fine,complete,26-01-2000 00:00:00.000
+1.3152E+14,N22810,Create Fine,complete,26-01-2000 00:00:00.000
+1.2945E+14,N21960,Create Fine,complete,26-01-2000 00:00:00.000
+5.10221E+14,S47873,Payment,complete,26-01-2000 00:00:00.000
+5.11363E+14,S48595,Payment,complete,26-01-2000 00:00:00.000
+1.31525E+14,N22811,Create Fine,complete,26-01-2000 00:00:00.000
+5.07485E+14,S44597,Create Fine,complete,26-01-2000 00:00:00.000
+1.29437E+14,N21957,Create Fine,complete,26-01-2000 00:00:00.000
+5.04075E+14,S37647,Create Fine,complete,26-01-2000 00:00:00.000
+5.09705E+14,S47659,Payment,complete,26-01-2000 00:00:00.000
+1.31529E+14,N22812,Create Fine,complete,26-01-2000 00:00:00.000
+5.09877E+14,S47719,Create Fine,complete,26-01-2000 00:00:00.000
+1.29442E+14,N21958,Create Fine,complete,26-01-2000 00:00:00.000
+1.29966E+14,N22146,Create Fine,complete,26-01-2000 00:00:00.000
+5.08138E+14,S44876,Payment,complete,26-01-2000 00:00:00.000
+5.1184E+14,S48989,Create Fine,complete,27-01-2000 00:00:00.000
+1.30455E+14,N22419,Payment,complete,27-01-2000 00:00:00.000
+1.29996E+14,N22153,Create Fine,complete,27-01-2000 00:00:00.000
+1.29991E+14,N22152,Create Fine,complete,27-01-2000 00:00:00.000
+5.11844E+14,S48991,Create Fine,complete,27-01-2000 00:00:00.000
+1.28591E+14,N21311,Create Fine,complete,27-01-2000 00:00:00.000
+1.28596E+14,N21312,Create Fine,complete,27-01-2000 00:00:00.000
+5.098E+14,S47692,Payment,complete,27-01-2000 00:00:00.000
+5.0858E+14,S45061,Create Fine,complete,27-01-2000 00:00:00.000
+5.08576E+14,S45060,Create Fine,complete,27-01-2000 00:00:00.000
+5.08571E+14,S45059,Create Fine,complete,27-01-2000 00:00:00.000
+1.286E+14,N21313,Create Fine,complete,27-01-2000 00:00:00.000
+5.08567E+14,S45058,Create Fine,complete,27-01-2000 00:00:00.000
+1.30563E+14,N22456,Payment,complete,27-01-2000 00:00:00.000
+5.08563E+14,S45055,Create Fine,complete,27-01-2000 00:00:00.000
+5.08558E+14,S45054,Create Fine,complete,27-01-2000 00:00:00.000
+5.08554E+14,S45053,Create Fine,complete,27-01-2000 00:00:00.000
+1.28604E+14,N21314,Create Fine,complete,27-01-2000 00:00:00.000
+5.05496E+14,S42694,Create Fine,complete,27-01-2000 00:00:00.000
+1.29472E+14,N21967,Create Fine,complete,27-01-2000 00:00:00.000
+1.29467E+14,N21966,Create Fine,complete,27-01-2000 00:00:00.000
+1.31512E+14,N22808,Payment,complete,27-01-2000 00:00:00.000
+5.08211E+14,S44908,Create Fine,complete,27-01-2000 00:00:00.000
+1.29463E+14,N21965,Create Fine,complete,27-01-2000 00:00:00.000
+1.29459E+14,N21963,Create Fine,complete,27-01-2000 00:00:00.000
+5.1108E+14,S48450,Create Fine,complete,27-01-2000 00:00:00.000
+1.29455E+14,N21962,Create Fine,complete,27-01-2000 00:00:00.000
+5.09881E+14,S47720,Create Fine,complete,27-01-2000 00:00:00.000
+5.09886E+14,S47721,Create Fine,complete,27-01-2000 00:00:00.000
+1.30795E+14,N22550,Create Fine,complete,27-01-2000 00:00:00.000
+1.02435E+14,C10860,Create Fine,complete,27-01-2000 00:00:00.000
+5.11853E+14,S48998,Create Fine,complete,27-01-2000 00:00:00.000
+5.10899E+14,S48355,Create Fine,complete,27-01-2000 00:00:00.000
+5.10904E+14,S48357,Create Fine,complete,27-01-2000 00:00:00.000
+5.11857E+14,S49000,Create Fine,complete,27-01-2000 00:00:00.000
+5.10908E+14,S48358,Create Fine,complete,27-01-2000 00:00:00.000
+1.29493E+14,N21978,Create Fine,complete,28-01-2000 00:00:00.000
+1.31589E+14,N22829,Create Fine,complete,28-01-2000 00:00:00.000
+1.31585E+14,N22828,Create Fine,complete,28-01-2000 00:00:00.000
+5.05127E+14,S39549,Create Fine,complete,28-01-2000 00:00:00.000
+1.30013E+14,N22159,Create Fine,complete,28-01-2000 00:00:00.000
+1.30017E+14,N22160,Create Fine,complete,28-01-2000 00:00:00.000
+1.30022E+14,N22162,Create Fine,complete,28-01-2000 00:00:00.000
+1.30026E+14,N22163,Create Fine,complete,28-01-2000 00:00:00.000
+1.2948E+14,N21969,Create Fine,complete,28-01-2000 00:00:00.000
+1.30846E+14,N22571,Create Fine,complete,28-01-2000 00:00:00.000
+5.12437E+14,S49427,Payment,complete,28-01-2000 00:00:00.000
+1.30812E+14,N22558,Create Fine,complete,28-01-2000 00:00:00.000
+1.30808E+14,N22556,Create Fine,complete,28-01-2000 00:00:00.000
+1.30803E+14,N22554,Create Fine,complete,28-01-2000 00:00:00.000
+1.30799E+14,N22553,Create Fine,complete,28-01-2000 00:00:00.000
+1.02405E+14,C10825,Insert Fine Notification,complete,28-01-2000 00:00:00.000
+1.29334E+14,N21923,Payment,complete,28-01-2000 00:00:00.000
+5.11836E+14,S48986,Payment,complete,28-01-2000 00:00:00.000
+5.11763E+14,S48959,Payment,complete,28-01-2000 00:00:00.000
+1.29425E+14,N21953,Payment,complete,28-01-2000 00:00:00.000
+1.02405E+14,C10825,Send Fine,complete,28-01-2000 00:00:00.000
+5.09868E+14,S47715,Payment,complete,28-01-2000 00:00:00.000
+1.02474E+14,C10898,Create Fine,complete,28-01-2000 00:00:00.000
+1.29476E+14,N21968,Create Fine,complete,28-01-2000 00:00:00.000
+1.31538E+14,N22815,Create Fine,complete,28-01-2000 00:00:00.000
+1.02405E+14,C10825,Create Fine,complete,28-01-2000 00:00:00.000
+1.31542E+14,N22817,Create Fine,complete,28-01-2000 00:00:00.000
+1.31546E+14,N22818,Create Fine,complete,28-01-2000 00:00:00.000
+1.31551E+14,N22819,Create Fine,complete,28-01-2000 00:00:00.000
+1.02478E+14,C10903,Create Fine,complete,28-01-2000 00:00:00.000
+1.30009E+14,N22158,Create Fine,complete,28-01-2000 00:00:00.000
+1.02456E+14,C10876,Create Fine,complete,29-01-2000 00:00:00.000
+1.28617E+14,N21320,Create Fine,complete,29-01-2000 00:00:00.000
+1.2951E+14,N21984,Create Fine,complete,29-01-2000 00:00:00.000
+5.07463E+14,S44590,Send Fine,complete,29-01-2000 00:00:00.000
+5.11848E+14,S48993,Create Fine,complete,29-01-2000 00:00:00.000
+5.08086E+14,S44857,Send Fine,complete,29-01-2000 00:00:00.000
+5.0998E+14,S47793,Send Fine,complete,29-01-2000 00:00:00.000
+1.02456E+14,C10876,Send Fine,complete,29-01-2000 00:00:00.000
+5.11917E+14,S49085,Create Fine,complete,29-01-2000 00:00:00.000
+1.29506E+14,N21982,Create Fine,complete,29-01-2000 00:00:00.000
+5.11294E+14,S48571,Payment,complete,29-01-2000 00:00:00.000
+1.28621E+14,N21322,Create Fine,complete,29-01-2000 00:00:00.000
+1.31572E+14,N22825,Create Fine,complete,29-01-2000 00:00:00.000
+1.29489E+14,N21973,Create Fine,complete,29-01-2000 00:00:00.000
+1.31559E+14,N22822,Create Fine,complete,29-01-2000 00:00:00.000
+1.28613E+14,N21319,Create Fine,complete,29-01-2000 00:00:00.000
+5.0983E+14,S47700,Send Fine,complete,29-01-2000 00:00:00.000
+5.055E+14,S42695,Create Fine,complete,29-01-2000 00:00:00.000
+5.10921E+14,S48361,Create Fine,complete,29-01-2000 00:00:00.000
+5.09894E+14,S47725,Create Fine,complete,29-01-2000 00:00:00.000
+5.0989E+14,S47724,Create Fine,complete,29-01-2000 00:00:00.000
+1.02456E+14,C10876,Insert Fine Notification,complete,29-01-2000 00:00:00.000
+1.31576E+14,N22826,Create Fine,complete,29-01-2000 00:00:00.000
+1.31581E+14,N22827,Create Fine,complete,29-01-2000 00:00:00.000
+1.29485E+14,N21972,Create Fine,complete,29-01-2000 00:00:00.000
+5.11067E+14,S48446,Send Fine,complete,29-01-2000 00:00:00.000
+1.31555E+14,N22821,Create Fine,complete,29-01-2000 00:00:00.000
+1.31568E+14,N22824,Create Fine,complete,29-01-2000 00:00:00.000
+5.08584E+14,S45063,Create Fine,complete,29-01-2000 00:00:00.000
+5.12394E+14,S49411,Send Fine,complete,29-01-2000 00:00:00.000
+5.10912E+14,S48359,Create Fine,complete,29-01-2000 00:00:00.000
+5.07493E+14,S44602,Create Fine,complete,29-01-2000 00:00:00.000
+5.10916E+14,S48360,Create Fine,complete,29-01-2000 00:00:00.000
+5.07489E+14,S44599,Create Fine,complete,29-01-2000 00:00:00.000
+5.11372E+14,S48601,Create Fine,complete,29-01-2000 00:00:00.000
+1.30881E+14,N22584,Create Fine,complete,29-01-2000 00:00:00.000
+5.10925E+14,S48362,Create Fine,complete,29-01-2000 00:00:00.000
+5.1242E+14,S49421,Send Fine,complete,29-01-2000 00:00:00.000
+1.31563E+14,N22823,Create Fine,complete,29-01-2000 00:00:00.000
+1.30842E+14,N22569,Create Fine,complete,29-01-2000 00:00:00.000
+1.30838E+14,N22568,Create Fine,complete,29-01-2000 00:00:00.000
+1.30833E+14,N22567,Create Fine,complete,29-01-2000 00:00:00.000
+1.30829E+14,N22565,Create Fine,complete,29-01-2000 00:00:00.000
+1.28609E+14,N21317,Create Fine,complete,29-01-2000 00:00:00.000
+1.30825E+14,N22563,Create Fine,complete,29-01-2000 00:00:00.000
+1.3082E+14,N22561,Create Fine,complete,29-01-2000 00:00:00.000
+1.30816E+14,N22560,Create Fine,complete,29-01-2000 00:00:00.000
+1.29515E+14,N21985,Create Fine,complete,29-01-2000 00:00:00.000
