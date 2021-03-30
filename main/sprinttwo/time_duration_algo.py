@@ -18,15 +18,15 @@ from datetime import datetime
 
 # %%
 # Open CSV file to calculate time difference
-with open('...\\Road_Traffic_Fine_Management_Process-training.csv', 'r') as file:
+with open('D:\\Programs SSD\\GitHub\\DBL_ProcessMining\\main\\sprinttwo\\BPI_Challenge_2012-training.csv', 'r') as file:
     data = pd.read_csv(file)
     #Replaces spaces with underscore, as python has a hard time working with spaces
     data.columns = ((data.columns.str).replace(" ","_"))
 
 #select the unit of time needed milliseconds MS, seconds S and days D
-time_type = 'D'
+time_type = 'MS'
 #Add new row with duration of event and sort the data based on the cases
-data["total_time"] = 0
+data['total_time_' + time_type] = 0
 data['time_in_timestamp_' + time_type] = 0
 data_sorted = data.sort_values(by=['eventID_']).reset_index(drop=True)
 #format for datetime
@@ -53,12 +53,12 @@ for index, row in data.iterrows():
             time = datetime.strptime(next_time, format).timestamp()/86400 - current_time
         rounded_time = round(time)
         #Insert the value in the dataframe
-        data_sorted['total_time'].loc[index] = rounded_time
+        data_sorted['total_time_'+ time_type].loc[index] = rounded_time
         data_sorted['time_in_timestamp_'+ time_type].loc[index] = current_time
 
 # %%
 #Export the dataframe to csv
 #It is possible to change the name by changing the variable
-data_sorted.to_csv('event_time_italy.csv')
+data_sorted.to_csv('event_time_BPI2012.csv')
 
 # %%

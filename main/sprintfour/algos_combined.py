@@ -27,7 +27,6 @@ from sklearn import metrics
 from sklearn.metrics import pairwise_distances
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
-'''
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 from keras.layers import Masking,Dropout,Embedding
@@ -35,7 +34,7 @@ from keras.layers.core import Activation
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, TimeDistributed
 from keras.callbacks import EarlyStopping, ModelCheckpoint
-'''
+from keras.models import load_model
 
 
 #Main class
@@ -318,26 +317,41 @@ class SimplePredict:
 
         return avg_time
 
-    def calculate_nextevent_NeuralNet(self, eventSeqTempCompleteTraining):
+    def create_nextevent_NeuralNet(self, eventSeqTempCompleteTraining, eventSeqTempTraining):
         data_sorted = self.data.sort_values(by=['event_time:timestamp']).reset_index(drop=True)
-        data_filtered_event = data_sorted[['eventID_', 'case_concept:name', 'event_concept:name']]
+        data_filtered_event = data_sorted[['eventID', 'case_concept:name', 'event_concept:name']]
 
         data_filtered_event['next_event'] = data_filtered_event['event_concept:name'].shift(-1)
         data_filtered_event['next_event'].iloc[-1:] = data_filtered_event['event_concept:name'].iloc[-1:] # Might give issues
 
         event_name = data_filtered_event['event_concept:name'].unique()
         event_name_dict = dict(zip(event_name, range(len(event_name))))
-        data_filtered_event['event_concept:name'].replace(event_name_dict, inplace=True)
-        data_filtered_event['next_event'].replace(event_name_dict, inplace=True)
 
-        #Losing rows
-        all_traces = eventSeqTempCompleteTraining.replace(event_name_dict, inplace=True)
-        #all_traces = data_filtered_event.groupby('case_concept:name')['event_concept:name'].apply(list).tolist()
-        #print(all_traces)
-        all_traces_val = data_filtered_event.groupby('case_concept:name')['next_event'].apply(list).tolist()
+        for index,x in enumerate(eventSeqTempCompleteTraining):
+            eventSeqTempCompleteTraining[index].append('ENDOFTRACE')
+
+        eventSeqTempCleanTraining = [x for x in eventSeqTempTraining if x != []]
+
+        for x in eventSeqTempCompleteTraining:
+            for index,y in enumerate(x):
+                x[index] = event_name_dict[y]
+
+        for x in eventSeqTempCleanTraining:
+            for index,y in enumerate(x):
+                x[index] = event_name_dict[y]
+
+        all_traces_val = []
+        for index,x in enumerate(eventSeqTempCleanTraining):
+            if index == len(eventSeqTempCleanTraining):
+                all_traces_val.insert(index, event_name_dict['ENDOFTRACE'])
+            else:
+                try:
+                    all_traces_val.insert(index, eventSeqTempCleanTraining[index+1][-1])
+                except IndexError:
+                    all_traces_val.insert(index, event_name_dict['ENDOFTRACE'])
 
         traces_3d = list()
-        for i in all_traces:
+        for i in eventSeqTempCompleteTraining:
             for j in range(1, len(i)):
                 if j == 1:
                     trace_2d = [0, 0]
@@ -346,18 +360,15 @@ class SimplePredict:
                     trace_2d = i[j-2:j]
                     traces_3d.append(trace_2d)
 
-        traces_3d_val = list()
-        for i in all_traces_val:
-            for j in range(0, len(i)-1):
-                trace_2d = i[j+1]
-                traces_3d_val.append(trace_2d)
+#        traces_3d_val = list()
+#        for i in all_traces_val:
+#            for j in range(0, len(i)-1):
+#                trace_2d = i[j+1]
+#                traces_3d_val.append(trace_2d)
 
         traces_padded = pad_sequences(traces_3d, maxlen = 2, padding = 'pre')
         traces_array = array(traces_padded)
-        traces_val_array = array(traces_3d_val)
-
-        #Look at this
-        all_traces, all_traces_valid, all_traces_val, all_traces_val_valid = train_test_split(traces_array, traces_val_array, test_size = 0.2, random_state = 21)
+        traces_val_array = array(all_traces_val)
 
         model_LSTM = Sequential()
         model_LSTM.add(Embedding(len(event_name), 50, input_length = 2))
@@ -367,20 +378,47 @@ class SimplePredict:
 
         model_LSTM.compile(optimizer='Adam', loss='sparse_categorical_crossentropy', metrics=['accuracy','mse'])
 
-        history = model_LSTM.fit(all_traces, all_traces_val, epochs = 5, verbose = 2, batch_size = 20, validation_data = (all_traces_valid, all_traces_val_valid))
+        history = model_LSTM.fit(traces_array, traces_val_array, epochs = 5, verbose = 2, batch_size = 20) #, validation_data = (all_traces_valid, all_traces_val_valid))
+
+        model_LSTM.save('model_LSTM')
+
+        return event_name_dict
+
+    def calculate_nextevent_NeuralNet(self, eventSeqTempTest, event_name_dict):
+
+        eventSeqTempCleanTest = [x for x in eventSeqTempTest if x != []]
+
+        for x in eventSeqTempCleanTest:
+            for index,y in enumerate(x):
+                x[index] = event_name_dict[y]
+
+        traces_3d = list()
+        for i in eventSeqTempCleanTest:
+            for j in range(1, len(i)):
+                if j == 1:
+                    trace_2d = [0, 0]
+                    traces_3d.append(trace_2d)
+                else:
+                    trace_2d = i[j-2:j]
+                    traces_3d.append(trace_2d)
+
+        traces_padded = pad_sequences(traces_3d, maxlen = 2, padding = 'pre')
+        traces_array = array(traces_padded)
+
+        model_LSTM = load_model('model_LSTM')
 
         #Results for both the train and test
-        traces_result = np.argmax(model_LSTM.predict(all_traces), axis=1)
-        traces_valid_result = np.argmax(model_LSTM.predict(all_traces_valid), axis=1)
+        traces_result = np.argmax(model_LSTM.predict(traces_array), axis=1)
+        #traces_valid_result = np.argmax(model_LSTM.predict(all_traces_valid), axis=1)
 
-        traces_combined_result = np.concatenate((traces_result , traces_valid_result))
-        traces_result_temp = pd.DataFrame({'predicted_event': traces_result})
-        data_filtered_event['LSTM_predict'] = traces_result_temp['predicted_event']
+        #traces_combined_result = np.concatenate((traces_result , traces_valid_result))
+        traces_result_temp = pd.DataFrame({'LSTM_predict': traces_result})
 
         inv_event_name_dict = {v: k for k, v in event_name_dict.items()}
-        data_filtered_event['LSTM_predict'].replace(inv_event_name_dict, inplace=True)
-        data_filtered_event['event_concept:name'].replace(inv_event_name_dict, inplace=True)
-        data_filtered_event['next_event'].replace(inv_event_name_dict, inplace=True)
+        traces_result_temp['LSTM_predict'].replace(inv_event_name_dict, inplace=True)
+
+        traces_result = traces_result_temp.values.tolist()
+        return traces_result
 
 def init():
     #Input for the right results:
@@ -411,6 +449,8 @@ def init():
     object = SimplePredict(data)
     object.addEndOfTrace(chunks[0])
     eventSeqTempTraining, eventSeqTempCompleteTraining = object.addEventSeq(chunks[0])
+
+    event_name_dict = object.create_nextevent_NeuralNet(eventSeqTempCompleteTraining, eventSeqTempTraining)
 
     #Finds all unique event sequences in the training set
     unique_data = [list(x) for x in set(tuple(x) for x in eventSeqTempTraining)]
@@ -465,6 +505,13 @@ def init():
             object.addClusteringColumns(chunks[0], x, next_event)
             timedictClustering.update({x:object.calculate_avgtime_Clustering()})
 
+        print(" ")
+        #
+        data = pd.read_csv(chunks[1])
+        data.columns = ((data.columns.str).replace(" ","_"))
+        object = SimplePredict(data)
+        LSTM_result = object.calculate_nextevent_NeuralNet(eventSeqTempTest, event_name_dict)
+
 
         #Iterable variable that is used in the for loop for indexing
         i = -1
@@ -491,7 +538,7 @@ def init():
                     row.append("No Information Available (EVENTSEQ)")
 
                 try:
-                    row.append(eventdictBaseline[row[data.columns.get_loc("event_concept:name")]])
+                    row.append(LSTM_result[i][0])
                     row.append(timedictClustering[row[data.columns.get_loc("event_concept:name")]])
                 #If there is no existing trace in the dictionary there is no information available
                 except KeyError:
