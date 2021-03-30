@@ -318,20 +318,26 @@ class SimplePredict:
         return avg_time
 
     def create_nextevent_NeuralNet(self, eventSeqTempCompleteTraining, eventSeqTempTraining):
+        #sort the data based on the timestamp and take all the required information from the dataset
         data_sorted = self.data.sort_values(by=['event_time:timestamp']).reset_index(drop=True)
         data_filtered_event = data_sorted[['eventID', 'case_concept:name', 'event_concept:name']]
 
+        #create a new column that holds the true next event for all events
         data_filtered_event['next_event'] = data_filtered_event['event_concept:name'].shift(-1)
         data_filtered_event['next_event'].iloc[-1:] = data_filtered_event['event_concept:name'].iloc[-1:] # Might give issues
 
+        #create a dictionary based on the different events
         event_name = data_filtered_event['event_concept:name'].unique()
         event_name_dict = dict(zip(event_name, range(len(event_name))))
 
+        #add a ENDOFTRACE event after each sequence
         for index,x in enumerate(eventSeqTempCompleteTraining):
             eventSeqTempCompleteTraining[index].append('ENDOFTRACE')
 
+        #remove all empty sequences
         eventSeqTempCleanTraining = [x for x in eventSeqTempTraining if x != []]
 
+        #replace all event strings by integers based on the dictionary
         for x in eventSeqTempCompleteTraining:
             for index,y in enumerate(x):
                 x[index] = event_name_dict[y]
@@ -340,6 +346,7 @@ class SimplePredict:
             for index,y in enumerate(x):
                 x[index] = event_name_dict[y]
 
+        #create an array of all true next events for validation of the prediction
         all_traces_val = []
         for index,x in enumerate(eventSeqTempCleanTraining):
             if index == len(eventSeqTempCleanTraining):
@@ -350,6 +357,7 @@ class SimplePredict:
                 except IndexError:
                     all_traces_val.insert(index, event_name_dict['ENDOFTRACE'])
 
+        #create a list of the previous two events such that we can predict the next event
         traces_3d = list()
         for i in eventSeqTempCompleteTraining:
             for j in range(1, len(i)):
@@ -360,38 +368,39 @@ class SimplePredict:
                     trace_2d = i[j-2:j]
                     traces_3d.append(trace_2d)
 
-#        traces_3d_val = list()
-#        for i in all_traces_val:
-#            for j in range(0, len(i)-1):
-#                trace_2d = i[j+1]
-#                traces_3d_val.append(trace_2d)
-
+        #data-processing for the input data to a required format for the LSTM
         traces_padded = pad_sequences(traces_3d, maxlen = 2, padding = 'pre')
         traces_array = array(traces_padded)
         traces_val_array = array(all_traces_val)
 
+        #settings for the lSTM moddel
         model_LSTM = Sequential()
         model_LSTM.add(Embedding(len(event_name), 50, input_length = 2))
         model_LSTM.add(LSTM(50))
         model_LSTM.add(Dropout(0.2))
         model_LSTM.add(Dense(len(event_name), activation = 'softmax'))
-
         model_LSTM.compile(optimizer='Adam', loss='sparse_categorical_crossentropy', metrics=['accuracy','mse'])
 
+        #training the LSTM model
         history = model_LSTM.fit(traces_array, traces_val_array, epochs = 5, verbose = 2, batch_size = 20) #, validation_data = (all_traces_valid, all_traces_val_valid))
 
+        #save the model such that we can use it for the test data
         model_LSTM.save('model_LSTM')
 
+        #return even_name_dict such that we can use it for the test data
         return event_name_dict
 
     def calculate_nextevent_NeuralNet(self, eventSeqTempTest, event_name_dict):
 
+        #remove all empty sequences
         eventSeqTempCleanTest = [x for x in eventSeqTempTest if x != []]
 
+        #replace all event strings by integers based on the dictionary
         for x in eventSeqTempCleanTest:
             for index,y in enumerate(x):
                 x[index] = event_name_dict[y]
 
+        #create a list of the previous two events such that we can predict the next event
         traces_3d = list()
         for i in eventSeqTempCleanTest:
             for j in range(1, len(i)):
@@ -402,21 +411,20 @@ class SimplePredict:
                     trace_2d = i[j-2:j]
                     traces_3d.append(trace_2d)
 
+        #data-processing for the input data to a required format for the LSTM
         traces_padded = pad_sequences(traces_3d, maxlen = 2, padding = 'pre')
         traces_array = array(traces_padded)
 
+        #load the model created by the training data
         model_LSTM = load_model('model_LSTM')
 
         #Results for both the train and test
         traces_result = np.argmax(model_LSTM.predict(traces_array), axis=1)
-        #traces_valid_result = np.argmax(model_LSTM.predict(all_traces_valid), axis=1)
-
-        #traces_combined_result = np.concatenate((traces_result , traces_valid_result))
         traces_result_temp = pd.DataFrame({'LSTM_predict': traces_result})
 
+        #replace all integers back to the original strings and return the results
         inv_event_name_dict = {v: k for k, v in event_name_dict.items()}
         traces_result_temp['LSTM_predict'].replace(inv_event_name_dict, inplace=True)
-
         traces_result = traces_result_temp.values.tolist()
         return traces_result
 
