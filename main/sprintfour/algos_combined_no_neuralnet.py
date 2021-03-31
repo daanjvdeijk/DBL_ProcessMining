@@ -314,13 +314,12 @@ class SimplePredict:
         except ValueError:
             avg_time = 0
 
-        print(avg_time)
         return avg_time
 
 def init():
     #Input for the right results:
     #../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-small.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv ../../databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results-small.csv
-    #../../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-results-small.csv
+    #../../databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv ../../databases/BPI_Challenge_2012/BPI_Challenge_2012-results-small.csv
     #../../databases/BPI_Challenge_2017/BPI_Challenge_2017-test.csv ../../databases/BPI_Challenge_2017/BPI_Challenge_2017-test.csv ../../databases/BPI_Challenge_2017/BPI_Challenge_2017-results-small.csv
 
     #Asks for input, then splits the input up in a list with the path to the three datasets separated
@@ -412,6 +411,12 @@ def init():
             object.addClusteringColumns(chunks[0], x, next_event)
             timedictClustering.update({x:object.calculate_avgtime_Clustering()})
 
+        print(" ")
+        data = pd.read_csv(chunks[1])
+        data.columns = ((data.columns.str).replace(" ","_"))
+        object = SimplePredict(data)
+        object.calculate_nextevent_NeuralNet(data, )
+
         #Iterable variable that is used in the for loop for indexing
         i = -1
 
@@ -445,6 +450,8 @@ def init():
                 except KeyError:
                     row.append("No Information Available (CLUSTERING)")
                     row.append("No Information Available (CLUSTERING)")
+
+
             #Manually put in column names
             else:
                 row.append('most occuring next event in trace (BASELINE)')
