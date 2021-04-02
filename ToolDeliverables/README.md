@@ -3,7 +3,7 @@ This code has been created for the course DBL Process Mining.
 For the course we need to create a tool to analyse company process data to predict when and what event occurs next.
 
 ## How to run the train/test split tool (optional)
-1. Run train-test-split.exe and insert the filepath(s) to all the database(s) q that have to be merged into a train and test split. This can be any amount of .csv files. Make sure to separate the different filepaths with spaces. 
+1. Run train-test-split.exe and insert the filepath(s) to all the database(s) that have to be merged into a train and test split. This can be any amount of .csv files. Make sure to separate the different filepaths with spaces. 
 2. The tool outputs two databases called 'testDataCorrected.csv' and 'trainingDataCorrected.csv' in the folder that the tool was ran on. These can be loaded in to the prediction tool.
  
 ## How to run the prediction tool
@@ -16,7 +16,7 @@ For the course we need to create a tool to analyse company process data to predi
     2. A sequence algorithm, which uses the previous events from the same sequence to predict the next likely event and the average time for the same sequences.
     3. A combined algorithm which uses clustering for the time untill the next event and a neural network to predict the next event based on the prevous two in the same sequence.
 * The results file will consists of the provided test file with added columns for each individual prediction for time and next event.
-* We have supplied 3 pre-sorted train-test splits, as well as a small version of every training set. These can be used to quickly check how the algorithm runs. The results of these small training databases are not representative of the accuracy of the algorithms.
+* We have supplied 3 pre-sorted train-test splits, as well as a small version of every training set. These small versions are 1/10th the size of the complete training sets. These can be used to quickly check how the algorithm runs. The results of these small training databases are not representative of the accuracy of the algorithms.
 
 ### Commands
 A list of commands that will work with the presupplied databases:
