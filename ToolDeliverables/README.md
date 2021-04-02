@@ -3,8 +3,8 @@ This code has been created for the course DBL Process Mining.
 For the course we need to create a tool to analyse company process data to predict when and what event occurs next.
 
 ## How to run the visualization tool
-1. When provided with a single dataset, insert this dataset in the split_train_test.py.
-2. Run main.py and insert the path to the train and test data, with an optional third argument for the results, as follows: path/to/train.csv path/to/test.csv path/to/results.csv
+Optional: If the user would like to seperate a full dataset to a training and test set based on our code, we have uploaded our train-test splitter.
+1.. Run main.py and insert the path to the train and test data, with an optional third argument for the results, as follows: path/to/train.csv path/to/test.csv path/to/results.csv
 3. main.py will run all algorithms in order and output the current task it is performing. Wait till the terminal indicates that the tool has finished before opening the results csv file.
 
 ### Features
