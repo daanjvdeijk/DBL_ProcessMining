@@ -27,5 +27,5 @@ A list of commands that will work with the presupplied databases:
     * databases/BPI_Challenge_2017/BPI_Challenge_2017-small.csv databases/BPI_Challenge_2017/BPI_Challenge_2017-test.csv databases/BPI_Challenge_2017/BPI_Challenge_2017-results-small.csv
 * Full training database version:
     * databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-training.csv databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-test.csv databases/Road_Traffic_Fines/Road_Traffic_Fine_Management_Process-results.csv
-    * databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv /databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
+    * databases/BPI_Challenge_2012/BPI_Challenge_2012-training.csv databases/BPI_Challenge_2012/BPI_Challenge_2012-test.csv databases/BPI_Challenge_2012/BPI_Challenge_2012-results.csv
     * databases/BPI_Challenge_2017/BPI_Challenge_2017-training.csv databases/BPI_Challenge_2017/BPI_Challenge_2017-test.csv databases/BPI_Challenge_2017/BPI_Challenge_2017-results.csv
